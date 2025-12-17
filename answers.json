@@ -1,0 +1,775 @@
+[
+    {
+        "zh": "毫无疑问",
+        "en": "Undoubtedly",
+        "fr": "Indubitablement"
+    },
+    {
+        "zh": "肯定的",
+        "en": "Yes",
+        "fr": "Oui"
+    },
+    {
+        "zh": "现在不是时候",
+        "en": "Not now",
+        "fr": "Pas maintenant"
+    },
+    {
+        "zh": "再等等",
+        "en": "Wait",
+        "fr": "Attendez"
+    },
+    {
+        "zh": "随心而动",
+        "en": "Follow your heart",
+        "fr": "Suivez votre cœur"
+    },
+    {
+        "zh": "坚持到底",
+        "en": "Stick to it",
+        "fr": "Tenez bon"
+    },
+    {
+        "zh": "放下吧",
+        "en": "Let it go",
+        "fr": "Laissez tomber"
+    },
+    {
+        "zh": "也许",
+        "en": "Maybe",
+        "fr": "Peut-être"
+    },
+    {
+        "zh": "结果会让你惊喜",
+        "en": "You will be surprised",
+        "fr": "Vous serez surpris"
+    },
+    {
+        "zh": "不要犹豫",
+        "en": "Don't hesitate",
+        "fr": "N'hésitez pas"
+    },
+    {
+        "zh": "相信你的直觉",
+        "en": "Trust your intuition",
+        "fr": "Faites confiance à votre intuition"
+    },
+    {
+        "zh": "重新考虑",
+        "en": "Reconsider",
+        "fr": "Reconsidérez"
+    },
+    {
+        "zh": "专注于当下",
+        "en": "Focus on the present",
+        "fr": "Concentrez-vous sur le présent"
+    },
+    {
+        "zh": "这是命运的安排",
+        "en": "It is destiny",
+        "fr": "C'est le destin"
+    },
+    {
+        "zh": "保持耐心",
+        "en": "Be patient",
+        "fr": "Soyez patient"
+    },
+    {
+        "zh": "向他人寻求建议",
+        "en": "Ask for advice",
+        "fr": "Demandez conseil"
+    },
+    {
+        "zh": "你需要休息",
+        "en": "You need rest",
+        "fr": "Vous avez besoin de repos"
+    },
+    {
+        "zh": "答案在你心中",
+        "en": "The answer is inside you",
+        "fr": "La réponse est en vous"
+    },
+    {
+        "zh": "勇敢跨出第一步",
+        "en": "Take the first step",
+        "fr": "Faites le premier pas"
+    },
+    {
+        "zh": "通过沟通解决",
+        "en": "Communicate",
+        "fr": "Communiquez"
+    },
+    {
+        "zh": "不仅如此",
+        "en": "There is more",
+        "fr": "Il y a plus"
+    },
+    {
+        "zh": "绝对不要",
+        "en": "Absolutely not",
+        "fr": "Absolument pas"
+    },
+    {
+        "zh": "时机未到",
+        "en": "Not the right time",
+        "fr": "Ce n'est pas le moment"
+    },
+    {
+        "zh": "你会后悔的",
+        "en": "You will regret it",
+        "fr": "Vous le regretterez"
+    },
+    {
+        "zh": "值得一试",
+        "en": "Worth a try",
+        "fr": "Ça vaut le coup d'essayer"
+    },
+    {
+        "zh": "保持沉默",
+        "en": "Stay silent",
+        "fr": "Gardez le silence"
+    },
+    {
+        "zh": "观察局势",
+        "en": "Observe",
+        "fr": "Observez"
+    },
+    {
+        "zh": "顺其自然",
+        "en": "Go with the flow",
+        "fr": "Suivez le courant"
+    },
+    {
+        "zh": "不要在此刻放弃",
+        "en": "Don't give up now",
+        "fr": "N'abandonnez pas maintenant"
+    },
+    {
+        "zh": "为了更大的目标",
+        "en": "For a greater goal",
+        "fr": "Pour un objectif plus grand"
+    },
+    {
+        "zh": "会有更好的选择",
+        "en": "There is a better choice",
+        "fr": "Il y a un meilleur choix"
+    },
+    {
+        "zh": "你需要通过努力获得",
+        "en": "Work for it",
+        "fr": "Travaillez pour cela"
+    },
+    {
+        "zh": "这就是结局",
+        "en": "This is the end",
+        "fr": "C'est la fin"
+    },
+    {
+        "zh": "从头开始",
+        "en": "Start over",
+        "fr": "Recommencez"
+    },
+    {
+        "zh": "留意身边的信号",
+        "en": "Watch for signs",
+        "fr": "Surveillez les signes"
+    },
+    {
+        "zh": "不要被表象迷惑",
+        "en": "Don't be misled",
+        "fr": "Ne vous laissez pas tromper"
+    },
+    {
+        "zh": "相信自己",
+        "en": "Believe in yourself",
+        "fr": "Croyez en vous"
+    },
+    {
+        "zh": "这很重要",
+        "en": "It is important",
+        "fr": "C'est important"
+    },
+    {
+        "zh": "没什么大不了的",
+        "en": "Not a big deal",
+        "fr": "Ce n'est pas grave"
+    },
+    {
+        "zh": "一笑置之",
+        "en": "Laugh it off",
+        "fr": "Riez-en"
+    },
+    {
+        "zh": "全力以赴",
+        "en": "Go all in",
+        "fr": "Allez-y à fond"
+    },
+    {
+        "zh": "稍安勿躁",
+        "en": "Calm down",
+        "fr": "Calmez-vous"
+    },
+    {
+        "zh": "你需要改变视角",
+        "en": "Change your perspective",
+        "fr": "Changez de perspective"
+    },
+    {
+        "zh": "答案是否定的",
+        "en": "The answer is no",
+        "fr": "La réponse est non"
+    },
+    {
+        "zh": "这很复杂",
+        "en": "It is complex",
+        "fr": "C'est complexe"
+    },
+    {
+        "zh": "会有转机",
+        "en": "Things will turn around",
+        "fr": "Les choses vont changer"
+    },
+    {
+        "zh": "保持乐观",
+        "en": "Stay optimistic",
+        "fr": "Restez optimiste"
+    },
+    {
+        "zh": "这就是你要找的",
+        "en": "This is it",
+        "fr": "C'est ça"
+    },
+    {
+        "zh": "小心行事",
+        "en": "Proceed with caution",
+        "fr": "Procédez avec prudence"
+    },
+    {
+        "zh": "享受过程",
+        "en": "Enjoy the process",
+        "fr": "Profitez du processus"
+    },
+    {
+        "zh": "别傻了",
+        "en": "Don't be silly",
+        "fr": "Ne soyez pas bête"
+    },
+    {
+        "zh": "你会失望的",
+        "en": "You will be disappointed",
+        "fr": "Vous serez déçu"
+    },
+    {
+        "zh": "这不值得",
+        "en": "Not worth it",
+        "fr": "Ça n'en vaut pas la peine"
+    },
+    {
+        "zh": "离开这里",
+        "en": "Leave here",
+        "fr": "Partez d'ici"
+    },
+    {
+        "zh": "去睡觉",
+        "en": "Go to sleep",
+        "fr": "Allez dormir"
+    },
+    {
+        "zh": "喝杯水冷静一下",
+        "en": "Drink some water",
+        "fr": "Buvez de l'eau"
+    },
+    {
+        "zh": "你需要一次旅行",
+        "en": "Take a trip",
+        "fr": "Faites un voyage"
+    },
+    {
+        "zh": "整理你的房间",
+        "en": "Tidy your room",
+        "fr": "Rangez votre chambre"
+    },
+    {
+        "zh": "给朋友打个电话",
+        "en": "Call a friend",
+        "fr": "Appelez un ami"
+    },
+    {
+        "zh": "不要回头",
+        "en": "Don't look back",
+        "fr": "Ne regardez pas en arrière"
+    },
+    {
+        "zh": "就在前面",
+        "en": "It's just ahead",
+        "fr": "C'est juste devant"
+    },
+    {
+        "zh": "转角遇到爱",
+        "en": "Love is around the corner",
+        "fr": "L'amour est au coin de la rue"
+    },
+    {
+        "zh": "你需要更多信息",
+        "en": "You need more info",
+        "fr": "Vous avez besoin de plus d'infos"
+    },
+    {
+        "zh": "不要冲动",
+        "en": "Don't be impulsive",
+        "fr": "Ne soyez pas impulsif"
+    },
+    {
+        "zh": "三思而后行",
+        "en": "Think twice",
+        "fr": "Reflechissez à deux fois"
+    },
+    {
+        "zh": "现在就做",
+        "en": "Do it now",
+        "fr": "Faites-le maintenant"
+    },
+    {
+        "zh": "明天再说",
+        "en": "Tomorrow",
+        "fr": "Demain"
+    },
+    {
+        "zh": "一年之后这都不算事",
+        "en": "Won't matter in a year",
+        "fr": "Ça ne comptera pas dans un an"
+    },
+    {
+        "zh": "听听音乐",
+        "en": "Listen to music",
+        "fr": "Écoutez de la musique"
+    },
+    {
+        "zh": "深呼吸",
+        "en": "Breathe deeply",
+        "fr": "Respirez profondément"
+    },
+    {
+        "zh": "数到十",
+        "en": "Count to ten",
+        "fr": "Comptez jusqu'à dix"
+    },
+    {
+        "zh": "不要在意别人的眼光",
+        "en": "Ignore others' opinions",
+        "fr": "Ignorez les opinions des autres"
+    },
+    {
+        "zh": "做回你自己",
+        "en": "Be yourself",
+        "fr": "Soyez vous-même"
+    },
+    {
+        "zh": "这是个好机会",
+        "en": "Good opportunity",
+        "fr": "Bonne opportunité"
+    },
+    {
+        "zh": "危机并存",
+        "en": "Crisis and opportunity",
+        "fr": "Crise et opportunité"
+    },
+    {
+        "zh": "你需要一个拥抱",
+        "en": "You need a hug",
+        "fr": "Vous avez besoin d'un câlin"
+    },
+    {
+        "zh": "接受现实",
+        "en": "Accept reality",
+        "fr": "Acceptez la réalité"
+    },
+    {
+        "zh": "不要抗拒",
+        "en": "Don't resist",
+        "fr": "Ne résistez pas"
+    },
+    {
+        "zh": "顺流而下",
+        "en": "Go with the stream",
+        "fr": "Suivez le courant"
+    },
+    {
+        "zh": "逆流而上",
+        "en": "Go against the stream",
+        "fr": "Allez à contre-courant"
+    },
+    {
+        "zh": "保持饥渴",
+        "en": "Stay hungry",
+        "fr": "Restez affamé"
+    },
+    {
+        "zh": "保持愚蠢",
+        "en": "Stay foolish",
+        "fr": "Restez fou"
+    },
+    {
+        "zh": "这就是爱",
+        "en": "This is love",
+        "fr": "C'est l'amour"
+    },
+    {
+        "zh": "为了自由",
+        "en": "For freedom",
+        "fr": "Pour la liberté"
+    },
+    {
+        "zh": "为了和平",
+        "en": "For peace",
+        "fr": "Pour la paix"
+    },
+    {
+        "zh": "这不是你的错",
+        "en": "Not your fault",
+        "fr": "Ce n'est pas votre faute"
+    },
+    {
+        "zh": "原谅他们",
+        "en": "Forgive them",
+        "fr": "Pardonnez-leur"
+    },
+    {
+        "zh": "原谅自己",
+        "en": "Forgive yourself",
+        "fr": "Pardonnez-vous"
+    },
+    {
+        "zh": "学会放手",
+        "en": "Learn to let go",
+        "fr": "Apprenez à lâcher prise"
+    },
+    {
+        "zh": "学会拒绝",
+        "en": "Learn to say no",
+        "fr": "Apprenez à dire non"
+    },
+    {
+        "zh": "学会接受",
+        "en": "Learn to accept",
+        "fr": "Apprenez à accepter"
+    },
+    {
+        "zh": "你需要断舍离",
+        "en": "Declutter",
+        "fr": "Désencombrez"
+    },
+    {
+        "zh": "极简主义",
+        "en": "Minimalism",
+        "fr": "Minimalisme"
+    },
+    {
+        "zh": "这是多余的",
+        "en": "It is unnecessary",
+        "fr": "C'est inutile"
+    },
+    {
+        "zh": "这是必要的",
+        "en": "It is necessary",
+        "fr": "C'est nécessaire"
+    },
+    {
+        "zh": "不要浪费时间",
+        "en": "Don't waste time",
+        "fr": "Ne perdez pas de temps"
+    },
+    {
+        "zh": "时间会证明一切",
+        "en": "Time will tell",
+        "fr": "Le temps nous le dira"
+    },
+    {
+        "zh": "路遥知马力",
+        "en": "Distance tests a horse",
+        "fr": "La distance éprouve le cheval"
+    },
+    {
+        "zh": "日久见人心",
+        "en": "Time reveals hearts",
+        "fr": "Le temps révèle les cœurs"
+    },
+    {
+        "zh": "既来之则安之",
+        "en": "Take it as it comes",
+        "fr": "Prenez les choses comme elles viennent"
+    },
+    {
+        "zh": "车到山前必有路",
+        "en": "There will be a way",
+        "fr": "Il y aura un moyen"
+    },
+    {
+        "zh": "船到桥头自然直",
+        "en": "Everything will be fine",
+        "fr": "Tout ira bien"
+    },
+    {
+        "zh": "不要杞人忧天",
+        "en": "Don't worry unnecessarily",
+        "fr": "Ne vous inquiétez pas inutilement"
+    },
+    {
+        "zh": "活在当下",
+        "en": "Live in the moment",
+        "fr": "Vivez l'instant présent"
+    },
+    {
+        "zh": "每一天都是新的",
+        "en": "Every day is new",
+        "fr": "Chaque jour est nouveau"
+    },
+    {
+        "zh": "太阳照常升起",
+        "en": "The sun rises",
+        "fr": "Le soleil se lève"
+    },
+    {
+        "zh": "黑夜终将过去",
+        "en": "Darkness will pass",
+        "fr": "L'obscurité passera"
+    },
+    {
+        "zh": "黎明前的黑暗",
+        "en": "Darkest before dawn",
+        "fr": "Le plus sombre avant l'aube"
+    },
+    {
+        "zh": "坚持就是胜利",
+        "en": "Persistence is victory",
+        "fr": "La persévérance est la victoire"
+    },
+    {
+        "zh": "失败是成功之母",
+        "en": "Failure teaches success",
+        "fr": "L'échec enseigne le succès"
+    },
+    {
+        "zh": "再试一次",
+        "en": "Try again",
+        "fr": "Essayez encore"
+    },
+    {
+        "zh": "最后一次",
+        "en": "Last time",
+        "fr": "Dernière fois"
+    },
+    {
+        "zh": "新的开始",
+        "en": "New beginning",
+        "fr": "Nouveau départ"
+    },
+    {
+        "zh": "旧的结束",
+        "en": "Old ending",
+        "fr": "Ancienne fin"
+    },
+    {
+        "zh": "这是一个循环",
+        "en": "It's a cycle",
+        "fr": "C'est un cycle"
+    },
+    {
+        "zh": "打破常规",
+        "en": "Break the rules",
+        "fr": "Enfreignez les règles"
+    },
+    {
+        "zh": "跳出舒适区",
+        "en": "Leave comfort zone",
+        "fr": "Sortez de votre zone de confort"
+    },
+    {
+        "zh": "去冒险吧",
+        "en": "Go on an adventure",
+        "fr": "Partez à l'aventure"
+    },
+    {
+        "zh": "安全第一",
+        "en": "Safety first",
+        "fr": "La sécurité d'abord"
+    },
+    {
+        "zh": "健康最重要",
+        "en": "Health is priority",
+        "fr": "La santé est prioritaire"
+    },
+    {
+        "zh": "不要忽视健康",
+        "en": "Don't ignore health",
+        "fr": "N'ignorez pas la santé"
+    },
+    {
+        "zh": "多喝热水",
+        "en": "Drink hot water",
+        "fr": "Buvez de l'eau chaude"
+    },
+    {
+        "zh": "早点睡",
+        "en": "Sleep early",
+        "fr": "Dormez tôt"
+    },
+    {
+        "zh": "少吃糖",
+        "en": "Less sugar",
+        "fr": "Moins de sucre"
+    },
+    {
+        "zh": "多运动",
+        "en": "Exercise more",
+        "fr": "Faites plus d'exercice"
+    },
+    {
+        "zh": "去读书",
+        "en": "Read a book",
+        "fr": "Lisez un livre"
+    },
+    {
+        "zh": "去学习",
+        "en": "Go learn",
+        "fr": "Allez apprendre"
+    },
+    {
+        "zh": "提升自己",
+        "en": "Improve yourself",
+        "fr": "Améliorez-vous"
+    },
+    {
+        "zh": "投资自己",
+        "en": "Invest in yourself",
+        "fr": "Investissez en vous"
+    },
+    {
+        "zh": "这是最好的投资",
+        "en": "Best investment",
+        "fr": "Meilleur investissement"
+    },
+    {
+        "zh": "不要吝啬",
+        "en": "Don't be stingy",
+        "fr": "Ne soyez pas radin"
+    },
+    {
+        "zh": "慷慨一点",
+        "en": "Be generous",
+        "fr": "Soyez généreux"
+    },
+    {
+        "zh": "分享你的快乐",
+        "en": "Share your joy",
+        "fr": "Partagez votre joie"
+    },
+    {
+        "zh": "分担你的痛苦",
+        "en": "Share your pain",
+        "fr": "Partagez votre douleur"
+    },
+    {
+        "zh": "寻找同伴",
+        "en": "Find a companion",
+        "fr": "Trouvez un compagnon"
+    },
+    {
+        "zh": "你需要团队",
+        "en": "You need a team",
+        "fr": "Vous avez besoin d'une équipe"
+    },
+    {
+        "zh": "你需要独处",
+        "en": "You need solitude",
+        "fr": "Vous avez besoin de solitude"
+    },
+    {
+        "zh": "倾听内心的声音",
+        "en": "Listen to your heart",
+        "fr": "Écoutez votre cœur"
+    },
+    {
+        "zh": "这是噪音",
+        "en": "This is noise",
+        "fr": "C'est du bruit"
+    },
+    {
+        "zh": "这是信号",
+        "en": "This is a signal",
+        "fr": "C'est un signal"
+    },
+    {
+        "zh": "关注细节",
+        "en": "Focus on details",
+        "fr": "Concentrez-vous sur les détails"
+    },
+    {
+        "zh": "大局为重",
+        "en": "Big picture",
+        "fr": "Vue d'ensemble"
+    },
+    {
+        "zh": "不要因小失大",
+        "en": "Don't lose big for small",
+        "fr": "Ne perdez pas le grand pour le petit"
+    },
+    {
+        "zh": "贪小便宜吃大亏",
+        "en": "Greed costs more",
+        "fr": "La cupidité coûte cher"
+    },
+    {
+        "zh": "知足常乐",
+        "en": "Contentment is joy",
+        "fr": "Le contentement est la joie"
+    },
+    {
+        "zh": "热爱你的工作",
+        "en": "Love what you do",
+        "fr": "Aimez ce que vous faites",
+        "author_en": "Steve Jobs"
+    },
+    {
+        "zh": "坚持非常重要",
+        "en": "Persistence is very important",
+        "fr": "La persévérance est très importante",
+        "author_en": "Elon Musk"
+    },
+    {
+        "zh": "不要把自己和任何人比较",
+        "en": "Don't compare yourself with anyone",
+        "fr": "Ne vous comparez à personne",
+        "author_en": "Bill Gates"
+    },
+    {
+        "zh": "永远保持第一天的心态",
+        "en": "It's always Day 1",
+        "fr": "C'est toujours le premier jour",
+        "author_en": "Jeff Bezos"
+    },
+    {
+        "zh": "做人们想要的东西",
+        "en": "Make something people want",
+        "fr": "Faites quelque chose que les gens veulent",
+        "author_en": "Paul Graham"
+    },
+    {
+        "zh": "趁现在去冒险",
+        "en": "Take risks now",
+        "fr": "Prenez des risques maintenant",
+        "author_en": "Elon Musk"
+    },
+    {
+        "zh": "做正确的事，而不是容易的事",
+        "en": "Do what is right, not what is easy",
+        "fr": "Faites ce qui est juste, pas ce qui est facile",
+        "author_en": "Tim Cook"
+    },
+    {
+        "zh": "最大的风险就是不冒任何风险",
+        "en": "The biggest risk is not taking any risk",
+        "fr": "Le plus grand risque est de ne prendre aucun risque",
+        "author_en": "Mark Zuckerberg"
+    }
+]

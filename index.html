@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>答案之书 | The Book of Answers</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #050505;
+            --text-color: #e0e0e0;
+            --accent-color: #a89f91; /* Muted Gold */
+            --mystic-glow: rgba(168, 159, 145, 0.2);
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            background: radial-gradient(circle at center, #1a1a1a 0%, #050505 100%);
+            color: var(--text-color);
+            font-family: 'Lora', "Songti SC", "SimSun", serif;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+        }
+
+        /* --- Book Cover Styles --- */
+        #book-cover {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #252525 0%, #0a0a0a 100%);
+            z-index: 50;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            /* 3D Transform Setup */
+            transform-origin: left center;
+            transition: transform 1.8s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 1.8s ease-out;
+            box-shadow: inset 20px 0 80px rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+
+        #book-cover.book-open {
+            transform: perspective(2000px) rotateY(-110deg);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .cover-title {
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .cover-subtitle {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2rem; /* Increased size for Chinese subtitle */
+            opacity: 0.6;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+        }
+
+        .tap-hint {
+            margin-top: 80px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.0rem; /* Adjusted size */
+            letter-spacing: 0.2em;
+            color: var(--text-color);
+            opacity: 0.5;
+            animation: pulse 2s infinite;
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 12px 30px; /* Adjusted padding */
+            border-radius: 25px; /* Adjusted radius */
+            transition: all 0.3s;
+        }
+
+        #book-cover:hover .tap-hint {
+            background: rgba(255,255,255,0.05);
+            opacity: 0.8;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.05); }
+            100% { opacity: 0.3; transform: scale(1); }
+        }
+
+        /* --- Main Content Styles --- */
+        .container {
+            text-align: center;
+            max-width: 80vw;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Language Selector - Above Cover */
+        .lang-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 100; /* Ensure clickable even when cover is present (optional) or let cover block it. 
+                             Let's keep it above so user can switch lang on cover. */
+        }
+
+        .lang-selector select {
+            background: rgba(0,0,0,0.5);
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+            padding: 5px 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.9rem;
+            outline: none;
+            cursor: pointer;
+            border-radius: 4px;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .lang-selector select:hover {
+            opacity: 1;
+        }
+        
+        .lang-selector select option {
+            background-color: #1a1a1a;
+            color: var(--text-color);
+        }
+
+        /* Mystic Symbol SVG */
+        .symbol-container {
+            margin-bottom: 40px;
+            opacity: 0;
+            /* Animation triggers via JS now */
+        }
+        
+        .symbol-container.show {
+            animation: fadeIn 2s ease-out forwards;
+        }
+
+        .symbol-svg {
+            width: 120px;
+            height: 120px;
+            fill: none;
+            stroke: var(--accent-color);
+            stroke-width: 1.5;
+            filter: drop-shadow(0 0 10px var(--mystic-glow));
+        }
+
+        /* The Answer Text */
+        #answer {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.4;
+            letter-spacing: 0.2em;
+            color: var(--text-color);
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            min-height: 1.4em;
+        }
+        
+        /* New class to trigger reveal */
+        #answer.reveal {
+            animation: revealText 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+
+        #author {
+            margin-top: 10px;
+            font-size: 0.75rem;
+            color: var(--accent-color);
+            letter-spacing: 0.05em;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 1s ease, transform 1s ease;
+            font-family: 'Open Sans', sans-serif;
+            min-height: 1em;
+        }
+
+        /* Subtext / Timer */
+        #status {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #555;
+            letter-spacing: 0.1em;
+            opacity: 0;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+        }
+        
+        #status.show {
+            animation: fadeIn 2s ease-out 1s forwards;
+        }
+
+        /* Simple decorative line */
+        .line {
+            width: 1px;
+            height: 0;
+            background: linear-gradient(to bottom, transparent, var(--accent-color), transparent);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            opacity: 0.3;
+        }
+        
+        .line-top {
+            top: 0;
+            height: 30vh;
+        }
+        
+        .line-bottom {
+            bottom: 0;
+            height: 30vh;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes revealText {
+            0% { opacity: 0; transform: translateY(20px) scale(0.95); filter: blur(10px); }
+            100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+        }
+
+        @media (max-width: 768px) {
+            #answer { font-size: 2.5rem; }
+            .cover-title { font-size: 2rem; }
+            .symbol-svg { width: 80px; height: 80px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Book Cover Overlay -->
+    <div id="book-cover" onclick="openBook()">
+        <div class="cover-title">THE BOOK<br>OF ANSWERS</div>
+        <div class="cover-subtitle">答案之书</div>
+        <div class="tap-hint" id="tapHint">CLICK TO OPEN</div>
+    </div>
+
+    <div class="lang-selector">
+        <select id="languageSelect" onchange="changeLanguage(this.value)">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+        </select>
+    </div>
+
+    <div class="line line-top"></div>
+
+    <div class="container">
+        <div class="symbol-container" id="symbolContainer">
+            <!-- Mystic Eye / Star Geometry -->
+            <svg class="symbol-svg" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-opacity="0.3" />
+                <circle cx="50" cy="50" r="35" stroke-opacity="0.5" />
+                <path d="M50 5 L65 35 L95 50 L65 65 L50 95 L35 65 L5 50 L35 35 Z" stroke-opacity="0.8" />
+                <circle cx="50" cy="50" r="5" fill="var(--accent-color)" />
+            </svg>
+        </div>
+
+        <div id="answer">...</div>
+        <div id="author"></div> 
+        <div id="status"></div>
+    </div>
+
+    <div class="line line-bottom"></div>
+
+    <script>
+        /**
+         * The Book of Answers Logic
+         * - Fetches answer from server API.
+         * - Server enforces the 30-minute lock per IP.
+         * - Supports Multi-language.
+         */
+
+        const PREF_KEY = 'boa_lang';
+        const LOCK_DURATION_MINUTES = 30;
+
+        // UI Text Translations
+        const UI_TEXT = {
+            zh: {
+                title: "答案之书 | The Book of Answers",
+                statusCached: "命运已定，{mins}分钟内指引不变",
+                statusNew: "此刻的指引",
+                loading: "...",
+                tapHint: "点击翻开 ({s}s)"
+            },
+            en: {
+                title: "The Book of Answers",
+                statusCached: "Fate is sealed, unchanging for {mins} mins",
+                statusNew: "Guidance for now",
+                loading: "...",
+                tapHint: "CLICK TO OPEN ({s}s)"
+            },
+            fr: {
+                title: "Le Livre des Réponses",
+                statusCached: "Le destin est scellé pour {mins} mins",
+                statusNew: "Conseil du moment",
+                loading: "...",
+                tapHint: "CLIQUEZ POUR OUVRIR ({s}s)"
+            }
+        };
+
+        let currentLang = localStorage.getItem(PREF_KEY) || 'zh';
+        let isBookOpen = false;
+        
+        // Auto-open timer variables
+        let autoOpenTimer = null;
+        let countdownInterval = null;
+        let countdownSeconds = 7;
+
+        async function fetchAnswer() {
+            try {
+                // Forward current URL query parameters to the API
+                const queryParams = window.location.search;
+                const response = await fetch('/api/answer' + queryParams);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                return {
+                    answerObj: data.answer,
+                    timestamp: data.timestamp * 1000, // Convert to ms
+                    isCached: data.is_cached
+                };
+            } catch (e) {
+                console.error("Failed to fetch answer:", e);
+                // Fallback for connection error
+                return {
+                    answerObj: { zh: "无法连接服务器", en: "Connection Error", fr: "Erreur de connexion" },
+                    timestamp: Date.now(),
+                    isCached: false
+                };
+            }
+        }
+
+        function formatTimeLeft(timestamp) {
+            const now = Date.now();
+            // timestamp is when the lock started. Lock ends at timestamp + 30mins
+            const endTime = timestamp + (LOCK_DURATION_MINUTES * 60 * 1000);
+            const diff = endTime - now;
+            
+            if (diff <= 0) return 0;
+            return Math.ceil(diff / 60000);
+        }
+
+        async function updateUI() {
+            const answerEl = document.getElementById('answer');
+            const authorEl = document.getElementById('author');
+            const statusEl = document.getElementById('status');
+            const selectEl = document.getElementById('languageSelect');
+            const tapHintEl = document.getElementById('tapHint');
+            
+            // Sync selector
+            selectEl.value = currentLang;
+            
+            // Sync Cover Hint with current countdown
+            const template = UI_TEXT[currentLang].tapHint;
+            tapHintEl.innerText = template.replace('{s}', countdownSeconds);
+
+            // Get Data from Server
+            const result = await fetchAnswer();
+            
+            // Set Answer Text based on Lang
+            const text = result.answerObj[currentLang] || result.answerObj['zh'];
+            answerEl.innerText = text;
+
+            // Set Author Text if available
+            if (result.answerObj.author_en) {
+                authorEl.innerText = `- ${result.answerObj.author_en}`;
+                // Opacity handled by CSS/Class later, but setup here
+                authorEl.dataset.hasAuthor = "true";
+            } else {
+                authorEl.innerText = ''; 
+                delete authorEl.dataset.hasAuthor;
+            }
+
+            // Set Title
+            document.title = UI_TEXT[currentLang].title;
+
+            // Set Status Text
+            if (result.isCached) {
+                const minsLeft = formatTimeLeft(result.timestamp);
+                let template = UI_TEXT[currentLang].statusCached;
+                statusEl.innerText = template.replace('{mins}', minsLeft);
+            } else {
+                statusEl.innerText = UI_TEXT[currentLang].statusNew;
+            }
+            
+            return result;
+        }
+        
+        function startAutoOpenTimer() {
+            // Update initial text
+            const tapHintEl = document.getElementById('tapHint');
+            const updateText = () => {
+                const template = UI_TEXT[currentLang].tapHint;
+                tapHintEl.innerText = template.replace('{s}', countdownSeconds);
+            };
+            
+            updateText(); // Initial render
+
+            countdownInterval = setInterval(() => {
+                countdownSeconds--;
+                if (countdownSeconds <= 0) {
+                    clearInterval(countdownInterval);
+                } else {
+                    updateText();
+                }
+            }, 1000);
+
+            autoOpenTimer = setTimeout(() => {
+                openBook();
+            }, 7000);
+        }
+
+        function openBook() {
+            if (isBookOpen) return;
+            isBookOpen = true;
+            
+            // Clear timers to prevent double triggers
+            if (autoOpenTimer) clearTimeout(autoOpenTimer);
+            if (countdownInterval) clearInterval(countdownInterval);
+            
+            const cover = document.getElementById('book-cover');
+            const symbol = document.getElementById('symbolContainer');
+            const answerEl = document.getElementById('answer');
+            const authorEl = document.getElementById('author');
+            const statusEl = document.getElementById('status');
+            
+            // Flip cover
+            cover.classList.add('book-open');
+            
+            // Delay content reveal slightly to match flip
+            setTimeout(() => {
+                symbol.classList.add('show');
+                answerEl.classList.add('reveal');
+                statusEl.classList.add('show');
+                
+                if (authorEl.dataset.hasAuthor) {
+                    authorEl.style.opacity = 1; 
+                    authorEl.style.transform = 'translateY(0)';
+                }
+            }, 600);
+        }
+
+        function changeLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem(PREF_KEY, lang);
+            updateUI(); // Refetch/update text
+        }
+
+        function init() {
+            // Apply language preference
+            document.getElementById('languageSelect').value = currentLang;
+            
+            // Start the auto-open countdown
+            startAutoOpenTimer();
+
+            // Preload content but wait for click (or timer) to reveal
+            updateUI();
+        }
+
+        // Run on load
+        window.addEventListener('DOMContentLoaded', init);
+
+    </script>
+</body>
+</html>
