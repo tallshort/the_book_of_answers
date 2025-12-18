@@ -174,12 +174,16 @@
             font-size: 4rem;
             font-weight: 700;
             line-height: 1.4;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.1em;
             color: var(--text-color);
             text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
             opacity: 0;
             transform: translateY(20px);
             min-height: 1.4em;
+        }
+
+        #answer.lang-zh {
+            letter-spacing: 0.2em;
         }
         
         /* New class to trigger reveal */
@@ -329,6 +333,7 @@
 
         let currentLang = localStorage.getItem(PREF_KEY) || 'en';
         let isBookOpen = false;
+        let cachedResult = null;
         
         // Auto-open timer variables
         let autoOpenTimer = null;
@@ -336,6 +341,7 @@
         let countdownSeconds = 7;
 
         async function fetchAnswer() {
+            if (cachedResult) return cachedResult;
             try {
                 // Forward current URL query parameters to the API
                 const queryParams = window.location.search;
@@ -344,11 +350,12 @@
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                return {
+                cachedResult = {
                     answerObj: data.answer,
                     timestamp: data.timestamp * 1000, // Convert to ms
                     isCached: data.is_cached
                 };
+                return cachedResult;
             } catch (e) {
                 console.error("Failed to fetch answer:", e);
                 // Fallback for connection error
@@ -370,7 +377,9 @@
             return Math.ceil(diff / 60000);
         }
 
-        async function updateUI() {
+        function renderUI(result) {
+            if (!result) return;
+            
             const answerEl = document.getElementById('answer');
             const authorEl = document.getElementById('author');
             const statusEl = document.getElementById('status');
@@ -380,28 +389,36 @@
             // Sync selector
             selectEl.value = currentLang;
             
-            // Adjust answer letter spacing: 0.2em for Chinese, 0.1em for others
-            answerEl.style.letterSpacing = (currentLang === 'zh') ? '0.2em' : '0.1em';
+            // Update Text and Style Atomically
+            const text = result.answerObj[currentLang] || result.answerObj['en'] || result.answerObj['zh'];
             
+            // Apply language-specific class for spacing
+            if (currentLang === 'zh') {
+                answerEl.classList.add('lang-zh');
+            } else {
+                answerEl.classList.remove('lang-zh');
+            }
+            
+            // Set text
+            answerEl.innerText = text;
+
             // Sync Cover Hint with current countdown
             const template = UI_TEXT[currentLang].tapHint;
             tapHintEl.innerText = template.replace('{s}', countdownSeconds);
 
-            // Get Data from Server
-            const result = await fetchAnswer();
-            
-            // Set Answer Text based on Lang
-            const text = result.answerObj[currentLang] || result.answerObj['en'] || result.answerObj['zh'];
-            answerEl.innerText = text;
-
             // Set Author Text if available
             if (result.answerObj.author_en) {
                 authorEl.innerText = `- ${result.answerObj.author_en}`;
-                // Opacity handled by CSS/Class later, but setup here
                 authorEl.dataset.hasAuthor = "true";
+                // If book is already open, make sure it's visible
+                if (isBookOpen) {
+                    authorEl.style.opacity = 1;
+                    authorEl.style.transform = 'translateY(0)';
+                }
             } else {
                 authorEl.innerText = ''; 
                 delete authorEl.dataset.hasAuthor;
+                authorEl.style.opacity = 0;
             }
 
             // Set Title
@@ -415,7 +432,11 @@
             } else {
                 statusEl.innerText = UI_TEXT[currentLang].statusNew;
             }
-            
+        }
+
+        async function updateUI() {
+            const result = await fetchAnswer();
+            renderUI(result);
             return result;
         }
         
@@ -476,7 +497,11 @@
         function changeLanguage(lang) {
             currentLang = lang;
             localStorage.setItem(PREF_KEY, lang);
-            updateUI(); // Refetch/update text
+            if (cachedResult) {
+                renderUI(cachedResult);
+            } else {
+                updateUI();
+            }
         }
 
         function init() {
