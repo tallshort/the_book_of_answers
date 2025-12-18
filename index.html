@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -319,7 +319,7 @@
             }
         };
 
-        let currentLang = localStorage.getItem(PREF_KEY) || 'zh';
+        let currentLang = localStorage.getItem(PREF_KEY) || 'en';
         let isBookOpen = false;
         
         // Auto-open timer variables
@@ -380,7 +380,7 @@
             const result = await fetchAnswer();
             
             // Set Answer Text based on Lang
-            const text = result.answerObj[currentLang] || result.answerObj['zh'];
+            const text = result.answerObj[currentLang] || result.answerObj['en'] || result.answerObj['zh'];
             answerEl.innerText = text;
 
             // Set Author Text if available
