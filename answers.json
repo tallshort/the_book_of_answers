@@ -771,5 +771,555 @@
         "en": "The biggest risk is not taking any risk",
         "fr": "Le plus grand risque est de ne prendre aucun risque",
         "author_en": "Mark Zuckerberg"
+    },
+    {
+        "zh": "这是一个秘密",
+        "en": "It's a secret",
+        "fr": "C'est un secret"
+    },
+    {
+        "zh": "问问你的父亲",
+        "en": "Ask your father",
+        "fr": "Demandez à votre père"
+    },
+    {
+        "zh": "问问你的母亲",
+        "en": "Ask your mother",
+        "fr": "Demandez à votre mère"
+    },
+    {
+        "zh": "看看天空",
+        "en": "Look at the sky",
+        "fr": "Regardez le ciel"
+    },
+    {
+        "zh": "保持简单",
+        "en": "Keep it simple",
+        "fr": "Gardez ça simple"
+    },
+    {
+        "zh": "太复杂了",
+        "en": "Too complicated",
+        "fr": "Trop compliqué"
+    },
+    {
+        "zh": "太早了",
+        "en": "Too early",
+        "fr": "Trop tôt"
+    },
+    {
+        "zh": "太晚了",
+        "en": "Too late",
+        "fr": "Trop tard"
+    },
+    {
+        "zh": "你知道答案",
+        "en": "You know the answer",
+        "fr": "Vous connaissez la réponse"
+    },
+    {
+        "zh": "不太可能",
+        "en": "Unlikely",
+        "fr": "Peu probable"
+    },
+    {
+        "zh": "肯定",
+        "en": "Definitely",
+        "fr": "Définitivement"
+    },
+    {
+        "zh": "只有你能决定",
+        "en": "Only you can decide",
+        "fr": "Vous seul pouvez décider"
+    },
+    {
+        "zh": "省点钱",
+        "en": "Save your money",
+        "fr": "Économisez votre argent"
+    },
+    {
+        "zh": "花掉它",
+        "en": "Spend it",
+        "fr": "Dépensez-le"
+    },
+    {
+        "zh": "度个长假",
+        "en": "Take a long vacation",
+        "fr": "Prenez de longues vacances"
+    },
+    {
+        "zh": "写下来",
+        "en": "Write it down",
+        "fr": "Écrivez-le"
+    },
+    {
+        "zh": "大声说出来",
+        "en": "Say it out loud",
+        "fr": "Dites-le à voix haute"
+    },
+    {
+        "zh": "一个字也别说",
+        "en": "Don't say a word",
+        "fr": "Ne dites pas un mot"
+    },
+    {
+        "zh": "有风险",
+        "en": "It's risky",
+        "fr": "C'est risqué"
+    },
+    {
+        "zh": "稳操胜券",
+        "en": "Safe bet",
+        "fr": "Pari sûr"
+    },
+    {
+        "zh": "深入调查",
+        "en": "Investigate further",
+        "fr": "Enquêtez davantage"
+    },
+    {
+        "zh": "忽略细节",
+        "en": "Ignore the details",
+        "fr": "Ignorez les détails"
+    },
+    {
+        "zh": "相信新人",
+        "en": "Trust someone new",
+        "fr": "Faites confiance à quelqu'un de nouveau"
+    },
+    {
+        "zh": "依靠老朋友",
+        "en": "Rely on old friends",
+        "fr": "Comptez sur de vieux amis"
+    },
+    {
+        "zh": "新体验",
+        "en": "New experiences",
+        "fr": "Nouvelles expériences"
+    },
+    {
+        "zh": "改掉这个习惯",
+        "en": "Break the habit",
+        "fr": "Rompez l'habitude"
+    },
+    {
+        "zh": "建立规律",
+        "en": "Create a routine",
+        "fr": "Créez une routine"
+    },
+    {
+        "zh": "随性一点",
+        "en": "Be spontaneous",
+        "fr": "Soyez spontané"
+    },
+    {
+        "zh": "提前计划",
+        "en": "Plan ahead",
+        "fr": "Planifiez à l'avance"
+    },
+    {
+        "zh": "给自己一个惊喜",
+        "en": "Surprise yourself",
+        "fr": "Surprenez-vous"
+    },
+    {
+        "zh": "别期望太高",
+        "en": "Don't expect much",
+        "fr": "N'attendez pas grand-chose"
+    },
+    {
+        "zh": "期望高一点",
+        "en": "High expectations",
+        "fr": "Attentes élevées"
+    },
+    {
+        "zh": "这也会过去",
+        "en": "It will pass",
+        "fr": "Ça passera"
+    },
+    {
+        "zh": "一切都会改变",
+        "en": "Everything changes",
+        "fr": "Tout change"
+    },
+    {
+        "zh": "改变是好事",
+        "en": "Change is good",
+        "fr": "Le changement est bon"
+    },
+    {
+        "zh": "稳定是关键",
+        "en": "Stability is key",
+        "fr": "La stabilité est la clé"
+    },
+    {
+        "zh": "向前看",
+        "en": "Move on",
+        "fr": "Passez à autre chose"
+    },
+    {
+        "zh": "原地不动",
+        "en": "Stay put",
+        "fr": "Restez sur place"
+    },
+    {
+        "zh": "面对它",
+        "en": "Face it",
+        "fr": "Faites face"
+    },
+    {
+        "zh": "别躲藏",
+        "en": "Don't hide",
+        "fr": "Ne vous cachez pas"
+    },
+    {
+        "zh": "展现你自己",
+        "en": "Show yourself",
+        "fr": "Montrez-vous"
+    },
+    {
+        "zh": "保持谦逊",
+        "en": "Be humble",
+        "fr": "Soyez humble"
+    },
+    {
+        "zh": "为此自豪",
+        "en": "Be proud",
+        "fr": "Soyez fier"
+    },
+    {
+        "zh": "这是个陷阱",
+        "en": "It's a trap",
+        "fr": "C'est un piège"
+    },
+    {
+        "zh": "这是个礼物",
+        "en": "It's a gift",
+        "fr": "C'est un cadeau"
+    },
+    {
+        "zh": "因祸得福",
+        "en": "Blessing in disguise",
+        "fr": "Un mal pour un bien"
+    },
+    {
+        "zh": "祝你好运",
+        "en": "Good luck",
+        "fr": "Bonne chance"
+    },
+    {
+        "zh": "尝试新事物",
+        "en": "Try something new",
+        "fr": "Essayez quelque chose de nouveau"
+    },
+    {
+        "zh": "坚持你所知道的",
+        "en": "Stick to what you know",
+        "fr": "Tenez-vous-en à ce que vous savez"
+    },
+    {
+        "zh": "学项新技能",
+        "en": "Learn a new skill",
+        "fr": "Apprenez une nouvelle compétence"
+    },
+    {
+        "zh": "教教别人",
+        "en": "Teach someone",
+        "fr": "Enseignez à quelqu'un"
+    },
+    {
+        "zh": "仔细倾听",
+        "en": "Listen carefully",
+        "fr": "Écoutez attentivement"
+    },
+    {
+        "zh": "密切注视",
+        "en": "Watch closely",
+        "fr": "Regardez attentivement"
+    },
+    {
+        "zh": "闭上眼睛",
+        "en": "Close your eyes",
+        "fr": "Fermez les yeux"
+    },
+    {
+        "zh": "敞开心扉",
+        "en": "Open your mind",
+        "fr": "Ouvrez votre esprit"
+    },
+    {
+        "zh": "它在你身后",
+        "en": "It's behind you",
+        "fr": "C'est derrière vous"
+    },
+    {
+        "zh": "它就在你面前",
+        "en": "It's in front of you",
+        "fr": "C'est devant vous"
+    },
+    {
+        "zh": "向内看",
+        "en": "Look inside",
+        "fr": "Regardez à l'intérieur"
+    },
+    {
+        "zh": "向外看",
+        "en": "Look outside",
+        "fr": "Regardez à l'extérieur"
+    },
+    {
+        "zh": "问问孩子",
+        "en": "Ask a child",
+        "fr": "Demandez à un enfant"
+    },
+    {
+        "zh": "问问长者",
+        "en": "Ask an elder",
+        "fr": "Demandez à un ancien"
+    },
+    {
+        "zh": "抛硬币决定",
+        "en": "Flip a coin",
+        "fr": "Jouez à pile ou face"
+    },
+    {
+        "zh": "确定的",
+        "en": "It's certain",
+        "fr": "C'est certain"
+    },
+    {
+        "zh": "稍后再问",
+        "en": "Ask again later",
+        "fr": "Redemandez plus tard"
+    },
+    {
+        "zh": "现在无法预测",
+        "en": "Cannot predict now",
+        "fr": "Impossible de prédire maintenant"
+    },
+    {
+        "zh": "集中精力再问一次",
+        "en": "Concentrate and ask again",
+        "fr": "Concentrez-vous et redemandez"
+    },
+    {
+        "zh": "我的来源说不",
+        "en": "My sources say no",
+        "fr": "Mes sources disent non"
+    },
+    {
+        "zh": "前景不错",
+        "en": "Outlook good",
+        "fr": "Les perspectives sont bonnes"
+    },
+    {
+        "zh": "迹象表明是肯定的",
+        "en": "Signs point to yes",
+        "fr": "Les signes indiquent que oui"
+    },
+    {
+        "zh": "现在最好别告诉你",
+        "en": "Better not tell you now",
+        "fr": "Mieux vaut ne pas vous le dire maintenant"
+    },
+    {
+        "zh": "你准备好了",
+        "en": "You are ready",
+        "fr": "Vous êtes prêt"
+    },
+    {
+        "zh": "你还没准备好",
+        "en": "You are not ready",
+        "fr": "Vous n'êtes pas prêt"
+    },
+    {
+        "zh": "相信过程",
+        "en": "Trust the process",
+        "fr": "Faites confiance au processus"
+    },
+    {
+        "zh": "别急",
+        "en": "Don't rush",
+        "fr": "Ne vous précipitez pas"
+    },
+    {
+        "zh": "加速",
+        "en": "Speed up",
+        "fr": "Accélérez"
+    },
+    {
+        "zh": "停止思考",
+        "en": "Stop thinking",
+        "fr": "Arrêtez de penser"
+    },
+    {
+        "zh": "开始行动",
+        "en": "Start doing",
+        "fr": "Commencez à faire"
+    },
+    {
+        "zh": "这是个错误",
+        "en": "It's a mistake",
+        "fr": "C'est une erreur"
+    },
+    {
+        "zh": "这是正确的选择",
+        "en": "It's the right choice",
+        "fr": "C'est le bon choix"
+    },
+    {
+        "zh": "遵守规则",
+        "en": "Follow the rules",
+        "fr": "Suivez les règles"
+    },
+    {
+        "zh": "质疑权威",
+        "en": "Question authority",
+        "fr": "Remettez en question l'autorité"
+    },
+    {
+        "zh": "保持独立",
+        "en": "Be independent",
+        "fr": "Soyez indépendant"
+    },
+    {
+        "zh": "合作",
+        "en": "Cooperate",
+        "fr": "Coopérez"
+    },
+    {
+        "zh": "妥协",
+        "en": "Compromise",
+        "fr": "Faites un compromis"
+    },
+    {
+        "zh": "别妥协",
+        "en": "Don't compromise",
+        "fr": "Ne faites pas de compromis"
+    },
+    {
+        "zh": "寻求平衡",
+        "en": "Seek balance",
+        "fr": "Cherchez l'équilibre"
+    },
+    {
+        "zh": "许个愿",
+        "en": "Make a wish",
+        "fr": "Faites un vœu"
+    },
+    {
+        "zh": "敢于梦想",
+        "en": "Dream big",
+        "fr": "Rêvez grand"
+    },
+    {
+        "zh": "醒醒吧",
+        "en": "Wake up",
+        "fr": "Réveillez-vous"
+    },
+    {
+        "zh": "这是一场梦",
+        "en": "It's a dream",
+        "fr": "C'est un rêve"
+    },
+    {
+        "zh": "拔掉插头",
+        "en": "Unplug",
+        "fr": "Débranchez"
+    },
+    {
+        "zh": "连接",
+        "en": "Connect",
+        "fr": "Connectez-vous"
+    },
+    {
+        "zh": "需要更新",
+        "en": "Update needed",
+        "fr": "Mise à jour nécessaire"
+    },
+    {
+        "zh": "重启",
+        "en": "Reboot",
+        "fr": "Redémarrez"
+    },
+    {
+        "zh": "保持善良",
+        "en": "Be kind",
+        "fr": "Soyez gentil"
+    },
+    {
+        "zh": "强硬一点",
+        "en": "Be tough",
+        "fr": "Soyez dur"
+    },
+    {
+        "zh": "今天",
+        "en": "Today",
+        "fr": "Aujourd'hui"
+    },
+    {
+        "zh": "不是今天",
+        "en": "Not today",
+        "fr": "Pas aujourd'hui"
+    },
+    {
+        "zh": "未来属于你",
+        "en": "The future is yours",
+        "fr": "L'avenir est à vous"
+    },
+    {
+        "zh": "别担心",
+        "en": "Don't worry",
+        "fr": "Ne vous inquiétez pas"
+    },
+    {
+        "zh": "顺其自然",
+        "en": "Let it be",
+        "fr": "Ainsi soit-il"
+    },
+    {
+        "zh": "现在",
+        "en": "Right now",
+        "fr": "Maintenant"
+    },
+    {
+        "zh": "永不",
+        "en": "Never",
+        "fr": "Jamais"
+    },
+    {
+        "zh": "永远",
+        "en": "Forever",
+        "fr": "Pour toujours"
+    },
+    {
+        "zh": "再等一会儿",
+        "en": "Wait a little longer",
+        "fr": "Attendez encore un peu"
+    },
+    {
+        "zh": "别再等了",
+        "en": "Don't wait any longer",
+        "fr": "N'attendez plus"
+    },
+    {
+        "zh": "现在是时候了",
+        "en": "It is time",
+        "fr": "Il est temps"
+    },
+    {
+        "zh": "还不是时候",
+        "en": "It is not time",
+        "fr": "Ce n'est pas le moment"
+    },
+    {
+        "zh": "当然",
+        "en": "Of course",
+        "fr": "Bien sûr"
+    },
+    {
+        "zh": "当然不",
+        "en": "Of course not",
+        "fr": "Bien sûr que non"
     }
 ]
