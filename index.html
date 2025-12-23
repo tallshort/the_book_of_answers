@@ -361,6 +361,34 @@
         .btn-cookie.accept:hover {
             background: #c0b7aa;
         }
+
+        /* Mobile Optimization for Cookie Banner */
+        @media (max-width: 600px) {
+            #cookie-banner {
+                align-items: flex-start;
+                text-align: left;
+                padding: 24px;
+            }
+            
+            .cookie-text {
+                font-size: 0.8rem;
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+
+            .cookie-buttons {
+                width: 100%;
+                gap: 12px;
+            }
+            
+            .btn-cookie {
+                flex: 1;
+                text-align: center;
+                padding: 12px 0; /* Easier to tap */
+                font-size: 0.75rem;
+                white-space: nowrap; /* Prevent button text wrapping */
+            }
+        }
     </style>
 </head>
 <body>
