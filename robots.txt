@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://the-book-of-answers-xi.vercel.app/sitemap.xml
+Sitemap: https://the-book-of-answers.online/sitemap.xml
