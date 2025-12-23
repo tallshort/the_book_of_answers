@@ -135,8 +135,7 @@
             position: absolute;
             top: 20px;
             right: 20px;
-            z-index: 100; /* Ensure clickable even when cover is present (optional) or let cover block it. 
-                             Let's keep it above so user can switch lang on cover. */
+            z-index: 100; /* Ensure clickable even when cover is present */
         }
 
         .lang-selector select {
@@ -290,6 +289,78 @@
             white-space: nowrap;
             border-width: 0;
         }
+
+        /* --- Cookie Consent Banner --- */
+        #cookie-banner {
+            position: fixed;
+            bottom: -100%; /* Hidden by default */
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            border-top: 1px solid rgba(168, 159, 145, 0.3);
+            padding: 20px;
+            z-index: 200;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: bottom 0.5s ease-out;
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+        
+        #cookie-banner.show {
+            bottom: 0;
+        }
+
+        .cookie-text {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-color);
+            margin-bottom: 20px;
+            max-width: 1000px;
+            line-height: 1.8;
+            opacity: 0.9;
+        }
+        
+        .cookie-text b {
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+
+        .cookie-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-cookie {
+            background: transparent;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 8px 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.8rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .btn-cookie:hover {
+            background: var(--accent-color);
+            color: #000;
+        }
+        
+        .btn-cookie.accept {
+            background: var(--accent-color);
+            color: #000;
+        }
+        
+        .btn-cookie.accept:hover {
+            background: #c0b7aa;
+        }
     </style>
 </head>
 <body>
@@ -330,43 +401,67 @@
 
     <div class="line line-bottom"></div>
 
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner">
+        <div class="cookie-text" id="cookieText">
+            We use cookies (or local storage) to enable "Destiny Lock", keeping your answer for 30 mins.<br>If declined, data stays on your device only.
+        </div>
+        <div class="cookie-buttons">
+            <button class="btn-cookie" onclick="handleCookieConsent(false)" id="btnDecline">Decline</button>
+            <button class="btn-cookie accept" onclick="handleCookieConsent(true)" id="btnAccept">Accept</button>
+        </div>
+    </div>
+
     <script>
         /**
          * The Book of Answers Logic
          * - Fetches answer from server API.
          * - Server enforces the 30-minute lock per IP.
          * - Supports Multi-language.
+         * - Supports Cookie Consent with Graceful Degradation (LocalStorage)
          */
 
         const PREF_KEY = 'boa_lang';
+        const CONSENT_KEY = 'boa_consent'; // 'granted', 'denied', or null
+        const LOCAL_LOCK_KEY = 'boa_lock_data'; // New: Store {timestamp, answer}
         const LOCK_DURATION_MINUTES = 30;
 
         // UI Text Translations
         const UI_TEXT = {
             zh: {
                 title: "答案之书 | The Book of Answers",
-                statusCached: "此刻缘定，{mins}分钟内指引不变",
+                statusCached: "此刻缘定，静候回响",
                 statusNew: "此刻的指引",
                 loading: "...",
-                tapHint: "点击翻开 ({s}s)"
+                tapHint: "点击翻开 ({s}s)",
+                cookieText: "为了延续这份缘分，我们需要使用 <b>Cookies</b> 或 <b>本地存储</b> 来封存您的指引。<br>您可以选择让星辰见证（允许 Cookies），或是仅珍藏于心底（仅本地存储）。",
+                accept: "让星辰见证 (Cookies)",
+                decline: "仅留心底"
             },
             en: {
                 title: "The Book of Answers",
-                statusCached: "Destiny is set, unchanging for {mins} mins",
+                statusCached: "Destiny is set, waiting for echoes",
                 statusNew: "Guidance for now",
                 loading: "...",
-                tapHint: "CLICK TO OPEN ({s}s)"
+                tapHint: "CLICK TO OPEN ({s}s)",
+                cookieText: "To preserve this destiny, we use <b>cookies</b> or <b>local storage</b> to seal your guidance.<br>You may choose to let the stars witness (Cookies), or keep it solely within your heart (Local Storage).",
+                accept: "Witness (Cookies)",
+                decline: "Keep Secret"
             },
             fr: {
                 title: "Le Livre des Réponses",
-                statusCached: "Le destin est fixé pour {mins} mins",
+                statusCached: "Le destin est fixé, attendons les échos",
                 statusNew: "Conseil du moment",
                 loading: "...",
-                tapHint: "CLIQUEZ POUR OUVRIR ({s}s)"
+                tapHint: "CLIQUEZ POUR OUVRIR ({s}s)",
+                cookieText: "Pour préserver ce destin, nous utilisons des <b>cookies</b> ou le <b>stockage local</b>.<br>Vous pouvez laisser le destin témoigner (Cookies), ou garder le secret (Stockage Local).",
+                accept: "Témoigner (Cookies)",
+                decline: "Garder Secret"
             }
         };
 
         let currentLang = localStorage.getItem(PREF_KEY) || 'en';
+        let consentStatus = localStorage.getItem(CONSENT_KEY); // 'granted', 'denied', or null
         let isBookOpen = false;
         let cachedResult = null;
         
@@ -377,18 +472,66 @@
 
         async function fetchAnswer() {
             if (cachedResult) return cachedResult;
+
+            // --- 1. Client-Side Lock Check (Always check first for continuity) ---
+            // Even if consent is granted, we might have a valid local lock from the previous request
+            // preventing a sudden answer switch before the cookie is established.
             try {
-                // Forward current URL query parameters to the API
-                const queryParams = window.location.search;
-                const response = await fetch('/api/answer' + queryParams);
+                const rawLock = localStorage.getItem(LOCAL_LOCK_KEY);
+                if (rawLock) {
+                    const lockData = JSON.parse(rawLock);
+                    const now = Date.now();
+                    // Check if lock is still valid (30 mins)
+                    if (now - lockData.timestamp < LOCK_DURATION_MINUTES * 60 * 1000) {
+                        console.log("Using client-side lock");
+                        cachedResult = {
+                            answerObj: lockData.answer,
+                            timestamp: lockData.timestamp,
+                            isCached: true
+                        };
+                        return cachedResult;
+                    }
+                }
+            } catch (e) {
+                console.warn("Failed to read local lock:", e);
+            }
+
+            try {
+                // --- 2. Network Fetch ---
+                const queryParams = new URLSearchParams(window.location.search);
+                
+                // Privacy by Default: 
+                // If consent is 'denied' OR 'null' (not yet chosen), do NOT set cookies.
+                // Only set cookies if explicitly 'granted'.
+                if (consentStatus !== 'granted') {
+                    queryParams.append('no_cookie', 'true');
+                }
+
+                const response = await fetch('/api/answer?' + queryParams.toString());
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
+                
+                const serverTs = data.timestamp * 1000;
+
+                // --- 3. Client-Side Lock Save (Always save) ---
+                // We save to localStorage even if consent is granted. 
+                // This acts as a client-side cache/backup and ensures smooth transitions.
+                const lockPayload = {
+                    timestamp: (consentStatus === 'granted' && data.is_cached) ? serverTs : Date.now(),
+                    answer: data.answer
+                };
+                localStorage.setItem(LOCAL_LOCK_KEY, JSON.stringify(lockPayload));
+
+                // If not granted, we rely on client-side lock for 'caching' status in UI
+                // For the very first load, data.is_cached from server will be false (because no cookie sent)
+                const isCached = (consentStatus === 'granted') ? data.is_cached : false;
+
                 cachedResult = {
                     answerObj: data.answer,
-                    timestamp: data.timestamp * 1000, // Convert to ms
-                    isCached: data.is_cached
+                    timestamp: (consentStatus === 'granted') ? serverTs : Date.now(),
+                    isCached: isCached
                 };
                 return cachedResult;
             } catch (e) {
@@ -403,13 +546,29 @@
         }
 
         function formatTimeLeft(timestamp) {
+            if (!timestamp) return 0;
             const now = Date.now();
-            // timestamp is when the lock started. Lock ends at timestamp + 30mins
             const endTime = timestamp + (LOCK_DURATION_MINUTES * 60 * 1000);
             const diff = endTime - now;
             
             if (diff <= 0) return 0;
             return Math.ceil(diff / 60000);
+        }
+
+        function handleCookieConsent(accepted) {
+            const banner = document.getElementById('cookie-banner');
+            banner.classList.remove('show');
+            
+            if (accepted) {
+                consentStatus = 'granted';
+                localStorage.setItem(CONSENT_KEY, 'granted');
+                // Optional: Clear client-side lock if they switch to cookies? 
+                // localStorage.removeItem(LOCAL_LOCK_KEY);
+            } else {
+                consentStatus = 'denied';
+                localStorage.setItem(CONSENT_KEY, 'denied');
+                // Logic continues with client-side locking
+            }
         }
 
         function renderUI(result) {
@@ -423,7 +582,15 @@
             
             // Sync selector
             selectEl.value = currentLang;
-            
+
+            // --- Update Cookie Banner Text based on Lang ---
+            const bannerText = document.getElementById('cookieText');
+            if (bannerText) {
+                bannerText.innerHTML = UI_TEXT[currentLang].cookieText;
+                document.getElementById('btnAccept').innerText = UI_TEXT[currentLang].accept;
+                document.getElementById('btnDecline').innerText = UI_TEXT[currentLang].decline;
+            }
+
             // Update Text and Style Atomically
             const text = result.answerObj[currentLang] || result.answerObj['en'] || result.answerObj['zh'];
             
@@ -543,6 +710,15 @@
             // Apply language preference
             document.getElementById('languageSelect').value = currentLang;
             
+            // Check Consent Banner
+            if (!consentStatus) {
+                // Delay banner slightly for visual effect
+                setTimeout(() => {
+                    const banner = document.getElementById('cookie-banner');
+                    if(banner) banner.classList.add('show');
+                }, 1000);
+            }
+
             // Start the auto-open countdown
             startAutoOpenTimer();
 

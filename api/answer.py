@@ -29,6 +29,8 @@ class handler(BaseHTTPRequestHandler):
         parsed_url = urllib.parse.urlparse(self.path)
         query_params = urllib.parse.parse_qs(parsed_url.query)
         author_only = query_params.get('author_only', ['false'])[0].lower() == 'true'
+        # Check if client explicitly rejected cookies
+        no_cookie = query_params.get('no_cookie', ['false'])[0].lower() == 'true'
 
         # 3. Check Cookies for existing session
         cookie_header = self.headers.get('Cookie')
@@ -81,7 +83,8 @@ class handler(BaseHTTPRequestHandler):
         
         # 6. Set/Update Cookie if it was a new answer (or to refresh expiry)
         # We store: "timestamp|json_dump"
-        if not is_cached:
+        # Only set cookie if user hasn't rejected them
+        if not is_cached and not no_cookie:
             val_to_store = f"{current_timestamp}|{json.dumps(current_answer)}"
             # URL encode to be safe in headers
             val_encoded = urllib.parse.quote(val_to_store)
