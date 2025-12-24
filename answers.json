@@ -10,7 +10,9 @@
         "it": "Indubbiamente",
         "ru": "Несомненно",
         "ja": "疑いなく",
-        "ko": "의심할 여지 없이"
+        "ko": "의심할 여지 없이",
+        "nl": "Ongetwijfeld",
+        "sv": "Utan tvekan"
     },
     {
         "zh": "肯定的",
@@ -23,7 +25,9 @@
         "it": "Sì",
         "ru": "Да",
         "ja": "はい",
-        "ko": "네"
+        "ko": "네",
+        "nl": "Ja",
+        "sv": "Ja"
     },
     {
         "zh": "现在不是时候",
@@ -36,7 +40,9 @@
         "it": "Non ora",
         "ru": "Не сейчас",
         "ja": "今はだめ",
-        "ko": "지금은 안 돼"
+        "ko": "지금은 안 돼",
+        "nl": "Nu niet",
+        "sv": "Inte nu"
     },
     {
         "zh": "再等等",
@@ -49,7 +55,9 @@
         "it": "Aspetta",
         "ru": "Подожди",
         "ja": "待って",
-        "ko": "기다려"
+        "ko": "기다려",
+        "nl": "Wacht",
+        "sv": "Vänta"
     },
     {
         "zh": "随心而动",
@@ -62,7 +70,9 @@
         "it": "Segui il tuo cuore",
         "ru": "Следи зову сердца",
         "ja": "心のままに",
-        "ko": "마음 가는 대로 해"
+        "ko": "마음 가는 대로 해",
+        "nl": "Volg je hart",
+        "sv": "Följ ditt hjärta"
     },
     {
         "zh": "坚持到底",
@@ -75,7 +85,9 @@
         "it": "Tieni duro",
         "ru": "Держись",
         "ja": "粘って",
-        "ko": "계속해"
+        "ko": "계속해",
+        "nl": "Houd vol",
+        "sv": "Håll fast vid det"
     },
     {
         "zh": "放下吧",
@@ -88,7 +100,9 @@
         "it": "Lascia perdere",
         "ru": "Отпусти это",
         "ja": "忘れてしまえ",
-        "ko": "잊어버려"
+        "ko": "잊어버려",
+        "nl": "Laat het los",
+        "sv": "Släpp det"
     },
     {
         "zh": "也许",
@@ -101,7 +115,9 @@
         "it": "Forse",
         "ru": "Может быть",
         "ja": "たぶん",
-        "ko": "어쩌면"
+        "ko": "어쩌면",
+        "nl": "Misschien",
+        "sv": "Kanske"
     },
     {
         "zh": "结果会让你惊喜",
@@ -114,7 +130,9 @@
         "it": "Sarai sorpreso",
         "ru": "Ты удивишься",
         "ja": "驚くことになるよ",
-        "ko": "깜짝 놀랄 거야"
+        "ko": "깜짝 놀랄 거야",
+        "nl": "Je zult verrast zijn",
+        "sv": "Du kommer att bli överraskad"
     },
     {
         "zh": "不要犹豫",
@@ -127,7 +145,9 @@
         "it": "Non esitare",
         "ru": "Не сомневайся",
         "ja": "躊躇しないで",
-        "ko": "망설이지 마"
+        "ko": "망설이지 마",
+        "nl": "Aarzel niet",
+        "sv": "Tveka inte"
     },
     {
         "zh": "相信你的直觉",
@@ -140,7 +160,9 @@
         "it": "Segui il tuo intuito",
         "ru": "Доверься интуиции",
         "ja": "直感を信じて",
-        "ko": "직감을 믿어"
+        "ko": "직감을 믿어",
+        "nl": "Vertrouw op je intuïtie",
+        "sv": "Lita på din intuition"
     },
     {
         "zh": "重新考虑",
@@ -153,7 +175,9 @@
         "it": "Riconsidera",
         "ru": "Пересмотри решение",
         "ja": "再考して",
-        "ko": "다시 생각해봐"
+        "ko": "다시 생각해봐",
+        "nl": "Heroverweeg",
+        "sv": "Ompröva"
     },
     {
         "zh": "专注于当下",
@@ -166,7 +190,9 @@
         "it": "Concentrati sul presente",
         "ru": "Сосредоточься на настоящем",
         "ja": "今に集中して",
-        "ko": "현재에 집중해"
+        "ko": "현재에 집중해",
+        "nl": "Focus op het heden",
+        "sv": "Fokusera på nuet"
     },
     {
         "zh": "这是命运的安排",
@@ -179,7 +205,9 @@
         "it": "È il destino",
         "ru": "Это судьба",
         "ja": "それは運命だ",
-        "ko": "운명이야"
+        "ko": "운명이야",
+        "nl": "Het is het lot",
+        "sv": "Det är ödet"
     },
     {
         "zh": "保持耐心",
@@ -192,7 +220,9 @@
         "it": "Sii paziente",
         "ru": "Будь терпелив",
         "ja": "忍耐強く",
-        "ko": "인내심을 가져"
+        "ko": "인내심을 가져",
+        "nl": "Wees geduldig",
+        "sv": "Ha tålamod"
     },
     {
         "zh": "向他人寻求建议",
@@ -205,7 +235,9 @@
         "it": "Chiedi consiglio",
         "ru": "Попроси совета",
         "ja": "アドバイスを求めて",
-        "ko": "조언을 구해"
+        "ko": "조언을 구해",
+        "nl": "Vraag om advies",
+        "sv": "Be om råd"
     },
     {
         "zh": "你需要休息",
@@ -218,7 +250,9 @@
         "it": "Hai bisogno di riposo",
         "ru": "Тебе нужен отдых",
         "ja": "休息が必要だ",
-        "ko": "휴식이 필요해"
+        "ko": "휴식이 필요해",
+        "nl": "Je hebt rust nodig",
+        "sv": "Du behöver vila"
     },
     {
         "zh": "答案在你心中",
@@ -231,7 +265,9 @@
         "it": "La risposta è dentro di te",
         "ru": "Ответ внутри тебя",
         "ja": "答えは君の中にある",
-        "ko": "답은 네 안에 있어"
+        "ko": "답은 네 안에 있어",
+        "nl": "Het antwoord zit in je",
+        "sv": "Svaret finns inom dig"
     },
     {
         "zh": "勇敢跨出第一步",
@@ -244,7 +280,9 @@
         "it": "Fai il primo passo",
         "ru": "Сделай первый шаг",
         "ja": "第一歩を踏み出して",
-        "ko": "첫발을 내디뎌"
+        "ko": "첫발을 내디뎌",
+        "nl": "Zet de eerste stap",
+        "sv": "Ta det första steget"
     },
     {
         "zh": "通过沟通解决",
@@ -257,7 +295,9 @@
         "it": "Comunica",
         "ru": "Общайся",
         "ja": "コミュニケーションをとって",
-        "ko": "소통해"
+        "ko": "소통해",
+        "nl": "Communiceer",
+        "sv": "Kommunicera"
     },
     {
         "zh": "不仅如此",
@@ -270,7 +310,9 @@
         "it": "C'è di più",
         "ru": "Это еще не все",
         "ja": "それだけじゃない",
-        "ko": "더 있어"
+        "ko": "더 있어",
+        "nl": "Er is meer",
+        "sv": "Det finns mer"
     },
     {
         "zh": "绝对不要",
@@ -283,7 +325,9 @@
         "it": "Assolutamente no",
         "ru": "Ни в коем случае",
         "ja": "絶対にダメ",
-        "ko": "절대 안 돼"
+        "ko": "절대 안 돼",
+        "nl": "Absoluut niet",
+        "sv": "Absolut inte"
     },
     {
         "zh": "时机未到",
@@ -296,7 +340,9 @@
         "it": "Non è il momento giusto",
         "ru": "Неподходящее время",
         "ja": "タイミングが悪い",
-        "ko": "때가 좋지 않아"
+        "ko": "때가 좋지 않아",
+        "nl": "Niet het juiste moment",
+        "sv": "Inte rätt tid"
     },
     {
         "zh": "你会后悔的",
@@ -309,7 +355,9 @@
         "it": "Te ne pentirai",
         "ru": "Ты пожалеешь об этом",
         "ja": "後悔することになる",
-        "ko": "후회할 거야"
+        "ko": "후회할 거야",
+        "nl": "Je zult er spijt van krijgen",
+        "sv": "Du kommer att ångra det"
     },
     {
         "zh": "值得一试",
@@ -322,7 +370,9 @@
         "it": "Vale la pena provare",
         "ru": "Стоит попробовать",
         "ja": "試す価値はある",
-        "ko": "시도해볼 만해"
+        "ko": "시도해볼 만해",
+        "nl": "Het proberen waard",
+        "sv": "Värt ett försök"
     },
     {
         "zh": "保持沉默",
@@ -335,7 +385,9 @@
         "it": "Resta in silenzio",
         "ru": "Молчи",
         "ja": "沈黙を守って",
-        "ko": "침묵해"
+        "ko": "침묵해",
+        "nl": "Blijf stil",
+        "sv": "Var tyst"
     },
     {
         "zh": "观察局势",
@@ -348,7 +400,9 @@
         "it": "Osserva",
         "ru": "Наблюдай",
         "ja": "よく観察して",
-        "ko": "관찰해"
+        "ko": "관찰해",
+        "nl": "Observeer",
+        "sv": "Observera"
     },
     {
         "zh": "顺其自然",
@@ -361,7 +415,9 @@
         "it": "Segui il flusso",
         "ru": "Плыви по течению",
         "ja": "流れに身を任せて",
-        "ko": "흐름에 맡겨"
+        "ko": "흐름에 맡겨",
+        "nl": "Ga met de stroom mee",
+        "sv": "Gå med strömmen"
     },
     {
         "zh": "不要在此刻放弃",
@@ -374,7 +430,9 @@
         "it": "Non arrenderti ora",
         "ru": "Не сдавайся сейчас",
         "ja": "今は諦めないで",
-        "ko": "지금 포기하지 마"
+        "ko": "지금 포기하지 마",
+        "nl": "Geef nu niet op",
+        "sv": "Ge inte upp nu"
     },
     {
         "zh": "为了更大的目标",
@@ -387,7 +445,9 @@
         "it": "Per un obiettivo più grande",
         "ru": "Ради великой цели",
         "ja": "より大きな目標のために",
-        "ko": "더 큰 목표를 위해"
+        "ko": "더 큰 목표를 위해",
+        "nl": "Voor een groter doel",
+        "sv": "För ett större mål"
     },
     {
         "zh": "会有更好的选择",
@@ -400,7 +460,9 @@
         "it": "C'è una scelta migliore",
         "ru": "Есть выбор получше",
         "ja": "もっといい選択肢がある",
-        "ko": "더 좋은 선택이 있어"
+        "ko": "더 좋은 선택이 있어",
+        "nl": "Er is een betere keuze",
+        "sv": "Det finns ett bättre val"
     },
     {
         "zh": "你需要通过努力获得",
@@ -413,7 +475,9 @@
         "it": "Lavora per ottenerlo",
         "ru": "Заработай это",
         "ja": "努力して手に入れて",
-        "ko": "노력해서 얻어"
+        "ko": "노력해서 얻어",
+        "nl": "Werk ervoor",
+        "sv": "Arbeta för det"
     },
     {
         "zh": "这就是结局",
@@ -426,7 +490,9 @@
         "it": "Questa è la fine",
         "ru": "Это конец",
         "ja": "これで終わりだ",
-        "ko": "이게 끝이야"
+        "ko": "이게 끝이야",
+        "nl": "Dit is het einde",
+        "sv": "Detta är slutet"
     },
     {
         "zh": "从头开始",
@@ -439,7 +505,9 @@
         "it": "Ricomincia",
         "ru": "Начни сначала",
         "ja": "やり直して",
-        "ko": "처음부터 다시 해"
+        "ko": "처음부터 다시 해",
+        "nl": "Begin opnieuw",
+        "sv": "Börja om"
     },
     {
         "zh": "留意身边的信号",
@@ -452,7 +520,9 @@
         "it": "Fai attenzione ai segni",
         "ru": "Следи за знаками",
         "ja": "予兆に気をつけて",
-        "ko": "신호를 잘 살펴"
+        "ko": "신호를 잘 살펴",
+        "nl": "Let op tekens",
+        "sv": "Håll utkik efter tecken"
     },
     {
         "zh": "不要被表象迷惑",
@@ -465,7 +535,9 @@
         "it": "Non farti ingannare",
         "ru": "Не дай себя обмануть",
         "ja": "惑わされないで",
-        "ko": "현혹되지 마"
+        "ko": "현혹되지 마",
+        "nl": "Laat je niet misleiden",
+        "sv": "Låt dig inte vilseledas"
     },
     {
         "zh": "相信自己",
@@ -478,7 +550,9 @@
         "it": "Credi in te stesso",
         "ru": "Верь в себя",
         "ja": "自分を信じて",
-        "ko": "자신을 믿어"
+        "ko": "자신을 믿어",
+        "nl": "Geloof in jezelf",
+        "sv": "Tro på dig själv"
     },
     {
         "zh": "这很重要",
@@ -491,7 +565,9 @@
         "it": "È importante",
         "ru": "Это важно",
         "ja": "それは重要だ",
-        "ko": "중요해"
+        "ko": "중요해",
+        "nl": "Het is belangrijk",
+        "sv": "Det är viktigt"
     },
     {
         "zh": "没什么大不了的",
@@ -504,7 +580,9 @@
         "it": "Non è un grosso problema",
         "ru": "Ничего страшного",
         "ja": "大したことないよ",
-        "ko": "별일 아니야"
+        "ko": "별일 아니야",
+        "nl": "Geen groot probleem",
+        "sv": "Ingen stor sak"
     },
     {
         "zh": "一笑置之",
@@ -517,7 +595,9 @@
         "it": "Ridicci sopra",
         "ru": "Обрати все в шутку",
         "ja": "笑い飛ばして",
-        "ko": "웃어넘겨"
+        "ko": "웃어넘겨",
+        "nl": "Lach het weg",
+        "sv": "Skratta bort det"
     },
     {
         "zh": "全力以赴",
@@ -530,7 +610,9 @@
         "it": "Metticela tutta",
         "ru": "Иди ва-банк",
         "ja": "全力でぶつかって",
-        "ko": "올인해"
+        "ko": "올인해",
+        "nl": "Ga er helemaal voor",
+        "sv": "Gå all in"
     },
     {
         "zh": "稍安勿躁",
@@ -543,7 +625,9 @@
         "it": "Calmati",
         "ru": "Успокойся",
         "ja": "落ち着いて",
-        "ko": "진정해"
+        "ko": "진정해",
+        "nl": "Rustig aan",
+        "sv": "Lugna ner dig"
     },
     {
         "zh": "你需要改变视角",
@@ -556,7 +640,9 @@
         "it": "Cambia prospettiva",
         "ru": "Смени ракурс",
         "ja": "視点を変えてみて",
-        "ko": "관점을 바꿔봐"
+        "ko": "관점을 바꿔봐",
+        "nl": "Verander je perspectief",
+        "sv": "Ändra ditt perspektiv"
     },
     {
         "zh": "答案是否定的",
@@ -569,7 +655,9 @@
         "it": "La risposta è no",
         "ru": "Ответ - нет",
         "ja": "答えはノーだ",
-        "ko": "답은 아니오야"
+        "ko": "답은 아니오야",
+        "nl": "Het antwoord is nee",
+        "sv": "Svaret är nej"
     },
     {
         "zh": "这很复杂",
@@ -582,7 +670,9 @@
         "it": "È complesso",
         "ru": "Это сложно",
         "ja": "それは複雑だ",
-        "ko": "복잡해"
+        "ko": "복잡해",
+        "nl": "Het is complex",
+        "sv": "Det är komplext"
     },
     {
         "zh": "会有转机",
@@ -595,7 +685,9 @@
         "it": "Le cose cambieranno",
         "ru": "Все наладится",
         "ja": "事態は好転する",
-        "ko": "상황이 호전될 거야"
+        "ko": "상황이 호전될 거야",
+        "nl": "Dingen zullen veranderen",
+        "sv": "Saker kommer att vända"
     },
     {
         "zh": "保持乐观",
@@ -608,7 +700,9 @@
         "it": "Resta ottimista",
         "ru": "Сохраняй оптимизм",
         "ja": "楽観的でいて",
-        "ko": "낙관적으로 생각해"
+        "ko": "낙관적으로 생각해",
+        "nl": "Blijf optimistisch",
+        "sv": "Var optimistisk"
     },
     {
         "zh": "这就是你要找的",
@@ -621,7 +715,9 @@
         "it": "È questo",
         "ru": "Это оно",
         "ja": "これだ",
-        "ko": "바로 이거야"
+        "ko": "바로 이거야",
+        "nl": "Dit is het",
+        "sv": "Det här är det"
     },
     {
         "zh": "小心行事",
@@ -634,7 +730,9 @@
         "it": "Procedi con cautela",
         "ru": "Действуй осторожно",
         "ja": "慎重に進めて",
-        "ko": "조심해서 진행해"
+        "ko": "조심해서 진행해",
+        "nl": "Ga voorzichtig verder",
+        "sv": "Fortsätt med försiktighet"
     },
     {
         "zh": "享受过程",
@@ -647,7 +745,9 @@
         "it": "Goditi il processo",
         "ru": "Наслаждайся процессом",
         "ja": "プロセスを楽しんで",
-        "ko": "과정을 즐겨"
+        "ko": "과정을 즐겨",
+        "nl": "Geniet van het proces",
+        "sv": "Njut av processen"
     },
     {
         "zh": "别傻了",
@@ -660,7 +760,9 @@
         "it": "Non essere sciocco",
         "ru": "Не глупи",
         "ja": "バカなこと言わないで",
-        "ko": "바보같이 굴지 마"
+        "ko": "바보같이 굴지 마",
+        "nl": "Doe niet zo gek",
+        "sv": "Var inte fånig"
     },
     {
         "zh": "你会失望的",
@@ -673,7 +775,9 @@
         "it": "Rimmarrai deluso",
         "ru": "Ты разочаруешься",
         "ja": "がっかりするだろう",
-        "ko": "실망할 거야"
+        "ko": "실망할 거야",
+        "nl": "Je zult teleurgesteld zijn",
+        "sv": "Du kommer att bli besviken"
     },
     {
         "zh": "这不值得",
@@ -686,7 +790,9 @@
         "it": "Non ne vale la pena",
         "ru": "Оно того не стоит",
         "ja": "その価値はない",
-        "ko": "그럴 가치가 없어"
+        "ko": "그럴 가치가 없어",
+        "nl": "Het niet waard",
+        "sv": "Inte värt det"
     },
     {
         "zh": "离开这里",
@@ -699,7 +805,9 @@
         "it": "Vattene da qui",
         "ru": "Уходи отсюда",
         "ja": "ここから離れて",
-        "ko": "여길 떠나"
+        "ko": "여길 떠나",
+        "nl": "Ga hier weg",
+        "sv": "Lämna här"
     },
     {
         "zh": "去睡觉",
@@ -712,7 +820,9 @@
         "it": "Vai a dormire",
         "ru": "Иди спать",
         "ja": "もう寝て",
-        "ko": "가서 자"
+        "ko": "가서 자",
+        "nl": "Ga slapen",
+        "sv": "Gå och lägg dig"
     },
     {
         "zh": "喝杯水冷静一下",
@@ -725,7 +835,9 @@
         "it": "Bevi un po' d'acqua",
         "ru": "Выпей воды",
         "ja": "水を飲んで",
-        "ko": "물 좀 마셔"
+        "ko": "물 좀 마셔",
+        "nl": "Drink wat water",
+        "sv": "Drick lite vatten"
     },
     {
         "zh": "你需要一次旅行",
@@ -738,7 +850,9 @@
         "it": "Fai un viaggio",
         "ru": "Отправься в путешествие",
         "ja": "旅に出て",
-        "ko": "여행을 떠나"
+        "ko": "여행을 떠나",
+        "nl": "Maak een reis",
+        "sv": "Åk på en resa"
     },
     {
         "zh": "整理你的房间",
@@ -751,7 +865,9 @@
         "it": "Metti in ordine la tua stanza",
         "ru": "Убери в комнате",
         "ja": "部屋を片付けて",
-        "ko": "방 청소해"
+        "ko": "방 청소해",
+        "nl": "Ruim je kamer op",
+        "sv": "Städa ditt rum"
     },
     {
         "zh": "给朋友打个电话",
@@ -764,7 +880,9 @@
         "it": "Chiama un amico",
         "ru": "Позвони другу",
         "ja": "友達に電話して",
-        "ko": "친구에게 전화해"
+        "ko": "친구에게 전화해",
+        "nl": "Bel een vriend",
+        "sv": "Ring en vän"
     },
     {
         "zh": "不要回头",
@@ -777,7 +895,9 @@
         "it": "Non guardare indietro",
         "ru": "Не оглядывайся",
         "ja": "振り返らないで",
-        "ko": "뒤돌아보지 마"
+        "ko": "뒤돌아보지 마",
+        "nl": "Kijk niet achterom",
+        "sv": "Titta inte tillbaka"
     },
     {
         "zh": "就在前面",
@@ -790,7 +910,9 @@
         "it": "È proprio lì avanti",
         "ru": "Это впереди",
         "ja": "もうすぐそこだ",
-        "ko": "바로 앞이야"
+        "ko": "바로 앞이야",
+        "nl": "Het is vlak voor je",
+        "sv": "Det är precis framför"
     },
     {
         "zh": "转角遇到爱",
@@ -803,7 +925,9 @@
         "it": "L'amore è dietro l'angolo",
         "ru": "Любовь не за горами",
         "ja": "恋の予感",
-        "ko": "사랑이 가까이에 있어"
+        "ko": "사랑이 가까이에 있어",
+        "nl": "Liefde is om de hoek",
+        "sv": "Kärleken väntar runt hörnet"
     },
     {
         "zh": "你需要更多信息",
@@ -816,7 +940,9 @@
         "it": "Hai bisogno di più informazioni",
         "ru": "Нужно больше информации",
         "ja": "もっと情報が必要だ",
-        "ko": "정보가 더 필요해"
+        "ko": "정보가 더 필요해",
+        "nl": "Je hebt meer info nodig",
+        "sv": "Du behöver mer info"
     },
     {
         "zh": "不要冲动",
@@ -829,7 +955,9 @@
         "it": "Non essere impulsivo",
         "ru": "Не будь импульсивным",
         "ja": "衝動的にならないで",
-        "ko": "충동적으로 행동하지 마"
+        "ko": "충동적으로 행동하지 마",
+        "nl": "Wees niet impulsief",
+        "sv": "Var inte impulsiv"
     },
     {
         "zh": "三思而后行",
@@ -842,7 +970,9 @@
         "it": "Pensaci due volte",
         "ru": "Подумай дважды",
         "ja": "よく考えて",
-        "ko": "두 번 생각하고 행동해"
+        "ko": "두 번 생각하고 행동해",
+        "nl": "Denk twee keer na",
+        "sv": "Tänk efter två gånger"
     },
     {
         "zh": "现在就做",
@@ -855,7 +985,9 @@
         "it": "Fallo ora",
         "ru": "Сделай это сейчас",
         "ja": "今すぐやって",
-        "ko": "지금 해"
+        "ko": "지금 해",
+        "nl": "Doe het nu",
+        "sv": "Gör det nu"
     },
     {
         "zh": "明天再说",
@@ -868,7 +1000,9 @@
         "it": "Domani",
         "ru": "Завтра",
         "ja": "また明日",
-        "ko": "내일"
+        "ko": "내일",
+        "nl": "Morgen",
+        "sv": "Imorgon"
     },
     {
         "zh": "一年之后这都不算事",
@@ -881,7 +1015,9 @@
         "it": "Non conterà tra un anno",
         "ru": "Через год это не будет важно",
         "ja": "一年後にはどうでもいいことだ",
-        "ko": "1년 뒤엔 중요하지 않을 거야"
+        "ko": "1년 뒤엔 중요하지 않을 거야",
+        "nl": "Maakt over een jaar niet uit",
+        "sv": "Spelar ingen roll om ett år"
     },
     {
         "zh": "听听音乐",
@@ -894,7 +1030,9 @@
         "it": "Ascolta musica",
         "ru": "Послушай музыку",
         "ja": "音楽を聴いて",
-        "ko": "음악을 들어봐"
+        "ko": "음악을 들어봐",
+        "nl": "Luister naar muziek",
+        "sv": "Lyssna på musik"
     },
     {
         "zh": "深呼吸",
@@ -907,7 +1045,9 @@
         "it": "Respira profondamente",
         "ru": "Дыши глубоко",
         "ja": "深呼吸して",
-        "ko": "심호흡해"
+        "ko": "심호흡해",
+        "nl": "Adem diep in",
+        "sv": "Andas djupt"
     },
     {
         "zh": "数到十",
@@ -920,7 +1060,9 @@
         "it": "Conta fino a dieci",
         "ru": "Сосчитай до десяти",
         "ja": "10まで数えて",
-        "ko": "열까지 세어봐"
+        "ko": "열까지 세어봐",
+        "nl": "Tel tot tien",
+        "sv": "Räkna till tio"
     },
     {
         "zh": "不要在意别人的眼光",
@@ -933,7 +1075,9 @@
         "it": "Ignora le opinioni altrui",
         "ru": "Игнорируй чужое мнение",
         "ja": "他人の目は気にするな",
-        "ko": "남의 시선은 신경 쓰지 마"
+        "ko": "남의 시선은 신경 쓰지 마",
+        "nl": "Negeer de mening van anderen",
+        "sv": "Ignorera andras åsikter"
     },
     {
         "zh": "做回你自己",
@@ -946,7 +1090,9 @@
         "it": "Sii te stesso",
         "ru": "Будь собой",
         "ja": "自分らしく",
-        "ko": "너 자신이 되어라"
+        "ko": "너 자신이 되어라",
+        "nl": "Wees jezelf",
+        "sv": "Var dig själv"
     },
     {
         "zh": "这是个好机会",
@@ -959,7 +1105,9 @@
         "it": "Buona opportunità",
         "ru": "Хорошая возможность",
         "ja": "いい機会だ",
-        "ko": "좋은 기회야"
+        "ko": "좋은 기회야",
+        "nl": "Goede kans",
+        "sv": "Bra tillfälle"
     },
     {
         "zh": "危机并存",
@@ -972,7 +1120,9 @@
         "it": "Crisi e opportunità",
         "ru": "Кризис и возможность",
         "ja": "ピンチはチャンス",
-        "ko": "위기는 기회야"
+        "ko": "위기는 기회야",
+        "nl": "Crisis en kans",
+        "sv": "Kris och möjlighet"
     },
     {
         "zh": "你需要一个拥抱",
@@ -985,7 +1135,9 @@
         "it": "Hai bisogno di un abbraccio",
         "ru": "Тебе нужны объятия",
         "ja": "ハグが必要だね",
-        "ko": "안아줄 사람이 필요해"
+        "ko": "안아줄 사람이 필요해",
+        "nl": "Je hebt een knuffel nodig",
+        "sv": "Du behöver en kram"
     },
     {
         "zh": "接受现实",
@@ -998,7 +1150,9 @@
         "it": "Accetta la realtà",
         "ru": "Прими реальность",
         "ja": "現実を受け入れて",
-        "ko": "현실을 받아들여"
+        "ko": "현실을 받아들여",
+        "nl": "Accepteer de realiteit",
+        "sv": "Acceptera verkligheten"
     },
     {
         "zh": "不要抗拒",
@@ -1011,7 +1165,9 @@
         "it": "Non resistere",
         "ru": "Не сопротивляйся",
         "ja": "抵抗しないで",
-        "ko": "저항하지 마"
+        "ko": "저항하지 마",
+        "nl": "Verzet je niet",
+        "sv": "Gör inte motstånd"
     },
     {
         "zh": "顺流而下",
@@ -1024,7 +1180,9 @@
         "it": "Segui la corrente",
         "ru": "Плыви по течению",
         "ja": "流れに乗って",
-        "ko": "흐름을 따라가"
+        "ko": "흐름을 따라가",
+        "nl": "Ga met de stroom mee",
+        "sv": "Följ strömmen"
     },
     {
         "zh": "逆流而上",
@@ -1037,7 +1195,9 @@
         "it": "Vai controcorrente",
         "ru": "Иди против течения",
         "ja": "流れに逆らって",
-        "ko": "흐름을 거슬러 올라가"
+        "ko": "흐름을 거슬러 올라가",
+        "nl": "Ga tegen de stroom in",
+        "sv": "Gå mot strömmen"
     },
     {
         "zh": "保持饥渴",
@@ -1050,7 +1210,9 @@
         "it": "Siate affamati",
         "ru": "Оставайся голодным",
         "ja": "ハングリーであれ",
-        "ko": "항상 갈망해라"
+        "ko": "항상 갈망해라",
+        "nl": "Blijf hongerig",
+        "sv": "Var hungrig"
     },
     {
         "zh": "保持愚蠢",
@@ -1063,7 +1225,9 @@
         "it": "Siate folli",
         "ru": "Оставайся безрассудным",
         "ja": "愚かであれ",
-        "ko": "우직하게 나아가"
+        "ko": "우직하게 나아가",
+        "nl": "Blijf dwaas",
+        "sv": "Var galen"
     },
     {
         "zh": "这就是爱",
@@ -1076,7 +1240,9 @@
         "it": "Questo è amore",
         "ru": "Это любовь",
         "ja": "これが愛だ",
-        "ko": "사랑이야"
+        "ko": "사랑이야",
+        "nl": "Dit is liefde",
+        "sv": "Detta är kärlek"
     },
     {
         "zh": "为了自由",
@@ -1089,7 +1255,9 @@
         "it": "Per la libertà",
         "ru": "Ради свободы",
         "ja": "自由のために",
-        "ko": "자유를 위해"
+        "ko": "자유를 위해",
+        "nl": "Voor vrijheid",
+        "sv": "För frihet"
     },
     {
         "zh": "为了和平",
@@ -1102,7 +1270,9 @@
         "it": "Per la pace",
         "ru": "Ради мира",
         "ja": "平和のために",
-        "ko": "평화를 위해"
+        "ko": "평화를 위해",
+        "nl": "Voor vrede",
+        "sv": "För fred"
     },
     {
         "zh": "这不是你的错",
@@ -1115,7 +1285,9 @@
         "it": "Non è colpa tua",
         "ru": "Это не твоя вина",
         "ja": "君のせいじゃない",
-        "ko": "네 잘못이 아니야"
+        "ko": "네 잘못이 아니야",
+        "nl": "Niet jouw schuld",
+        "sv": "Inte ditt fel"
     },
     {
         "zh": "原谅他们",
@@ -1128,7 +1300,9 @@
         "it": "Perdonali",
         "ru": "Прости их",
         "ja": "許してあげて",
-        "ko": "그들을 용서해"
+        "ko": "그들을 용서해",
+        "nl": "Vergeef hen",
+        "sv": "Förlåt dem"
     },
     {
         "zh": "原谅自己",
@@ -1141,7 +1315,9 @@
         "it": "Perdonati",
         "ru": "Прости себя",
         "ja": "自分を許して",
-        "ko": "너 자신을 용서해"
+        "ko": "너 자신을 용서해",
+        "nl": "Vergeef jezelf",
+        "sv": "Förlåt dig själv"
     },
     {
         "zh": "学会放手",
@@ -1154,7 +1330,9 @@
         "it": "Impara a lasciare andare",
         "ru": "Научись отпускать",
         "ja": "手放すことを学んで",
-        "ko": "놓아주는 법을 배워"
+        "ko": "놓아주는 법을 배워",
+        "nl": "Leer los te laten",
+        "sv": "Lär dig att släppa taget"
     },
     {
         "zh": "学会拒绝",
@@ -1167,7 +1345,9 @@
         "it": "Impara a dire di no",
         "ru": "Научись говорить нет",
         "ja": "ノーと言うことを学んで",
-        "ko": "거절하는 법을 배워"
+        "ko": "거절하는 법을 배워",
+        "nl": "Leer nee te zeggen",
+        "sv": "Lär dig att säga nej"
     },
     {
         "zh": "学会接受",
@@ -1180,7 +1360,9 @@
         "it": "Impara ad accettare",
         "ru": "Научись принимать",
         "ja": "受け入れることを学んで",
-        "ko": "받아들이는 법을 배워"
+        "ko": "받아들이는 법을 배워",
+        "nl": "Leer te accepteren",
+        "sv": "Lär dig att acceptera"
     },
     {
         "zh": "你需要断舍离",
@@ -1193,7 +1375,9 @@
         "it": "Fai ordine",
         "ru": "Наведи порядок",
         "ja": "断捨離して",
-        "ko": "정리해"
+        "ko": "정리해",
+        "nl": "Opruimen",
+        "sv": "Rensa"
     },
     {
         "zh": "极简主义",
@@ -1206,7 +1390,9 @@
         "it": "Minimalismo",
         "ru": "Минимализм",
         "ja": "ミニマリズム",
-        "ko": "미니멀리즘"
+        "ko": "미니멀리즘",
+        "nl": "Minimalisme",
+        "sv": "Minimalism"
     },
     {
         "zh": "这是多余的",
@@ -1219,7 +1405,9 @@
         "it": "È inutile",
         "ru": "Это излишне",
         "ja": "それは不必要だ",
-        "ko": "불필요해"
+        "ko": "불필요해",
+        "nl": "Het is onnodig",
+        "sv": "Det är onödigt"
     },
     {
         "zh": "这是必要的",
@@ -1232,7 +1420,9 @@
         "it": "È necessario",
         "ru": "Это необходимо",
         "ja": "それは必要だ",
-        "ko": "필요해"
+        "ko": "필요해",
+        "nl": "Het is noodzakelijk",
+        "sv": "Det är nödvändigt"
     },
     {
         "zh": "不要浪费时间",
@@ -1245,7 +1435,9 @@
         "it": "Non perdere tempo",
         "ru": "Не трать время",
         "ja": "時間を無駄にしないで",
-        "ko": "시간 낭비하지 마"
+        "ko": "시간 낭비하지 마",
+        "nl": "Verspil geen tijd",
+        "sv": "Slösa inte tid"
     },
     {
         "zh": "时间会证明一切",
@@ -1258,7 +1450,9 @@
         "it": "Il tempo lo dirà",
         "ru": "Время покажет",
         "ja": "時が解決してくれる",
-        "ko": "시간이 말해줄 거야"
+        "ko": "시간이 말해줄 거야",
+        "nl": "De tijd zal het leren",
+        "sv": "Tiden får utvisa"
     },
     {
         "zh": "路遥知马力",
@@ -1271,7 +1465,9 @@
         "it": "La distanza mette alla prova il cavallo",
         "ru": "Расстояние проверяет лошадь",
         "ja": "路遥かして馬力を知る",
-        "ko": "갈 길은 멀고 말은 지친다"
+        "ko": "갈 길은 멀고 말은 지친다",
+        "nl": "Afstand test een paard",
+        "sv": "Avstånd prövar en häst"
     },
     {
         "zh": "日久见人心",
@@ -1284,7 +1480,9 @@
         "it": "Il tempo rivela i cuori",
         "ru": "Время показывает, кто есть кто",
         "ja": "時が人の心を明らかにする",
-        "ko": "시간이 지나면 진심을 알게 돼"
+        "ko": "시간이 지나면 진심을 알게 돼",
+        "nl": "Tijd onthult harten",
+        "sv": "Tiden avslöjar hjärtan"
     },
     {
         "zh": "既来之则安之",
@@ -1297,7 +1495,9 @@
         "it": "Prendila come viene",
         "ru": "Принимай все как есть",
         "ja": "なるようになる",
-        "ko": "받아들여"
+        "ko": "받아들여",
+        "nl": "Neem het zoals het komt",
+        "sv": "Ta det som det kommer"
     },
     {
         "zh": "车到山前必有路",
@@ -1310,7 +1510,9 @@
         "it": "Ci sarà un modo",
         "ru": "Выход найдется",
         "ja": "道は開ける",
-        "ko": "길이 있을 거야"
+        "ko": "길이 있을 거야",
+        "nl": "Er zal een weg zijn",
+        "sv": "Det kommer att finnas ett sätt"
     },
     {
         "zh": "船到桥头自然直",
@@ -1323,7 +1525,9 @@
         "it": "Andrà tutto bene",
         "ru": "Все будет хорошо",
         "ja": "きっとうまくいくよ",
-        "ko": "다 잘 될 거야"
+        "ko": "다 잘 될 거야",
+        "nl": "Alles komt goed",
+        "sv": "Allt kommer att bli bra"
     },
     {
         "zh": "不要杞人忧天",
@@ -1336,7 +1540,9 @@
         "it": "Non preoccuparti inutilmente",
         "ru": "Не волнуйся понапрасну",
         "ja": "取り越し苦労だよ",
-        "ko": "쓸데없는 걱정 하지 마"
+        "ko": "쓸데없는 걱정 하지 마",
+        "nl": "Maak je niet onnodig zorgen",
+        "sv": "Oroa dig inte i onödan"
     },
     {
         "zh": "活在当下",
@@ -1349,7 +1555,9 @@
         "it": "Vivi il momento",
         "ru": "Живи моментом",
         "ja": "今を生きて",
-        "ko": "현재를 살아"
+        "ko": "현재를 살아",
+        "nl": "Leef in het moment",
+        "sv": "Lev i nuet"
     },
     {
         "zh": "每一天都是新的",
@@ -1362,7 +1570,9 @@
         "it": "Ogni giorno è nuovo",
         "ru": "Каждый день новый",
         "ja": "毎日は新しい",
-        "ko": "매일이 새로워"
+        "ko": "매일이 새로워",
+        "nl": "Elke dag is nieuw",
+        "sv": "Varje dag är ny"
     },
     {
         "zh": "太阳照常升起",
@@ -1375,7 +1585,9 @@
         "it": "Il sole sorge",
         "ru": "Солнце встает",
         "ja": "日はまた昇る",
-        "ko": "해는 뜬다"
+        "ko": "해는 뜬다",
+        "nl": "De zon komt op",
+        "sv": "Solen går upp"
     },
     {
         "zh": "黑夜终将过去",
@@ -1388,7 +1600,9 @@
         "it": "L'oscurità passerà",
         "ru": "Тьма пройдет",
         "ja": "暗闇は過ぎ去る",
-        "ko": "어둠은 지나갈 거야"
+        "ko": "어둠은 지나갈 거야",
+        "nl": "Duisternis zal voorbijgaan",
+        "sv": "Mörkret kommer att passera"
     },
     {
         "zh": "黎明前的黑暗",
@@ -1401,7 +1615,9 @@
         "it": "Il buio prima dell'alba",
         "ru": "Темнее всего перед рассветом",
         "ja": "夜明け前が一番暗い",
-        "ko": "동트기 전이 가장 어두워"
+        "ko": "동트기 전이 가장 어두워",
+        "nl": "Het donkerst voor de dageraad",
+        "sv": "Mörkast före gryningen"
     },
     {
         "zh": "坚持就是胜利",
@@ -1414,7 +1630,9 @@
         "it": "La perseveranza è vittoria",
         "ru": "Настойчивость - залог победы",
         "ja": "継続は力なり",
-        "ko": "버티는 게 이기는 거야"
+        "ko": "버티는 게 이기는 거야",
+        "nl": "Volharding is overwinning",
+        "sv": "Uthållighet är seger"
     },
     {
         "zh": "失败是成功之母",
@@ -1427,7 +1645,9 @@
         "it": "Il fallimento insegna il successo",
         "ru": "Неудача учит успеху",
         "ja": "失敗は成功のもと",
-        "ko": "실패는 성공의 어머니"
+        "ko": "실패는 성공의 어머니",
+        "nl": "Falen leert succes",
+        "sv": "Misslyckande lär framgång"
     },
     {
         "zh": "再试一次",
@@ -1440,7 +1660,9 @@
         "it": "Riprova",
         "ru": "Попробуй снова",
         "ja": "もう一度やってみて",
-        "ko": "다시 시도해봐"
+        "ko": "다시 시도해봐",
+        "nl": "Probeer het opnieuw",
+        "sv": "Försök igen"
     },
     {
         "zh": "最后一次",
@@ -1453,7 +1675,9 @@
         "it": "Ultima volta",
         "ru": "Последний раз",
         "ja": "これが最後だ",
-        "ko": "마지막이야"
+        "ko": "마지막이야",
+        "nl": "Laatste keer",
+        "sv": "Sista gången"
     },
     {
         "zh": "新的开始",
@@ -1466,7 +1690,9 @@
         "it": "Nuovo inizio",
         "ru": "Новое начало",
         "ja": "新たな始まり",
-        "ko": "새로운 시작"
+        "ko": "새로운 시작",
+        "nl": "Nieuw begin",
+        "sv": "Ny början"
     },
     {
         "zh": "旧的结束",
@@ -1479,7 +1705,9 @@
         "it": "Vecchia fine",
         "ru": "Старый конец",
         "ja": "古い終わり",
-        "ko": "낡은 끝"
+        "ko": "낡은 끝",
+        "nl": "Oud einde",
+        "sv": "Gammalt slut"
     },
     {
         "zh": "这是一个循环",
@@ -1492,7 +1720,9 @@
         "it": "È un ciclo",
         "ru": "Это цикл",
         "ja": "それはサイクルだ",
-        "ko": "순환이야"
+        "ko": "순환이야",
+        "nl": "Het is een cyclus",
+        "sv": "Det är en cykel"
     },
     {
         "zh": "打破常规",
@@ -1505,7 +1735,9 @@
         "it": "Infrangi le regole",
         "ru": "Нарушь правила",
         "ja": "ルールを破って",
-        "ko": "규칙을 깨라"
+        "ko": "규칙을 깨라",
+        "nl": "Overtreed de regels",
+        "sv": "Bryt reglerna"
     },
     {
         "zh": "跳出舒适区",
@@ -1518,7 +1750,9 @@
         "it": "Esci dalla zona di comfort",
         "ru": "Выйди из зоны комфорта",
         "ja": "コンフォートゾーンを出て",
-        "ko": "안전지대에서 벗어나"
+        "ko": "안전지대에서 벗어나",
+        "nl": "Verlaat je comfortzone",
+        "sv": "Lämna komfortzonen"
     },
     {
         "zh": "去冒险吧",
@@ -1531,7 +1765,9 @@
         "it": "Parti per un'avventura",
         "ru": "Отправляйся в приключение",
         "ja": "冒険に出かけよう",
-        "ko": "모험을 떠나"
+        "ko": "모험을 떠나",
+        "nl": "Ga op avontuur",
+        "sv": "Gå på äventyr"
     },
     {
         "zh": "安全第一",
@@ -1544,7 +1780,9 @@
         "it": "La sicurezza prima di tutto",
         "ru": "Безопасность прежде всего",
         "ja": "安全第一",
-        "ko": "안전이 제일이야"
+        "ko": "안전이 제일이야",
+        "nl": "Veiligheid eerst",
+        "sv": "Säkerheten först"
     },
     {
         "zh": "健康最重要",
@@ -1557,7 +1795,9 @@
         "it": "La salute è prioritaria",
         "ru": "Здоровье - приоритет",
         "ja": "健康が第一",
-        "ko": "건강이 최우선이야"
+        "ko": "건강이 최우선이야",
+        "nl": "Gezondheid is prioriteit",
+        "sv": "Hälsa är prioritet"
     },
     {
         "zh": "不要忽视健康",
@@ -1570,7 +1810,9 @@
         "it": "Non ignorare la salute",
         "ru": "Не игнорируй здоровье",
         "ja": "健康を無視しないで",
-        "ko": "건강을 소홀히 하지 마"
+        "ko": "건강을 소홀히 하지 마",
+        "nl": "Negeer je gezondheid niet",
+        "sv": "Ignorera inte hälsan"
     },
     {
         "zh": "多喝热水",
@@ -1583,7 +1825,9 @@
         "it": "Bevi acqua calda",
         "ru": "Пей горячую воду",
         "ja": "お湯を飲んで",
-        "ko": "따뜻한 물을 마셔"
+        "ko": "따뜻한 물을 마셔",
+        "nl": "Drink heet water",
+        "sv": "Drick varmt vatten"
     },
     {
         "zh": "早点睡",
@@ -1596,7 +1840,9 @@
         "it": "Dormi presto",
         "ru": "Ложись спать пораньше",
         "ja": "早く寝て",
-        "ko": "일찍 자"
+        "ko": "일찍 자",
+        "nl": "Slaap vroeg",
+        "sv": "Sov tidigt"
     },
     {
         "zh": "少吃糖",
@@ -1609,7 +1855,9 @@
         "it": "Meno zucchero",
         "ru": "Меньше сахара",
         "ja": "糖分を控えて",
-        "ko": "설탕을 줄여"
+        "ko": "설탕을 줄여",
+        "nl": "Minder suiker",
+        "sv": "Mindre socker"
     },
     {
         "zh": "多运动",
@@ -1622,7 +1870,9 @@
         "it": "Fai più esercizio",
         "ru": "Больше тренируйся",
         "ja": "もっと運動して",
-        "ko": "운동 좀 더 해"
+        "ko": "운동 좀 더 해",
+        "nl": "Sport meer",
+        "sv": "Träna mer"
     },
     {
         "zh": "去读书",
@@ -1635,7 +1885,9 @@
         "it": "Leggi un libro",
         "ru": "Почитай книгу",
         "ja": "本を読んで",
-        "ko": "책을 읽어"
+        "ko": "책을 읽어",
+        "nl": "Lees een boek",
+        "sv": "Läs en bok"
     },
     {
         "zh": "去学习",
@@ -1648,7 +1900,9 @@
         "it": "Vai a imparare",
         "ru": "Иди учись",
         "ja": "学びに行って",
-        "ko": "가서 배워"
+        "ko": "가서 배워",
+        "nl": "Ga leren",
+        "sv": "Gå och lär"
     },
     {
         "zh": "提升自己",
@@ -1661,7 +1915,9 @@
         "it": "Migliorati",
         "ru": "Совершенствуйся",
         "ja": "自分を磨いて",
-        "ko": "자신을 발전시켜"
+        "ko": "자신을 발전시켜",
+        "nl": "Verbeter jezelf",
+        "sv": "Förbättra dig själv"
     },
     {
         "zh": "投资自己",
@@ -1674,7 +1930,9 @@
         "it": "Investi su te stesso",
         "ru": "Инвестируй в себя",
         "ja": "自己投資して",
-        "ko": "자신에게 투자해"
+        "ko": "자신에게 투자해",
+        "nl": "Investeer in jezelf",
+        "sv": "Investera i dig själv"
     },
     {
         "zh": "这是最好的投资",
@@ -1687,7 +1945,9 @@
         "it": "Il miglior investimento",
         "ru": "Лучшая инвестиция",
         "ja": "最高の投資",
-        "ko": "최고의 투자"
+        "ko": "최고의 투자",
+        "nl": "Beste investering",
+        "sv": "Bästa investeringen"
     },
     {
         "zh": "不要吝啬",
@@ -1700,7 +1960,9 @@
         "it": "Non essere avaro",
         "ru": "Не скупись",
         "ja": "ケチケチしないで",
-        "ko": "인색하게 굴지 마"
+        "ko": "인색하게 굴지 마",
+        "nl": "Wees niet gierig",
+        "sv": "Var inte snål"
     },
     {
         "zh": "慷慨一点",
@@ -1713,7 +1975,9 @@
         "it": "Sii generoso",
         "ru": "Будь щедрым",
         "ja": "寛大になって",
-        "ko": "관대해져라"
+        "ko": "관대해져라",
+        "nl": "Wees vrijgevig",
+        "sv": "Var generös"
     },
     {
         "zh": "分享你的快乐",
@@ -1726,7 +1990,9 @@
         "it": "Condividi la tua gioia",
         "ru": "Поделись радостью",
         "ja": "喜びを分かち合って",
-        "ko": "기쁨을 나눠"
+        "ko": "기쁨을 나눠",
+        "nl": "Deel je vreugde",
+        "sv": "Dela din glädje"
     },
     {
         "zh": "分担你的痛苦",
@@ -1739,7 +2005,9 @@
         "it": "Condividi il tuo dolore",
         "ru": "Поделись болью",
         "ja": "痛みを分かち合って",
-        "ko": "아픔을 나눠"
+        "ko": "아픔을 나눠",
+        "nl": "Deel je pijn",
+        "sv": "Dela din smärta"
     },
     {
         "zh": "寻找同伴",
@@ -1752,7 +2020,9 @@
         "it": "Trova un compagno",
         "ru": "Найди спутника",
         "ja": "仲間を見つけて",
-        "ko": "동료를 찾아"
+        "ko": "동료를 찾아",
+        "nl": "Zoek een metgezel",
+        "sv": "Hitta en följeslagare"
     },
     {
         "zh": "你需要团队",
@@ -1765,7 +2035,9 @@
         "it": "Hai bisogno di una squadra",
         "ru": "Тебе нужна команда",
         "ja": "チームが必要だ",
-        "ko": "팀이 필요해"
+        "ko": "팀이 필요해",
+        "nl": "Je hebt een team nodig",
+        "sv": "Du behöver ett team"
     },
     {
         "zh": "你需要独处",
@@ -1778,7 +2050,9 @@
         "it": "Hai bisogno di solitudine",
         "ru": "Тебе нужно побыть одному",
         "ja": "一人の時間が必要だ",
-        "ko": "혼자만의 시간이 필요해"
+        "ko": "혼자만의 시간이 필요해",
+        "nl": "Je hebt eenzaamheid nodig",
+        "sv": "Du behöver ensamhet"
     },
     {
         "zh": "倾听内心的声音",
@@ -1791,7 +2065,9 @@
         "it": "Ascolta il tuo cuore",
         "ru": "Слушай свое сердце",
         "ja": "心の声を聞いて",
-        "ko": "마음의 소리를 들어"
+        "ko": "마음의 소리를 들어",
+        "nl": "Luister naar je hart",
+        "sv": "Lyssna till ditt hjärta"
     },
     {
         "zh": "这是噪音",
@@ -1804,7 +2080,9 @@
         "it": "Questo è rumore",
         "ru": "Это шум",
         "ja": "雑音だ",
-        "ko": "소음일 뿐이야"
+        "ko": "소음일 뿐이야",
+        "nl": "Dit is ruis",
+        "sv": "Detta är brus"
     },
     {
         "zh": "这是信号",
@@ -1817,7 +2095,9 @@
         "it": "Questo è un segnale",
         "ru": "Это знак",
         "ja": "これはシグナルだ",
-        "ko": "이건 신호야"
+        "ko": "이건 신호야",
+        "nl": "Dit is een signaal",
+        "sv": "Detta är en signal"
     },
     {
         "zh": "关注细节",
@@ -1830,7 +2110,9 @@
         "it": "Concentrati sui dettagli",
         "ru": "Сосредоточься на деталях",
         "ja": "細部に注目して",
-        "ko": "디테일에 집중해"
+        "ko": "디테일에 집중해",
+        "nl": "Focus op details",
+        "sv": "Fokusera på detaljer"
     },
     {
         "zh": "大局为重",
@@ -1843,7 +2125,9 @@
         "it": "Il quadro generale",
         "ru": "Общая картина",
         "ja": "全体像を見て",
-        "ko": "큰 그림을 봐"
+        "ko": "큰 그림을 봐",
+        "nl": "Het grote geheel",
+        "sv": "Den stora bilden"
     },
     {
         "zh": "不要因小失大",
@@ -1856,7 +2140,9 @@
         "it": "Non perdere il grande per il piccolo",
         "ru": "Не разменивайся по мелочам",
         "ja": "小を捨てて大を取れ",
-        "ko": "소탐대실하지 마"
+        "ko": "소탐대실하지 마",
+        "nl": "Verlies het grote niet voor het kleine",
+        "sv": "Förlora inte stort för smått"
     },
     {
         "zh": "贪小便宜吃大亏",
@@ -1869,7 +2155,9 @@
         "it": "L'avidità costa cara",
         "ru": "Скупой платит дважды",
         "ja": "欲張ると損をする",
-        "ko": "욕심이 화를 부른다"
+        "ko": "욕심이 화를 부른다",
+        "nl": "Hebzucht kost meer",
+        "sv": "Girighet kostar mer"
     },
     {
         "zh": "知足常乐",
@@ -1882,7 +2170,9 @@
         "it": "La contentezza è gioia",
         "ru": "Удовлетворение - это радость",
         "ja": "足るを知る者は富む",
-        "ko": "만족이 곧 기쁨이야"
+        "ko": "만족이 곧 기쁨이야",
+        "nl": "Tevredenheid is vreugde",
+        "sv": "Nöjdhet är glädje"
     },
     {
         "zh": "热爱你的工作",
@@ -1896,7 +2186,9 @@
         "it": "Ama ciò che fai",
         "ru": "Люби то, что делаешь",
         "ja": "自分の仕事を愛して",
-        "ko": "네 일을 사랑해"
+        "ko": "네 일을 사랑해",
+        "nl": "Houd van wat je doet",
+        "sv": "Älska det du gör"
     },
     {
         "zh": "坚持非常重要",
@@ -1910,7 +2202,9 @@
         "it": "La perseveranza è molto importante",
         "ru": "Настойчивость очень важна",
         "ja": "粘り強さが大切だ",
-        "ko": "끈기가 매우 중요해"
+        "ko": "끈기가 매우 중요해",
+        "nl": "Volharding is erg belangrijk",
+        "sv": "Uthållighet är mycket viktigt"
     },
     {
         "zh": "不要把自己和任何人比较",
@@ -1924,7 +2218,9 @@
         "it": "Non paragonarti a nessuno",
         "ru": "Не сравнивай себя ни с кем",
         "ja": "他人と自分を比べないで",
-        "ko": "남과 비교하지 마"
+        "ko": "남과 비교하지 마",
+        "nl": "Vergelijk jezelf met niemand",
+        "sv": "Jämför dig inte med någon"
     },
     {
         "zh": "永远保持第一天的心态",
@@ -1938,7 +2234,9 @@
         "it": "È sempre il primo giorno",
         "ru": "Это всегда День 1",
         "ja": "常に初心で",
-        "ko": "언제나 첫날처럼"
+        "ko": "언제나 첫날처럼",
+        "nl": "Het is altijd Dag 1",
+        "sv": "Det är alltid Dag 1"
     },
     {
         "zh": "做人们想要的东西",
@@ -1952,7 +2250,9 @@
         "it": "Crea qualcosa che la gente vuole",
         "ru": "Делай то, что нужно людям",
         "ja": "人々が求めるものを作って",
-        "ko": "사람들이 원하는 것을 만들어"
+        "ko": "사람들이 원하는 것을 만들어",
+        "nl": "Maak iets wat mensen willen",
+        "sv": "Gör något folk vill ha"
     },
     {
         "zh": "趁现在去冒险",
@@ -1966,7 +2266,9 @@
         "it": "Corri rischi ora",
         "ru": "Рискуй сейчас",
         "ja": "今こそリスクを取れ",
-        "ko": "지금 모험을 걸어"
+        "ko": "지금 모험을 걸어",
+        "nl": "Neem nu risico's",
+        "sv": "Ta risker nu"
     },
     {
         "zh": "做正确的事，而不是容易的事",
@@ -1980,7 +2282,9 @@
         "it": "Fai ciò che è giusto, non ciò che è facile",
         "ru": "Делай то, что правильно, а не то, что легко",
         "ja": "簡単なことではなく、正しいことをして",
-        "ko": "쉬운 일이 아니라 옳은 일을 해"
+        "ko": "쉬운 일이 아니라 옳은 일을 해",
+        "nl": "Doe wat juist is, niet wat makkelijk is",
+        "sv": "Gör det som är rätt, inte det som är lätt"
     },
     {
         "zh": "最大的风险就是不冒任何风险",
@@ -1994,7 +2298,9 @@
         "it": "Il rischio più grande è non correre rischi",
         "ru": "Самый большой риск - не рисковать",
         "ja": "最大のリスクはリスクを取らないことだ",
-        "ko": "가장 큰 위험은 아무런 위험도 감수하지 않는 것이다"
+        "ko": "가장 큰 위험은 아무런 위험도 감수하지 않는 것이다",
+        "nl": "Het grootste risico is geen enkel risico nemen",
+        "sv": "Den största risken är att inte ta någon risk"
     },
     {
         "zh": "这是一个秘密",
@@ -2007,7 +2313,9 @@
         "it": "È un segreto",
         "ru": "Это секрет",
         "ja": "それは秘密だ",
-        "ko": "비밀이야"
+        "ko": "비밀이야",
+        "nl": "Het is een geheim",
+        "sv": "Det är en hemlighet"
     },
     {
         "zh": "问问你的父亲",
@@ -2020,7 +2328,9 @@
         "it": "Chiedi a tuo padre",
         "ru": "Спроси у отца",
         "ja": "お父さんに聞いて",
-        "ko": "아버지께 여쭤봐"
+        "ko": "아버지께 여쭤봐",
+        "nl": "Vraag het je vader",
+        "sv": "Fråga din far"
     },
     {
         "zh": "问问你的母亲",
@@ -2033,7 +2343,9 @@
         "it": "Chiedi a tua madre",
         "ru": "Спроси у мамы",
         "ja": "お母さんに聞いて",
-        "ko": "어머니께 여쭤봐"
+        "ko": "어머니께 여쭤봐",
+        "nl": "Vraag het je moeder",
+        "sv": "Fråga din mor"
     },
     {
         "zh": "看看天空",
@@ -2046,7 +2358,9 @@
         "it": "Guarda il cielo",
         "ru": "Посмотри на небо",
         "ja": "空を見上げて",
-        "ko": "하늘을 봐"
+        "ko": "하늘을 봐",
+        "nl": "Kijk naar de lucht",
+        "sv": "Titta på himlen"
     },
     {
         "zh": "保持简单",
@@ -2059,7 +2373,9 @@
         "it": "Falla semplice",
         "ru": "Будь проще",
         "ja": "シンプルに考えて",
-        "ko": "단순하게 생각해"
+        "ko": "단순하게 생각해",
+        "nl": "Houd het simpel",
+        "sv": "Håll det enkelt"
     },
     {
         "zh": "太复杂了",
@@ -2072,7 +2388,9 @@
         "it": "Troppo complicato",
         "ru": "Слишком сложно",
         "ja": "複雑すぎる",
-        "ko": "너무 복잡해"
+        "ko": "너무 복잡해",
+        "nl": "Te ingewikkeld",
+        "sv": "För komplicerat"
     },
     {
         "zh": "太早了",
@@ -2085,7 +2403,9 @@
         "it": "Troppo presto",
         "ru": "Слишком рано",
         "ja": "まだ早い",
-        "ko": "너무 일러"
+        "ko": "너무 일러",
+        "nl": "Te vroeg",
+        "sv": "För tidigt"
     },
     {
         "zh": "太晚了",
@@ -2098,7 +2418,9 @@
         "it": "Troppo tardi",
         "ru": "Слишком поздно",
         "ja": "遅すぎる",
-        "ko": "너무 늦었어"
+        "ko": "너무 늦었어",
+        "nl": "Te laat",
+        "sv": "För sent"
     },
     {
         "zh": "你知道答案",
@@ -2111,7 +2433,9 @@
         "it": "Conosci la risposta",
         "ru": "Ты знаешь ответ",
         "ja": "答えは分かっているはずだ",
-        "ko": "답을 알고 있잖아"
+        "ko": "답을 알고 있잖아",
+        "nl": "Je weet het antwoord",
+        "sv": "Du vet svaret"
     },
     {
         "zh": "不太可能",
@@ -2124,7 +2448,9 @@
         "it": "Improbabile",
         "ru": "Маловероятно",
         "ja": "ありそうもない",
-        "ko": "가능성이 낮아"
+        "ko": "가능성이 낮아",
+        "nl": "Onwaarschijnlijk",
+        "sv": "Osannolikt"
     },
     {
         "zh": "肯定",
@@ -2137,7 +2463,9 @@
         "it": "Sicuramente",
         "ru": "Определенно",
         "ja": "間違いなく",
-        "ko": "분명해"
+        "ko": "분명해",
+        "nl": "Zeker",
+        "sv": "Definitivt"
     },
     {
         "zh": "只有你能决定",
@@ -2150,7 +2478,9 @@
         "it": "Solo tu puoi decidere",
         "ru": "Только ты можешь решить",
         "ja": "決めるのは君だ",
-        "ko": "너만이 결정할 수 있어"
+        "ko": "너만이 결정할 수 있어",
+        "nl": "Alleen jij kunt beslissen",
+        "sv": "Bara du kan bestämma"
     },
     {
         "zh": "省点钱",
@@ -2163,7 +2493,9 @@
         "it": "Risparmia i tuoi soldi",
         "ru": "Побереги деньги",
         "ja": "お金を節約して",
-        "ko": "돈을 아껴"
+        "ko": "돈을 아껴",
+        "nl": "Bespaar je geld",
+        "sv": "Spara dina pengar"
     },
     {
         "zh": "花掉它",
@@ -2176,7 +2508,9 @@
         "it": "Spendilo",
         "ru": "Потрать это",
         "ja": "使ってしまえ",
-        "ko": "써버려"
+        "ko": "써버려",
+        "nl": "Geef het uit",
+        "sv": "Spendera det"
     },
     {
         "zh": "度个长假",
@@ -2189,7 +2523,9 @@
         "it": "Prenditi una lunga vacanza",
         "ru": "Возьми длинный отпуск",
         "ja": "長い休暇を取って",
-        "ko": "긴 휴가를 떠나"
+        "ko": "긴 휴가를 떠나",
+        "nl": "Neem een lange vakantie",
+        "sv": "Ta en lång semester"
     },
     {
         "zh": "写下来",
@@ -2202,7 +2538,9 @@
         "it": "Scrivilo",
         "ru": "Запиши это",
         "ja": "書き留めて",
-        "ko": "적어둬"
+        "ko": "적어둬",
+        "nl": "Schrijf het op",
+        "sv": "Skriv ner det"
     },
     {
         "zh": "大声说出来",
@@ -2215,7 +2553,9 @@
         "it": "Dillo ad alta voce",
         "ru": "Скажи это вслух",
         "ja": "声に出して言って",
-        "ko": "크게 말해봐"
+        "ko": "크게 말해봐",
+        "nl": "Zeg het hardop",
+        "sv": "Säg det högt"
     },
     {
         "zh": "一个字也别说",
@@ -2228,7 +2568,9 @@
         "it": "Non dire una parola",
         "ru": "Ни слова",
         "ja": "何も言わないで",
-        "ko": "아무 말도 하지 마"
+        "ko": "아무 말도 하지 마",
+        "nl": "Zeg geen woord",
+        "sv": "Säg inte ett ord"
     },
     {
         "zh": "有风险",
@@ -2241,7 +2583,9 @@
         "it": "È rischioso",
         "ru": "Это рискованно",
         "ja": "リスクがある",
-        "ko": "위험해"
+        "ko": "위험해",
+        "nl": "Het is riskant",
+        "sv": "Det är riskabelt"
     },
     {
         "zh": "稳操胜券",
@@ -2254,7 +2598,9 @@
         "it": "Scommessa sicura",
         "ru": "Беспроигрышный вариант",
         "ja": "安全策だ",
-        "ko": "확실한 내기야"
+        "ko": "확실한 내기야",
+        "nl": "Veilige gok",
+        "sv": "Säkert kort"
     },
     {
         "zh": "深入调查",
@@ -2267,7 +2613,9 @@
         "it": "Indaga più a fondo",
         "ru": "Изучи подробнее",
         "ja": "もっと調べてみて",
-        "ko": "더 깊이 알아봐"
+        "ko": "더 깊이 알아봐",
+        "nl": "Onderzoek verder",
+        "sv": "Undersök vidare"
     },
     {
         "zh": "忽略细节",
@@ -2280,7 +2628,9 @@
         "it": "Ignora i dettagli",
         "ru": "Игнорируй детали",
         "ja": "細かいことは気にするな",
-        "ko": "디테일은 무시해"
+        "ko": "디테일은 무시해",
+        "nl": "Negeer de details",
+        "sv": "Ignorera detaljerna"
     },
     {
         "zh": "相信新人",
@@ -2293,7 +2643,9 @@
         "it": "Fidati di qualcuno di nuovo",
         "ru": "Доверься новому человеку",
         "ja": "新しい人を信じて",
-        "ko": "새로운 사람을 믿어봐"
+        "ko": "새로운 사람을 믿어봐",
+        "nl": "Vertrouw iemand nieuw",
+        "sv": "Lita på någon ny"
     },
     {
         "zh": "依靠老朋友",
@@ -2306,7 +2658,9 @@
         "it": "Affidati a vecchi amici",
         "ru": "Положись на старых друзей",
         "ja": "旧友を頼って",
-        "ko": "오랜 친구에게 의지해"
+        "ko": "오랜 친구에게 의지해",
+        "nl": "Vertrouw op oude vrienden",
+        "sv": "Lita på gamla vänner"
     },
     {
         "zh": "新体验",
@@ -2319,7 +2673,9 @@
         "it": "Nuove esperienze",
         "ru": "Новые впечатления",
         "ja": "新しい経験",
-        "ko": "새로운 경험"
+        "ko": "새로운 경험",
+        "nl": "Nieuwe ervaringen",
+        "sv": "Nya upplevelser"
     },
     {
         "zh": "改掉这个习惯",
@@ -2332,7 +2688,9 @@
         "it": "Rompi l'abitudine",
         "ru": "Избавься от привычки",
         "ja": "その習慣を断ち切って",
-        "ko": "습관을 버려"
+        "ko": "습관을 버려",
+        "nl": "Doorbreek de gewoonte",
+        "sv": "Bryt vanan"
     },
     {
         "zh": "建立规律",
@@ -2345,7 +2703,9 @@
         "it": "Crea una routine",
         "ru": "Создай рутину",
         "ja": "ルーチンを作って",
-        "ko": "루틴을 만들어"
+        "ko": "루틴을 만들어",
+        "nl": "Creëer een routine",
+        "sv": "Skapa en rutin"
     },
     {
         "zh": "随性一点",
@@ -2358,7 +2718,9 @@
         "it": "Sii spontaneo",
         "ru": "Будь спонтанным",
         "ja": "自然体で",
-        "ko": "즉흥적으로 해"
+        "ko": "즉흥적으로 해",
+        "nl": "Wees spontaan",
+        "sv": "Var spontan"
     },
     {
         "zh": "提前计划",
@@ -2371,7 +2733,9 @@
         "it": "Pianifica in anticipo",
         "ru": "Планируй заранее",
         "ja": "計画を立てて",
-        "ko": "미리 계획해"
+        "ko": "미리 계획해",
+        "nl": "Plan vooruit",
+        "sv": "Planera framåt"
     },
     {
         "zh": "给自己一个惊喜",
@@ -2384,7 +2748,9 @@
         "it": "Sorprenditi",
         "ru": "Удиви себя",
         "ja": "自分を驚かせて",
-        "ko": "스스로를 놀라게 해"
+        "ko": "스스로를 놀라게 해",
+        "nl": "Verras jezelf",
+        "sv": "Överraska dig själv"
     },
     {
         "zh": "别期望太高",
@@ -2397,7 +2763,9 @@
         "it": "Non aspettarti molto",
         "ru": "Не жди многого",
         "ja": "あまり期待しないで",
-        "ko": "너무 기대하지 마"
+        "ko": "너무 기대하지 마",
+        "nl": "Verwacht er niet veel van",
+        "sv": "Förvänta dig inte mycket"
     },
     {
         "zh": "期望高一点",
@@ -2410,7 +2778,9 @@
         "it": "Aspettative alte",
         "ru": "Высокие ожидания",
         "ja": "高い期待を持って",
-        "ko": "기대를 높여봐"
+        "ko": "기대를 높여봐",
+        "nl": "Hoge verwachtingen",
+        "sv": "Höga förväntningar"
     },
     {
         "zh": "这也会过去",
@@ -2423,7 +2793,9 @@
         "it": "Passerà",
         "ru": "Это пройдет",
         "ja": "これも過ぎ去る",
-        "ko": "이 또한 지나가리라"
+        "ko": "이 또한 지나가리라",
+        "nl": "Het zal voorbijgaan",
+        "sv": "Det kommer att passera"
     },
     {
         "zh": "一切都会改变",
@@ -2436,7 +2808,9 @@
         "it": "Tutto cambia",
         "ru": "Все меняется",
         "ja": "すべては変わる",
-        "ko": "모든 것은 변해"
+        "ko": "모든 것은 변해",
+        "nl": "Alles verandert",
+        "sv": "Allt förändras"
     },
     {
         "zh": "改变是好事",
@@ -2449,7 +2823,9 @@
         "it": "Il cambiamento è positivo",
         "ru": "Перемены - это хорошо",
         "ja": "変化は良いことだ",
-        "ko": "변화는 좋은 거야"
+        "ko": "변화는 좋은 거야",
+        "nl": "Verandering is goed",
+        "sv": "Förändring är bra"
     },
     {
         "zh": "稳定是关键",
@@ -2462,7 +2838,9 @@
         "it": "La stabilità è fondamentale",
         "ru": "Стабильность - это ключ",
         "ja": "安定が鍵だ",
-        "ko": "안정이 핵심이야"
+        "ko": "안정이 핵심이야",
+        "nl": "Stabiliteit is de sleutel",
+        "sv": "Stabilitet är nyckeln"
     },
     {
         "zh": "向前看",
@@ -2475,7 +2853,9 @@
         "it": "Vai avanti",
         "ru": "Двигайся дальше",
         "ja": "前に進んで",
-        "ko": "넘어가"
+        "ko": "넘어가",
+        "nl": "Ga verder",
+        "sv": "Gå vidare"
     },
     {
         "zh": "原地不动",
@@ -2488,7 +2868,9 @@
         "it": "Resta dove sei",
         "ru": "Оставайся на месте",
         "ja": "動かないで",
-        "ko": "그대로 있어"
+        "ko": "그대로 있어",
+        "nl": "Blijf zitten",
+        "sv": "Stanna kvar"
     },
     {
         "zh": "面对它",
@@ -2501,7 +2883,9 @@
         "it": "Affrontalo",
         "ru": "Взгляни правде в глаза",
         "ja": "直面して",
-        "ko": "직면해"
+        "ko": "직면해",
+        "nl": "Zie het onder ogen",
+        "sv": "Möt det"
     },
     {
         "zh": "别躲藏",
@@ -2514,7 +2898,9 @@
         "it": "Non nasconderti",
         "ru": "Не прячься",
         "ja": "隠れないで",
-        "ko": "숨지 마"
+        "ko": "숨지 마",
+        "nl": "Verberg je niet",
+        "sv": "Göm dig inte"
     },
     {
         "zh": "展现你自己",
@@ -2527,7 +2913,9 @@
         "it": "Mostrati",
         "ru": "Покажи себя",
         "ja": "姿を見せて",
-        "ko": "너를 보여줘"
+        "ko": "너를 보여줘",
+        "nl": "Laat jezelf zien",
+        "sv": "Visa dig"
     },
     {
         "zh": "保持谦逊",
@@ -2540,7 +2928,9 @@
         "it": "Sii umile",
         "ru": "Будь скромным",
         "ja": "謙虚でいて",
-        "ko": "겸손해져라"
+        "ko": "겸손해져라",
+        "nl": "Wees bescheiden",
+        "sv": "Var ödmjuk"
     },
     {
         "zh": "为此自豪",
@@ -2553,7 +2943,9 @@
         "it": "Sii orgoglioso",
         "ru": "Гордись этим",
         "ja": "誇りを持って",
-        "ko": "자부심을 가져"
+        "ko": "자부심을 가져",
+        "nl": "Wees trots",
+        "sv": "Var stolt"
     },
     {
         "zh": "这是个陷阱",
@@ -2566,7 +2958,9 @@
         "it": "È una trappola",
         "ru": "Это ловушка",
         "ja": "それは罠だ",
-        "ko": "함정이야"
+        "ko": "함정이야",
+        "nl": "Het is een val",
+        "sv": "Det är en fälla"
     },
     {
         "zh": "这是个礼物",
@@ -2579,7 +2973,9 @@
         "it": "È un regalo",
         "ru": "Это подарок",
         "ja": "それは贈り物だ",
-        "ko": "선물이야"
+        "ko": "선물이야",
+        "nl": "Het is een geschenk",
+        "sv": "Det är en gåva"
     },
     {
         "zh": "因祸得福",
@@ -2592,7 +2988,9 @@
         "it": "Non tutto il male vien per nuocere",
         "ru": "Нет худа без добра",
         "ja": "災い転じて福となす",
-        "ko": "전화위복"
+        "ko": "전화위복",
+        "nl": "Geluk bij een ongeluk",
+        "sv": "Tur i oturen"
     },
     {
         "zh": "祝你好运",
@@ -2605,7 +3003,9 @@
         "it": "Buona fortuna",
         "ru": "Удачи",
         "ja": "幸運を祈る",
-        "ko": "행운을 빌어"
+        "ko": "행운을 빌어",
+        "nl": "Veel succes",
+        "sv": "Lycka till"
     },
     {
         "zh": "尝试新事物",
@@ -2618,7 +3018,9 @@
         "it": "Prova qualcosa di nuovo",
         "ru": "Попробуй что-то новое",
         "ja": "新しいことを試して",
-        "ko": "새로운 것을 시도해봐"
+        "ko": "새로운 것을 시도해봐",
+        "nl": "Probeer iets nieuws",
+        "sv": "Prova något nytt"
     },
     {
         "zh": "坚持你所知道的",
@@ -2631,7 +3033,9 @@
         "it": "Attieniti a ciò che sai",
         "ru": "Придерживайся того, что знаешь",
         "ja": "知っていることに専念して",
-        "ko": "아는 것에 충실해"
+        "ko": "아는 것에 충실해",
+        "nl": "Houd je aan wat je weet",
+        "sv": "Håll dig till det du kan"
     },
     {
         "zh": "学项新技能",
@@ -2644,7 +3048,9 @@
         "it": "Impara una nuova abilità",
         "ru": "Выучи новый навык",
         "ja": "新しいスキルを学んで",
-        "ko": "새로운 기술을 배워"
+        "ko": "새로운 기술을 배워",
+        "nl": "Leer een nieuwe vaardigheid",
+        "sv": "Lär dig en ny färdighet"
     },
     {
         "zh": "教教别人",
@@ -2657,7 +3063,9 @@
         "it": "Insegna a qualcuno",
         "ru": "Научи кого-нибудь",
         "ja": "誰かに教えて",
-        "ko": "누군가를 가르쳐봐"
+        "ko": "누군가를 가르쳐봐",
+        "nl": "Leer iemand iets",
+        "sv": "Lär någon"
     },
     {
         "zh": "仔细倾听",
@@ -2670,7 +3078,9 @@
         "it": "Ascolta attentamente",
         "ru": "Слушай внимательно",
         "ja": "よく聞いて",
-        "ko": "주의 깊게 들어"
+        "ko": "주의 깊게 들어",
+        "nl": "Luister goed",
+        "sv": "Lyssna noga"
     },
     {
         "zh": "密切注视",
@@ -2683,7 +3093,9 @@
         "it": "Osserva attentamente",
         "ru": "Смотри внимательно",
         "ja": "よく見て",
-        "ko": "자세히 봐"
+        "ko": "자세히 봐",
+        "nl": "Kijk goed",
+        "sv": "Titta noga"
     },
     {
         "zh": "闭上眼睛",
@@ -2696,7 +3108,9 @@
         "it": "Chiudi gli occhi",
         "ru": "Закрой глаза",
         "ja": "目を閉じて",
-        "ko": "눈을 감아"
+        "ko": "눈을 감아",
+        "nl": "Sluit je ogen",
+        "sv": "Blunda"
     },
     {
         "zh": "敞开心扉",
@@ -2709,7 +3123,9 @@
         "it": "Apri la tua mente",
         "ru": "Открой свой разум",
         "ja": "心を開いて",
-        "ko": "마음을 열어"
+        "ko": "마음을 열어",
+        "nl": "Open je geest",
+        "sv": "Öppna ditt sinne"
     },
     {
         "zh": "它在你身后",
@@ -2722,7 +3138,9 @@
         "it": "È dietro di te",
         "ru": "Это позади тебя",
         "ja": "それは後ろにある",
-        "ko": "이미 지나간 일이야"
+        "ko": "이미 지나간 일이야",
+        "nl": "Het is achter je",
+        "sv": "Det är bakom dig"
     },
     {
         "zh": "它就在你面前",
@@ -2735,7 +3153,9 @@
         "it": "È davanti a te",
         "ru": "Это прямо перед тобой",
         "ja": "目の前にある",
-        "ko": "바로 네 앞에 있어"
+        "ko": "바로 네 앞에 있어",
+        "nl": "Het is voor je",
+        "sv": "Det är framför dig"
     },
     {
         "zh": "向内看",
@@ -2748,7 +3168,9 @@
         "it": "Guarda dentro",
         "ru": "Загляни внутрь",
         "ja": "内面を見つめて",
-        "ko": "내면을 들여다봐"
+        "ko": "내면을 들여다봐",
+        "nl": "Kijk naar binnen",
+        "sv": "Titta inåt"
     },
     {
         "zh": "向外看",
@@ -2761,7 +3183,9 @@
         "it": "Guarda fuori",
         "ru": "Посмотри наружу",
         "ja": "外を見て",
-        "ko": "밖을 봐"
+        "ko": "밖을 봐",
+        "nl": "Kijk naar buiten",
+        "sv": "Titta ut"
     },
     {
         "zh": "问问孩子",
@@ -2774,7 +3198,9 @@
         "it": "Chiedi a un bambino",
         "ru": "Спроси у ребенка",
         "ja": "子供に聞いてみて",
-        "ko": "아이에게 물어봐"
+        "ko": "아이에게 물어봐",
+        "nl": "Vraag het een kind",
+        "sv": "Fråga ett barn"
     },
     {
         "zh": "问问长者",
@@ -2787,7 +3213,9 @@
         "it": "Chiedi a un anziano",
         "ru": "Спроси у старшего",
         "ja": "年長者に聞いてみて",
-        "ko": "어른에게 물어봐"
+        "ko": "어른에게 물어봐",
+        "nl": "Vraag een oudere",
+        "sv": "Fråga en äldre"
     },
     {
         "zh": "抛硬币决定",
@@ -2800,7 +3228,9 @@
         "it": "Lancia una moneta",
         "ru": "Подбрось монету",
         "ja": "コインを投げて決めて",
-        "ko": "동전을 던져봐"
+        "ko": "동전을 던져봐",
+        "nl": "Gooi een muntje op",
+        "sv": "Singla slant"
     },
     {
         "zh": "确定的",
@@ -2813,7 +3243,9 @@
         "it": "È certo",
         "ru": "Безусловно",
         "ja": "確かだ",
-        "ko": "확실해"
+        "ko": "확실해",
+        "nl": "Het is zeker",
+        "sv": "Det är säkert"
     },
     {
         "zh": "稍后再问",
@@ -2826,7 +3258,9 @@
         "it": "Chiedi di nuovo più tardi",
         "ru": "Спроси позже",
         "ja": "後でもう一度聞いて",
-        "ko": "나중에 다시 물어봐"
+        "ko": "나중에 다시 물어봐",
+        "nl": "Vraag het later nog eens",
+        "sv": "Fråga igen senare"
     },
     {
         "zh": "现在无法预测",
@@ -2839,7 +3273,9 @@
         "it": "Impossibile prevedere ora",
         "ru": "Сейчас невозможно предсказать",
         "ja": "今は予測できない",
-        "ko": "지금은 예측할 수 없어"
+        "ko": "지금은 예측할 수 없어",
+        "nl": "Kan nu niet voorspellen",
+        "sv": "Kan inte förutsäga nu"
     },
     {
         "zh": "集中精力再问一次",
@@ -2852,7 +3288,9 @@
         "it": "Concentrati e chiedi di nuovo",
         "ru": "Сосредоточься и спроси снова",
         "ja": "集中してもう一度聞いて",
-        "ko": "집중해서 다시 물어봐"
+        "ko": "집중해서 다시 물어봐",
+        "nl": "Concentreer je en vraag opnieuw",
+        "sv": "Koncentrera dig och fråga igen"
     },
     {
         "zh": "我的来源说不",
@@ -2865,7 +3303,9 @@
         "it": "Le mie fonti dicono di no",
         "ru": "Мои источники говорят нет",
         "ja": "望み薄だ",
-        "ko": "글쎄, 아닌 것 같아"
+        "ko": "글쎄, 아닌 것 같아",
+        "nl": "Mijn bronnen zeggen nee",
+        "sv": "Mina källor säger nej"
     },
     {
         "zh": "前景不错",
@@ -2878,7 +3318,9 @@
         "it": "Prospettive buone",
         "ru": "Перспективы хорошие",
         "ja": "見通しは明るい",
-        "ko": "전망이 좋아"
+        "ko": "전망이 좋아",
+        "nl": "Vooruitzichten goed",
+        "sv": "Utsikterna goda"
     },
     {
         "zh": "迹象表明是肯定的",
@@ -2891,7 +3333,9 @@
         "it": "I segni indicano di sì",
         "ru": "Знаки говорят да",
         "ja": "予兆はイエスだ",
-        "ko": "징조가 좋음"
+        "ko": "징조가 좋음",
+        "nl": "Tekenen wijzen op ja",
+        "sv": "Tecknen pekar på ja"
     },
     {
         "zh": "现在最好别告诉你",
@@ -2904,7 +3348,9 @@
         "it": "Meglio non dirtelo ora",
         "ru": "Лучше не говорить сейчас",
         "ja": "今は言わない方がいい",
-        "ko": "지금은 말하지 않는 게 좋아"
+        "ko": "지금은 말하지 않는 게 좋아",
+        "nl": "Beter je het nu niet te vertellen",
+        "sv": "Bäst att inte berätta nu"
     },
     {
         "zh": "你准备好了",
@@ -2917,7 +3363,9 @@
         "it": "Sei pronto",
         "ru": "Ты готов",
         "ja": "準備はできている",
-        "ko": "넌 준비됐어"
+        "ko": "넌 준비됐어",
+        "nl": "Je bent er klaar voor",
+        "sv": "Du är redo"
     },
     {
         "zh": "你还没准备好",
@@ -2930,7 +3378,9 @@
         "it": "Non sei pronto",
         "ru": "Ты не готов",
         "ja": "まだ早い",
-        "ko": "넌 아직 준비되지 않았어"
+        "ko": "넌 아직 준비되지 않았어",
+        "nl": "Je bent er niet klaar voor",
+        "sv": "Du är inte redo"
     },
     {
         "zh": "相信过程",
@@ -2943,7 +3393,9 @@
         "it": "Fidati del processo",
         "ru": "Доверься процессу",
         "ja": "プロセスを信じて",
-        "ko": "과정을 믿어"
+        "ko": "과정을 믿어",
+        "nl": "Vertrouw op het proces",
+        "sv": "Lita på processen"
     },
     {
         "zh": "别急",
@@ -2956,7 +3408,9 @@
         "it": "Non avere fretta",
         "ru": "Не торопись",
         "ja": "急がないで",
-        "ko": "서두르지 마"
+        "ko": "서두르지 마",
+        "nl": "Haast je niet",
+        "sv": "Stressa inte"
     },
     {
         "zh": "加速",
@@ -2969,7 +3423,9 @@
         "it": "Accelera",
         "ru": "Ускорься",
         "ja": "スピードアップして",
-        "ko": "속도를 높여"
+        "ko": "속도를 높여",
+        "nl": "Versnellen",
+        "sv": "Snabba på"
     },
     {
         "zh": "停止思考",
@@ -2982,7 +3438,9 @@
         "it": "Smetti di pensare",
         "ru": "Перестань думать",
         "ja": "考えるのをやめて",
-        "ko": "그만 생각해"
+        "ko": "그만 생각해",
+        "nl": "Stop met denken",
+        "sv": "Sluta tänka"
     },
     {
         "zh": "开始行动",
@@ -2995,7 +3453,9 @@
         "it": "Inizia a fare",
         "ru": "Начни делать",
         "ja": "行動を始めて",
-        "ko": "행동으로 옮겨"
+        "ko": "행동으로 옮겨",
+        "nl": "Begin met doen",
+        "sv": "Börja göra"
     },
     {
         "zh": "这是个错误",
@@ -3008,7 +3468,9 @@
         "it": "È un errore",
         "ru": "Это ошибка",
         "ja": "それは間違いだ",
-        "ko": "실수야"
+        "ko": "실수야",
+        "nl": "Het is een vergissing",
+        "sv": "Det är ett misstag"
     },
     {
         "zh": "这是正确的选择",
@@ -3021,7 +3483,9 @@
         "it": "È la scelta giusta",
         "ru": "Это правильный выбор",
         "ja": "正しい選択だ",
-        "ko": "올바른 선택이야"
+        "ko": "올바른 선택이야",
+        "nl": "Het is de juiste keuze",
+        "sv": "Det är rätt val"
     },
     {
         "zh": "遵守规则",
@@ -3034,7 +3498,9 @@
         "it": "Segui le regole",
         "ru": "Следуй правилам",
         "ja": "ルールに従って",
-        "ko": "규칙을 따를 것"
+        "ko": "규칙을 따를 것",
+        "nl": "Volg de regels",
+        "sv": "Följ reglerna"
     },
     {
         "zh": "质疑权威",
@@ -3047,7 +3513,9 @@
         "it": "Metti in discussione l'autorità",
         "ru": "Подвергай сомнению авторитеты",
         "ja": "権威を疑え",
-        "ko": "권위에 의문을 가져"
+        "ko": "권위에 의문을 가져",
+        "nl": "Stel autoriteit in vraag",
+        "sv": "Ifrågasätt auktoritet"
     },
     {
         "zh": "保持独立",
@@ -3060,7 +3528,9 @@
         "it": "Sii indipendente",
         "ru": "Будь независимым",
         "ja": "自立して",
-        "ko": "독립적이 되어라"
+        "ko": "독립적이 되어라",
+        "nl": "Wees onafhankelijk",
+        "sv": "Var självständig"
     },
     {
         "zh": "合作",
@@ -3073,7 +3543,9 @@
         "it": "Collabora",
         "ru": "Сотрудничай",
         "ja": "協力して",
-        "ko": "협력해"
+        "ko": "협력해",
+        "nl": "Samenwerken",
+        "sv": "Samarbeta"
     },
     {
         "zh": "妥协",
@@ -3086,7 +3558,9 @@
         "it": "Scendi a compromessi",
         "ru": "Иди на компромисс",
         "ja": "妥協して",
-        "ko": "타협해"
+        "ko": "타협해",
+        "nl": "Compromis",
+        "sv": "Kompromissa"
     },
     {
         "zh": "别妥协",
@@ -3099,7 +3573,9 @@
         "it": "Non scendere a compromessi",
         "ru": "Не иди на компромисс",
         "ja": "妥協しないで",
-        "ko": "타협하지 마"
+        "ko": "타협하지 마",
+        "nl": "Sluit geen compromissen",
+        "sv": "Kompromissa inte"
     },
     {
         "zh": "寻求平衡",
@@ -3112,7 +3588,9 @@
         "it": "Cerca l'equilibrio",
         "ru": "Ищи баланс",
         "ja": "バランスを求めて",
-        "ko": "균형을 찾아"
+        "ko": "균형을 찾아",
+        "nl": "Zoek balans",
+        "sv": "Sök balans"
     },
     {
         "zh": "许个愿",
@@ -3125,7 +3603,9 @@
         "it": "Esprimi un desiderio",
         "ru": "Загадай желание",
         "ja": "願い事をしてみて",
-        "ko": "소원을 빌어봐"
+        "ko": "소원을 빌어봐",
+        "nl": "Doe een wens",
+        "sv": "Önska dig något"
     },
     {
         "zh": "敢于梦想",
@@ -3138,7 +3618,9 @@
         "it": "Sogna in grande",
         "ru": "Мечтай по-крупному",
         "ja": "大きな夢を持って",
-        "ko": "꿈을 크게 가져"
+        "ko": "꿈을 크게 가져",
+        "nl": "Droom groot",
+        "sv": "Dröm stort"
     },
     {
         "zh": "醒醒吧",
@@ -3151,7 +3633,9 @@
         "it": "Svegliati",
         "ru": "Проснись",
         "ja": "目を覚まして",
-        "ko": "일어나"
+        "ko": "일어나",
+        "nl": "Word wakker",
+        "sv": "Vakna"
     },
     {
         "zh": "这是一场梦",
@@ -3164,7 +3648,9 @@
         "it": "È un sogno",
         "ru": "Это сон",
         "ja": "それは夢だ",
-        "ko": "꿈이야"
+        "ko": "꿈이야",
+        "nl": "Het is een droom",
+        "sv": "Det är en dröm"
     },
     {
         "zh": "拔掉插头",
@@ -3177,7 +3663,9 @@
         "it": "Stacca la spina",
         "ru": "Отключись",
         "ja": "電源を抜いて",
-        "ko": "잠시 멈춰"
+        "ko": "잠시 멈춰",
+        "nl": "Stekker eruit",
+        "sv": "Koppla ner"
     },
     {
         "zh": "连接",
@@ -3190,7 +3678,9 @@
         "it": "Connettiti",
         "ru": "Соединяйся",
         "ja": "繋がって",
-        "ko": "연결해"
+        "ko": "연결해",
+        "nl": "Verbinden",
+        "sv": "Anslut"
     },
     {
         "zh": "需要更新",
@@ -3203,7 +3693,9 @@
         "it": "Aggiornamento necessario",
         "ru": "Требуется обновление",
         "ja": "アップデートが必要だ",
-        "ko": "업데이트가 필요해"
+        "ko": "업데이트가 필요해",
+        "nl": "Update nodig",
+        "sv": "Uppdatering behövs"
     },
     {
         "zh": "重启",
@@ -3216,7 +3708,9 @@
         "it": "Riavvia",
         "ru": "Перезагрузись",
         "ja": "再起動して",
-        "ko": "재부팅해"
+        "ko": "재부팅해",
+        "nl": "Herstarten",
+        "sv": "Starta om"
     },
     {
         "zh": "保持善良",
@@ -3229,7 +3723,9 @@
         "it": "Sii gentile",
         "ru": "Будь добрым",
         "ja": "親切にして",
-        "ko": "친절해져라"
+        "ko": "친절해져라",
+        "nl": "Wees vriendelijk",
+        "sv": "Var snäll"
     },
     {
         "zh": "强硬一点",
@@ -3242,7 +3738,9 @@
         "it": "Sii duro",
         "ru": "Будь твердым",
         "ja": "タフになって",
-        "ko": "강인해져라"
+        "ko": "강인해져라",
+        "nl": "Wees hard",
+        "sv": "Var tuff"
     },
     {
         "zh": "今天",
@@ -3255,7 +3753,9 @@
         "it": "Oggi",
         "ru": "Сегодня",
         "ja": "今日",
-        "ko": "오늘"
+        "ko": "오늘",
+        "nl": "Vandaag",
+        "sv": "Idag"
     },
     {
         "zh": "不是今天",
@@ -3268,7 +3768,9 @@
         "it": "Non oggi",
         "ru": "Не сегодня",
         "ja": "今日じゃない",
-        "ko": "오늘은 아니야"
+        "ko": "오늘은 아니야",
+        "nl": "Vandaag niet",
+        "sv": "Inte idag"
     },
     {
         "zh": "未来属于你",
@@ -3281,7 +3783,9 @@
         "it": "Il futuro è tuo",
         "ru": "Будущее за тобой",
         "ja": "未来は君のものだ",
-        "ko": "미래는 너의 것이야"
+        "ko": "미래는 너의 것이야",
+        "nl": "De toekomst is van jou",
+        "sv": "Framtiden är din"
     },
     {
         "zh": "别担心",
@@ -3294,7 +3798,9 @@
         "it": "Non preoccuparti",
         "ru": "Не волнуйся",
         "ja": "心配しないで",
-        "ko": "걱정하지 마"
+        "ko": "걱정하지 마",
+        "nl": "Maak je geen zorgen",
+        "sv": "Oroa dig inte"
     },
     {
         "zh": "顺其自然",
@@ -3307,7 +3813,9 @@
         "it": "Lascia che sia",
         "ru": "Пусть будет так",
         "ja": "あるがままに",
-        "ko": "순리에 맡겨"
+        "ko": "순리에 맡겨",
+        "nl": "Laat het zijn",
+        "sv": "Låt det vara"
     },
     {
         "zh": "现在",
@@ -3320,7 +3828,9 @@
         "it": "Proprio ora",
         "ru": "Прямо сейчас",
         "ja": "今まさに",
-        "ko": "바로 지금"
+        "ko": "바로 지금",
+        "nl": "Nu meteen",
+        "sv": "Just nu"
     },
     {
         "zh": "永不",
@@ -3333,7 +3843,9 @@
         "it": "Mai",
         "ru": "Никогда",
         "ja": "絶対にない",
-        "ko": "절대 아니야"
+        "ko": "절대 아니야",
+        "nl": "Nooit",
+        "sv": "Aldrig"
     },
     {
         "zh": "永远",
@@ -3346,7 +3858,9 @@
         "it": "Per sempre",
         "ru": "Навсегда",
         "ja": "永遠に",
-        "ko": "영원히"
+        "ko": "영원히",
+        "nl": "Voor altijd",
+        "sv": "För alltid"
     },
     {
         "zh": "再等一会儿",
@@ -3359,7 +3873,9 @@
         "it": "Aspetta ancora un po'",
         "ru": "Подожди еще немного",
         "ja": "もうちょっと待って",
-        "ko": "조금만 더 기다려"
+        "ko": "조금만 더 기다려",
+        "nl": "Wacht nog even",
+        "sv": "Vänta lite till"
     },
     {
         "zh": "别再等了",
@@ -3372,7 +3888,9 @@
         "it": "Non aspettare oltre",
         "ru": "Больше не жди",
         "ja": "もう待たないで",
-        "ko": "더 이상 기다리지 마"
+        "ko": "더 이상 기다리지 마",
+        "nl": "Wacht niet langer",
+        "sv": "Vänta inte längre"
     },
     {
         "zh": "现在是时候了",
@@ -3385,7 +3903,9 @@
         "it": "È il momento",
         "ru": "Пришло время",
         "ja": "今がその時だ",
-        "ko": "이제 때가 됐어"
+        "ko": "이제 때가 됐어",
+        "nl": "Het is tijd",
+        "sv": "Det är dags"
     },
     {
         "zh": "还不是时候",
@@ -3398,7 +3918,9 @@
         "it": "Non è il momento",
         "ru": "Еще не время",
         "ja": "まだその時ではない",
-        "ko": "아직 때가 아니야"
+        "ko": "아직 때가 아니야",
+        "nl": "Het is geen tijd",
+        "sv": "Det är inte dags"
     },
     {
         "zh": "当然",
@@ -3411,7 +3933,9 @@
         "it": "Certamente",
         "ru": "Конечно",
         "ja": "もちろん",
-        "ko": "물론이지"
+        "ko": "물론이지",
+        "nl": "Natuurlijk",
+        "sv": "Självklart"
     },
     {
         "zh": "当然不",
@@ -3424,6 +3948,608 @@
         "it": "Certamente no",
         "ru": "Конечно нет",
         "ja": "もちろん違う",
-        "ko": "물론 아니지"
+        "ko": "물론 아니지",
+        "nl": "Natuurlijk niet",
+        "sv": "Självklart inte"
+    },
+    {
+        "en": "Count your blessings",
+        "zh": "知足常乐",
+        "zh-TW": "知足常樂",
+        "fr": "Comptez vos bénédictions",
+        "de": "Zähle deine Segnungen",
+        "es": "Cuenta tus bendiciones",
+        "pt": "Conte suas bênçãos",
+        "it": "Conta le tue benedizioni",
+        "ru": "Цени то, что имеешь",
+        "ja": "恵みを数えて",
+        "ko": "가진 것에 감사해",
+        "nl": "Tel je zegeningen",
+        "sv": "Räkna dina välsignelser"
+    },
+    {
+        "en": "Don't overthink it",
+        "zh": "别想太多",
+        "zh-TW": "別想太多",
+        "fr": "Ne réfléchissez pas trop",
+        "de": "Zerbrich dir nicht den Kopf",
+        "es": "No lo pienses demasiado",
+        "pt": "Não pense demais",
+        "it": "Non pensarci troppo",
+        "ru": "Не усложняй",
+        "ja": "考えすぎないで",
+        "ko": "너무 깊게 생각하지 마",
+        "nl": "Denk er niet te veel over na",
+        "sv": "Överanalysera det inte"
+    },
+    {
+        "en": "Trust your first instinct",
+        "zh": "相信你的第一直觉",
+        "zh-TW": "相信你的第一直覺",
+        "fr": "Faites confiance à votre premier instinct",
+        "de": "Vertraue deinem ersten Instinkt",
+        "es": "Confía en tu primer instinto",
+        "pt": "Confie no seu primeiro instinto",
+        "it": "Segui il tuo primo istinto",
+        "ru": "Верь первому инстинкту",
+        "ja": "最初の直感を信じて",
+        "ko": "첫 느낌을 믿어",
+        "nl": "Vertrouw op je eerste ingeving",
+        "sv": "Lita på din första instinkt"
+    },
+    {
+        "en": "Be practical",
+        "zh": "实际一点",
+        "zh-TW": "實際一點",
+        "fr": "Soyez pratique",
+        "de": "Sei praktisch",
+        "es": "Sé práctico",
+        "pt": "Seja prático",
+        "it": "Sii pratico",
+        "ru": "Будь практичнее",
+        "ja": "現実的に",
+        "ko": "현실적으로 생각해",
+        "nl": "Wees praktisch",
+        "sv": "Var praktisk"
+    },
+    {
+        "en": "Seek peace",
+        "zh": "寻求平静",
+        "zh-TW": "尋求平靜",
+        "fr": "Cherchez la paix",
+        "de": "Suche Frieden",
+        "es": "Busca la paz",
+        "pt": "Busque a paz",
+        "it": "Cerca la pace",
+        "ru": "Ищи покой",
+        "ja": "安らぎを求めて",
+        "ko": "평화를 찾아",
+        "nl": "Zoek vrede",
+        "sv": "Sök frid"
+    },
+    {
+        "en": "Finish what you started",
+        "zh": "有始有终",
+        "zh-TW": "有始有終",
+        "fr": "Finissez ce que vous avez commencé",
+        "de": "Beende, was du angefangen hast",
+        "es": "Termina lo que empezaste",
+        "pt": "Termine o que começou",
+        "it": "Finisci ciò che hai iniziato",
+        "ru": "Закончи начатое",
+        "ja": "始めたことはやり遂げて",
+        "ko": "시작한 일을 끝내",
+        "nl": "Maak af wat je begonnen bent",
+        "sv": "Avsluta det du påbörjade"
+    },
+    {
+        "en": "Be bold",
+        "zh": "大胆一点",
+        "zh-TW": "大膽一點",
+        "fr": "Soyez audacieux",
+        "de": "Sei mutig",
+        "es": "Sé audaz",
+        "pt": "Seja ousado",
+        "it": "Sii audace",
+        "ru": "Будь смелее",
+        "ja": "大胆に",
+        "ko": "대담해져라",
+        "nl": "Wees moedig",
+        "sv": "Var djärv"
+    },
+    {
+        "en": "Love yourself first",
+        "zh": "先爱你自己",
+        "zh-TW": "先愛你自己",
+        "fr": "Aimez-vous d'abord",
+        "de": "Liebe dich selbst zuerst",
+        "es": "Ámate a ti mismo primero",
+        "pt": "Ame-se primeiro",
+        "it": "Ama prima te stesso",
+        "ru": "Сначала полюби себя",
+        "ja": "まず自分を愛して",
+        "ko": "너 자신을 먼저 사랑해",
+        "nl": "Houd eerst van jezelf",
+        "sv": "Älska dig själv först"
+    },
+    {
+        "en": "Time heals everything",
+        "zh": "时间治愈一切",
+        "zh-TW": "時間治癒一切",
+        "fr": "Le temps guérit tout",
+        "de": "Die Zeit heilt alles",
+        "es": "El tiempo lo cura todo",
+        "pt": "O tempo cura tudo",
+        "it": "Il tempo guarisce tutto",
+        "ru": "Время лечит",
+        "ja": "時が解決する",
+        "ko": "시간이 약이야",
+        "nl": "Tijd heelt alles",
+        "sv": "Tiden läker alla sår"
+    },
+    {
+        "en": "Forgive and forget",
+        "zh": "宽恕并遗忘",
+        "zh-TW": "寬恕並遺忘",
+        "fr": "Pardonnez et oubliez",
+        "de": "Vergib und vergiss",
+        "es": "Perdona y olvida",
+        "pt": "Perdoe e esqueça",
+        "it": "Perdona e dimentica",
+        "ru": "Прости и забудь",
+        "ja": "許して忘れよう",
+        "ko": "용서하고 잊어버려",
+        "nl": "Vergeef en vergeet",
+        "sv": "Förlåt och glöm"
+    },
+    {
+        "en": "Look deeper",
+        "zh": "看得更深一点",
+        "zh-TW": "看得更深一點",
+        "fr": "Regardez plus profondément",
+        "de": "Schau tiefer",
+        "es": "Mira más profundo",
+        "pt": "Olhe mais fundo",
+        "it": "Guarda più a fondo",
+        "ru": "Смотри глубже",
+        "ja": "もっと深く見て",
+        "ko": "더 깊이 들여다봐",
+        "nl": "Kijk dieper",
+        "sv": "Titta djupare"
+    },
+    {
+        "en": "Simplify your life",
+        "zh": "简化你的生活",
+        "zh-TW": "簡化你的生活",
+        "fr": "Simplifiez votre vie",
+        "de": "Vereinfache dein Leben",
+        "es": "Simplifica tu vida",
+        "pt": "Simplifique sua vida",
+        "it": "Semplifica la tua vita",
+        "ru": "Упрости свою жизнь",
+        "ja": "生活をシンプルに",
+        "ko": "삶을 단순하게 만들어",
+        "nl": "Vereenvoudig je leven",
+        "sv": "Förenkla ditt liv"
+    },
+    {
+        "en": "Focus on family",
+        "zh": "关注家庭",
+        "zh-TW": "關注家庭",
+        "fr": "Concentrez-vous sur la famille",
+        "de": "Konzentriere dich auf die Familie",
+        "es": "Enfócate en la familia",
+        "pt": "Concentre-se na família",
+        "it": "Concentrati sulla famiglia",
+        "ru": "Сосредоточься на семье",
+        "ja": "家族を大切に",
+        "ko": "가족에게 집중해",
+        "nl": "Focus op familie",
+        "sv": "Fokusera på familjen"
+    },
+    {
+        "en": "Read between the lines",
+        "zh": "读懂言外之意",
+        "zh-TW": "讀懂言外之意",
+        "fr": "Lisez entre les lignes",
+        "de": "Lies zwischen den Zeilen",
+        "es": "Lee entre líneas",
+        "pt": "Leia nas entrelinhas",
+        "it": "Leggi tra le righe",
+        "ru": "Читай между строк",
+        "ja": "行間を読んで",
+        "ko": "행간을 읽어",
+        "nl": "Lees tussen de regels door",
+        "sv": "Läs mellan raderna"
+    },
+    {
+        "en": "Speak up",
+        "zh": "大声说出来",
+        "zh-TW": "大聲說出來",
+        "fr": "Exprimez-vous",
+        "de": "Sprich dich aus",
+        "es": "Alza la voz",
+        "pt": "Fale",
+        "it": "Fatti sentire",
+        "ru": "Не молчи",
+        "ja": "声を上げて",
+        "ko": "목소리를 내",
+        "nl": "Laat van je horen",
+        "sv": "Tala ut"
+    },
+    {
+        "en": "Be grateful",
+        "zh": "心存感激",
+        "zh-TW": "心存感激",
+        "fr": "Soyez reconnaissant",
+        "de": "Sei dankbar",
+        "es": "Sé agradecido",
+        "pt": "Seja grato",
+        "it": "Sii grato",
+        "ru": "Будь благодарен",
+        "ja": "感謝して",
+        "ko": "감사해",
+        "nl": "Wees dankbaar",
+        "sv": "Var tacksam"
+    },
+    {
+        "en": "Visualize success",
+        "zh": "想象成功",
+        "zh-TW": "想像成功",
+        "fr": "Visualisez le succès",
+        "de": "Visualisiere den Erfolg",
+        "es": "Visualiza el éxito",
+        "pt": "Visualize o sucesso",
+        "it": "Visualizza il successo",
+        "ru": "Визуализируй успех",
+        "ja": "成功をイメージして",
+        "ko": "성공을 그려봐",
+        "nl": "Visualiseer succes",
+        "sv": "Visualisera framgång"
+    },
+    {
+        "en": "Let go of the past",
+        "zh": "放下过去",
+        "zh-TW": "放下過去",
+        "fr": "Lâchez le passé",
+        "de": "Lass die Vergangenheit los",
+        "es": "Deja ir el pasado",
+        "pt": "Deixe o passado para trás",
+        "it": "Lascia andare il passato",
+        "ru": "Отпусти прошлое",
+        "ja": "過去を手放して",
+        "ko": "과거는 놓아줘",
+        "nl": "Laat het verleden los",
+        "sv": "Släpp det förflutna"
+    },
+    {
+        "en": "Embrace the future",
+        "zh": "拥抱未来",
+        "zh-TW": "擁抱未來",
+        "fr": "Embrassez l'avenir",
+        "de": "Umarme die Zukunft",
+        "es": "Abraza el futuro",
+        "pt": "Abrace o futuro",
+        "it": "Abbraccia il futuro",
+        "ru": "Прими будущее",
+        "ja": "未来を受け入れて",
+        "ko": "미래를 받아들여",
+        "nl": "Omarm de toekomst",
+        "sv": "Omfamna framtiden"
+    },
+    {
+        "en": "Be curious",
+        "zh": "保持好奇",
+        "zh-TW": "保持好奇",
+        "fr": "Soyez curieux",
+        "de": "Sei neugierig",
+        "es": "Sé curioso",
+        "pt": "Seja curioso",
+        "it": "Sii curioso",
+        "ru": "Будь любопытным",
+        "ja": "好奇心を持って",
+        "ko": "호기심을 가져",
+        "nl": "Wees nieuwsgierig",
+        "sv": "Var nyfiken"
+    },
+    {
+        "en": "Don't be afraid",
+        "zh": "不要害怕",
+        "zh-TW": "不要害怕",
+        "fr": "N'ayez pas peur",
+        "de": "Hab keine Angst",
+        "es": "No tengas miedo",
+        "pt": "Não tenha medo",
+        "it": "Non avere paura",
+        "ru": "Не бойся",
+        "ja": "恐れないで",
+        "ko": "두려워하지 마",
+        "nl": "Wees niet bang",
+        "sv": "Var inte rädd"
+    },
+    {
+        "en": "It's a sure thing",
+        "zh": "千真万确",
+        "zh-TW": "千真萬確",
+        "fr": "C'est une chose sûre",
+        "de": "Es ist eine sichere Sache",
+        "es": "Es algo seguro",
+        "pt": "É certeza",
+        "it": "È una cosa certa",
+        "ru": "Это наверняка",
+        "ja": "間違いない",
+        "ko": "확실한 일이야",
+        "nl": "Het is een zekerheid",
+        "sv": "Det är ett säkert kort"
+    },
+    {
+        "en": "Watch your step",
+        "zh": "脚下留神",
+        "zh-TW": "腳下留神",
+        "fr": "Regardez où vous mettez les pieds",
+        "de": "Pass auf, wo du hintrittst",
+        "es": "Mira por dónde pisas",
+        "pt": "Cuidado onde pisa",
+        "it": "Attento a dove metti i piedi",
+        "ru": "Смотри под ноги",
+        "ja": "足元に気をつけて",
+        "ko": "발조심해",
+        "nl": "Pas op waar je loopt",
+        "sv": "Se upp var du går"
+    },
+    {
+        "en": "Keep it secret",
+        "zh": "保守秘密",
+        "zh-TW": "保守秘密",
+        "fr": "Gardez-le secret",
+        "de": "Behalte es für dich",
+        "es": "Mantenlo en secreto",
+        "pt": "Mantenha em segredo",
+        "it": "Tienilo segreto",
+        "ru": "Держи это в секрете",
+        "ja": "秘密にしておいて",
+        "ko": "비밀로 해",
+        "nl": "Houd het geheim",
+        "sv": "Håll det hemligt"
+    },
+    {
+        "en": "Share it with the world",
+        "zh": "分享给世界",
+        "zh-TW": "分享給世界",
+        "fr": "Partagez-le avec le monde",
+        "de": "Teile es mit der Welt",
+        "es": "Compártelo con el mundo",
+        "pt": "Compartilhe com o mundo",
+        "it": "Condividilo con il mondo",
+        "ru": "Поделись этим с миром",
+        "ja": "世界と分かち合って",
+        "ko": "세상과 공유해",
+        "nl": "Deel het met de wereld",
+        "sv": "Dela det med världen"
+    },
+    {
+        "en": "Don't panic",
+        "zh": "不要惊慌",
+        "zh-TW": "不要驚慌",
+        "fr": "Pas de panique",
+        "de": "Keine Panik",
+        "es": "Que no cunda el pánico",
+        "pt": "Não entre em pânico",
+        "it": "Niente panico",
+        "ru": "Без паники",
+        "ja": "パニックにならないで",
+        "ko": "당황하지 마",
+        "nl": "Geen paniek",
+        "sv": "Ingen panik"
+    },
+    {
+        "en": "Everything happens for a reason",
+        "zh": "事出必有因",
+        "zh-TW": "事出必有因",
+        "fr": "Tout arrive pour une raison",
+        "de": "Alles geschieht aus einem Grund",
+        "es": "Todo pasa por algo",
+        "pt": "Tudo acontece por uma razão",
+        "it": "Tutto accade per una ragione",
+        "ru": "Все происходит не просто так",
+        "ja": "全てには理由がある",
+        "ko": "모든 일에는 이유가 있어",
+        "nl": "Alles gebeurt met een reden",
+        "sv": "Allt händer av en anledning"
+    },
+    {
+        "en": "You are enough",
+        "zh": "你已经足够好了",
+        "zh-TW": "你已經足夠好了",
+        "fr": "Vous suffisez",
+        "de": "Du bist genug",
+        "es": "Eres suficiente",
+        "pt": "Você é suficiente",
+        "it": "Sei abbastanza",
+        "ru": "Ты самодостаточен",
+        "ja": "そのままで十分だ",
+        "ko": "넌 충분해",
+        "nl": "Je bent goed genoeg",
+        "sv": "Du duger"
+    },
+    {
+        "en": "Start a new chapter",
+        "zh": "开启新篇章",
+        "zh-TW": "開啟新篇章",
+        "fr": "Commencez un nouveau chapitre",
+        "de": "Beginne ein neues Kapitel",
+        "es": "Empieza un nuevo capítulo",
+        "pt": "Comece um novo capítulo",
+        "it": "Inizia un nuovo capitolo",
+        "ru": "Начни новую главу",
+        "ja": "新しい章を始めて",
+        "ko": "새로운 챕터를 시작해",
+        "nl": "Begin een nieuw hoofdstuk",
+        "sv": "Börja ett nytt kapitel"
+    },
+    {
+        "en": "Turn the page",
+        "zh": "翻过这一页",
+        "zh-TW": "翻過這一頁",
+        "fr": "Tournez la page",
+        "de": "Schlag die Seite um",
+        "es": "Pasa la página",
+        "pt": "Vire a página",
+        "it": "Volta pagina",
+        "ru": "Переверни страницу",
+        "ja": "ページをめくって",
+        "ko": "페이지를 넘겨",
+        "nl": "Sla de bladzijde om",
+        "sv": "Vänd blad"
+    },
+    {
+        "en": "Write your own story",
+        "zh": "书写你自己的故事",
+        "zh-TW": "書寫你自己的故事",
+        "fr": "Écrivez votre propre histoire",
+        "de": "Schreib deine eigene Geschichte",
+        "es": "Escribe tu propia historia",
+        "pt": "Escreva sua própria história",
+        "it": "Scrivi la tua storia",
+        "ru": "Пиши свою историю",
+        "ja": "自分の物語を書いて",
+        "ko": "너만의 이야기를 써봐",
+        "nl": "Schrijf je eigen verhaal",
+        "sv": "Skriv din egen historia"
+    },
+    {
+        "en": "Be the change",
+        "zh": "做出改变",
+        "zh-TW": "做出改變",
+        "fr": "Soyez le changement",
+        "de": "Sei die Veränderung",
+        "es": "Sé el cambio",
+        "pt": "Seja a mudança",
+        "it": "Sii il cambiamento",
+        "ru": "Стань переменой",
+        "ja": "変化を起こして",
+        "ko": "변화의 주체가 되어라",
+        "nl": "Wees de verandering",
+        "sv": "Var förändringen"
+    },
+    {
+        "en": "Kindness matters",
+        "zh": "善良很重要",
+        "zh-TW": "善良很重要",
+        "fr": "La gentillesse compte",
+        "de": "Freundlichkeit zählt",
+        "es": "La amabilidad importa",
+        "pt": "Gentileza importa",
+        "it": "La gentilezza conta",
+        "ru": "Доброта имеет значение",
+        "ja": "優しさが大事",
+        "ko": "친절이 중요해",
+        "nl": "Vriendelijkheid telt",
+        "sv": "Vänlighet räknas"
+    },
+    {
+        "en": "Choose happiness",
+        "zh": "选择快乐",
+        "zh-TW": "選擇快樂",
+        "fr": "Choisissez le bonheur",
+        "de": "Wähle Glück",
+        "es": "Elige la felicidad",
+        "pt": "Escolha a felicidade",
+        "it": "Scegli la felicità",
+        "ru": "Выбери счастье",
+        "ja": "幸せを選んで",
+        "ko": "행복을 선택해",
+        "nl": "Kies voor geluk",
+        "sv": "Välj lycka"
+    },
+    {
+        "en": "Avoid drama",
+        "zh": "远离戏剧性",
+        "zh-TW": "遠離戲劇性",
+        "fr": "Évitez les drames",
+        "de": "Vermeide Drama",
+        "es": "Evita el drama",
+        "pt": "Evite dramas",
+        "it": "Evita i drammi",
+        "ru": "Избегай драм",
+        "ja": "トラブルを避けて",
+        "ko": "드라마는 피해",
+        "nl": "Vermijd drama",
+        "sv": "Undvik drama"
+    },
+    {
+        "en": "Stay focused",
+        "zh": "保持专注",
+        "zh-TW": "保持專注",
+        "fr": "Restez concentré",
+        "de": "Bleib fokussiert",
+        "es": "Mantente enfocado",
+        "pt": "Mantenha o foco",
+        "it": "Resta concentrato",
+        "ru": "Не отвлекайся",
+        "ja": "集中して",
+        "ko": "집중해",
+        "nl": "Blijf gefocust",
+        "sv": "Håll fokus"
+    },
+    {
+        "en": "Just breathe",
+        "zh": "深呼吸就好",
+        "zh-TW": "深呼吸就好",
+        "fr": "Respirez simplement",
+        "de": "Atme einfach",
+        "es": "Solo respira",
+        "pt": "Apenas respire",
+        "it": "Respira e basta",
+        "ru": "Просто дыши",
+        "ja": "ただ呼吸して",
+        "ko": "그냥 숨 쉬어",
+        "nl": "Haal gewoon adem",
+        "sv": "Bara andas"
+    },
+    {
+        "en": "Don't look down",
+        "zh": "别往下看",
+        "zh-TW": "別往下看",
+        "fr": "Ne regardez pas en bas",
+        "de": "Schau nicht nach unten",
+        "es": "No mires abajo",
+        "pt": "Não olhe para baixo",
+        "it": "Non guardare giù",
+        "ru": "Не смотри вниз",
+        "ja": "下を見ないで",
+        "ko": "아래를 보지 마",
+        "nl": "Kijk niet naar beneden",
+        "sv": "Titta inte ner"
+    },
+    {
+        "en": "Aim higher",
+        "zh": "目标再高一点",
+        "zh-TW": "目標再高一點",
+        "fr": "Visez plus haut",
+        "de": "Ziele höher",
+        "es": "Apunta más alto",
+        "pt": "Mire mais alto",
+        "it": "Punta più in alto",
+        "ru": "Целься выше",
+        "ja": "もっと高みを目指して",
+        "ko": "더 높이 목표를 잡아",
+        "nl": "Mik hoger",
+        "sv": "Sikta högre"
+    },
+    {
+        "en": "Keep going",
+        "zh": "继续前进",
+        "zh-TW": "繼續前進",
+        "fr": "Continuez",
+        "de": "Mach weiter",
+        "es": "Sigue adelante",
+        "pt": "Continue",
+        "it": "Continua",
+        "ru": "Продолжай",
+        "ja": "進み続けて",
+        "ko": "계속해",
+        "nl": "Ga door",
+        "sv": "Fortsätt"
     }
 ]
