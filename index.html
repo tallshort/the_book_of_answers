@@ -103,14 +103,6 @@
             text-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
 
-        .cover-subtitle {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 1.2rem; /* Increased size for Chinese subtitle */
-            opacity: 0.6;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-        }
-
         .tap-hint {
             margin-top: 80px;
             font-family: 'Open Sans', sans-serif;
@@ -459,16 +451,23 @@
     <!-- Book Cover Overlay -->
     <div id="book-cover" onclick="openBook()">
         <div class="cover-title">THE BOOK<br>OF ANSWERS</div>
-        <div class="cover-subtitle">答案之书</div>
         <div class="tap-hint" id="tapHint">CLICK TO OPEN</div>
     </div>
 
     <div class="lang-selector">
         <label for="languageSelect" class="sr-only">Language / 语言</label>
         <select id="languageSelect" onchange="changeLanguage(this.value)">
-            <option value="zh">中文</option>
             <option value="en">English</option>
+            <option value="zh">简体中文</option>
+            <option value="zh-TW">繁體中文</option>
             <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Español</option>
+            <option value="pt">Português</option>
+            <option value="it">Italiano</option>
+            <option value="ru">Русский</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
         </select>
     </div>
 
@@ -538,6 +537,16 @@
                 accept: "让星辰见证 (Cookies)",
                 decline: "仅留心底"
             },
+            "zh-TW": {
+                title: "答案之書 | The Book of Answers",
+                statusCached: "此刻緣定，靜候回響",
+                statusNew: "此刻的指引",
+                loading: "...",
+                tapHint: "點擊翻開 ({s}s)",
+                cookieText: "為了延續這份緣分，我們需要使用 <b>Cookies</b> 或 <b>本地存儲</b> 來封存您的指引。<br>您可以選擇讓星辰見證（允許 Cookies），或是僅珍藏於心底（僅本地存儲）。",
+                accept: "讓星辰見證 (Cookies)",
+                decline: "僅留心底"
+            },
             en: {
                 title: "The Book of Answers",
                 statusCached: "Destiny is set, waiting for echoes",
@@ -557,10 +566,113 @@
                 cookieText: "Pour préserver ce destin, nous utilisons des <b>cookies</b> ou le <b>stockage local</b>.<br>Vous pouvez laisser le destin témoigner (Cookies), ou garder le secret (Stockage Local).",
                 accept: "Témoigner (Cookies)",
                 decline: "Garder Secret"
+            },
+            de: {
+                title: "Das Buch der Antworten",
+                statusCached: "Das Schicksal steht fest, warten auf das Echo",
+                statusNew: "Rat für den Moment",
+                loading: "...",
+                tapHint: "KLICKEN ZUM ÖFFNEN ({s}s)",
+                cookieText: "Um dieses Schicksal zu bewahren, verwenden wir <b>Cookies</b> oder <b>lokalen Speicher</b>, um Ihre Führung zu besiegeln.<br>Sie können wählen, die Sterne zeugen zu lassen (Cookies) oder es nur in Ihrem Herzen zu bewahren (Lokaler Speicher).",
+                accept: "Bezeugen (Cookies)",
+                decline: "Geheim halten"
+            },
+            es: {
+                title: "El Libro de las Respuestas",
+                statusCached: "El destino está echado, esperando ecos",
+                statusNew: "Guía para ahora",
+                loading: "...",
+                tapHint: "HAZ CLIC PARA ABRIR ({s}s)",
+                cookieText: "Para preservar este destino, utilizamos <b>cookies</b> o <b>almacenamiento local</b> para sellar su guía.<br>Puede elegir dejar que las estrellas sean testigos (Cookies) o guardarlo solo en su corazón (Almacenamiento local).",
+                accept: "Atestiguar (Cookies)",
+                decline: "Guardar secreto"
+            },
+            pt: {
+                title: "O Livro das Respostas",
+                statusCached: "O destino está traçado, aguardando ecos",
+                statusNew: "Orientação para agora",
+                loading: "...",
+                tapHint: "CLIQUE PARA ABRIR ({s}s)",
+                cookieText: "Para preservar este destino, usamos <b>cookies</b> ou <b>armazenamento local</b> para selar sua orientação.<br>Você pode optar por deixar as estrelas testemunharem (Cookies) ou mantê-lo apenas em seu coração (Armazenamento Local).",
+                accept: "Testemunhar (Cookies)",
+                decline: "Manter segredo"
+            },
+            it: {
+                title: "Il Libro delle Risposte",
+                statusCached: "Il destino è segnato, in attesa di echi",
+                statusNew: "Guida per ora",
+                loading: "...",
+                tapHint: "CLICCA PER APRIRE ({s}s)",
+                cookieText: "Per preservare questo destino, utilizziamo <b>cookie</b> o <b>memoria locale</b> per sigillare la tua guida.<br>Puoi scegliere di lasciare che le stelle testimonino (Cookie) o tenerlo solo nel tuo cuore (Memoria Locale).",
+                accept: "Testimoniare (Cookie)",
+                decline: "Mantenere segreto"
+            },
+            ru: {
+                title: "Книга Ответов",
+                statusCached: "Судьба решена, ждем отголосков",
+                statusNew: "Наставление на данный момент",
+                loading: "...",
+                tapHint: "НАЖМИТЕ, ЧТОБЫ ОТКРЫТЬ ({s}s)",
+                cookieText: "Чтобы сохранить эту судьбу, мы используем <b>cookie</b> или <b>локальное хранилище</b>.<br>Вы можете позволить звездам быть свидетелями (Cookie) или сохранить это только в своем сердце (Локальное хранилище).",
+                accept: "Свидетель (Cookie)",
+                decline: "Держать в секрете"
+            },
+            ja: {
+                title: "答えの本",
+                statusCached: "運命は決まりました。響きを待っています",
+                statusNew: "今の導き",
+                loading: "...",
+                tapHint: "クリックして開く ({s}s)",
+                cookieText: "この運命を保存するために、<b>クッキー</b>または<b>ローカルストレージ</b>を使用します。<br>星に目撃させる（クッキー）か、心の中に留める（ローカルストレージ）かを選択できます。",
+                accept: "目撃する (Cookie)",
+                decline: "秘密にする"
+            },
+            ko: {
+                title: "해답의 책",
+                statusCached: "운명이 정해졌습니다, 메아리를 기다립니다",
+                statusNew: "지금을 위한 지침",
+                loading: "...",
+                tapHint: "클릭하여 열기 ({s}s)",
+                cookieText: "이 운명을 보존하기 위해 <b>쿠키</b> 또는 <b>로컬 스토리지</b>를 사용합니다.<br>별들이 증언하게 하거나(쿠키), 마음속에만 간직할 수 있습니다(로컬 스토리지).",
+                accept: "증인 (Cookie)",
+                decline: "비밀로 유지"
             }
         };
 
-        let currentLang = localStorage.getItem(PREF_KEY) || 'en';
+        const getPreferredLang = () => {
+            const saved = localStorage.getItem(PREF_KEY);
+            if (saved) return saved;
+            
+            const browser = (navigator.language || 'en').toLowerCase();
+            
+            // Chinese handling
+            if (browser.startsWith('zh')) {
+                if (browser.includes('tw') || browser.includes('hk') || browser.includes('hant')) {
+                    return 'zh-TW';
+                }
+                return 'zh'; // Default to Simplified for other zh variants
+            }
+            
+            // Other languages
+            const langMap = {
+                'fr': 'fr',
+                'de': 'de',
+                'es': 'es',
+                'pt': 'pt',
+                'it': 'it',
+                'ru': 'ru',
+                'ja': 'ja',
+                'ko': 'ko'
+            };
+            
+            for (const [prefix, code] of Object.entries(langMap)) {
+                if (browser.startsWith(prefix)) return code;
+            }
+
+            return 'en';
+        };
+
+        let currentLang = getPreferredLang();
         let consentStatus = localStorage.getItem(CONSENT_KEY); // 'granted', 'denied', or null
         let isBookOpen = false;
         let cachedResult = null;

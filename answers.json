@@ -2,1324 +2,3428 @@
     {
         "zh": "毫无疑问",
         "en": "Undoubtedly",
-        "fr": "Indubitablement"
+        "fr": "Indubitablement",
+        "zh-TW": "毫無疑問",
+        "de": "Zweifellos",
+        "es": "Indudablemente",
+        "pt": "Sem dúvida",
+        "it": "Indubbiamente",
+        "ru": "Несомненно",
+        "ja": "疑いなく",
+        "ko": "의심할 여지 없이"
     },
     {
         "zh": "肯定的",
         "en": "Yes",
-        "fr": "Oui"
+        "fr": "Oui",
+        "zh-TW": "肯定的",
+        "de": "Ja",
+        "es": "Sí",
+        "pt": "Sim",
+        "it": "Sì",
+        "ru": "Да",
+        "ja": "はい",
+        "ko": "네"
     },
     {
         "zh": "现在不是时候",
         "en": "Not now",
-        "fr": "Pas maintenant"
+        "fr": "Pas maintenant",
+        "zh-TW": "現在不是時候",
+        "de": "Nicht jetzt",
+        "es": "Ahora no",
+        "pt": "Agora não",
+        "it": "Non ora",
+        "ru": "Не сейчас",
+        "ja": "今はだめ",
+        "ko": "지금은 안 돼"
     },
     {
         "zh": "再等等",
         "en": "Wait",
-        "fr": "Attendez"
+        "fr": "Attendez",
+        "zh-TW": "再等等",
+        "de": "Warte",
+        "es": "Espera",
+        "pt": "Espere",
+        "it": "Aspetta",
+        "ru": "Подожди",
+        "ja": "待って",
+        "ko": "기다려"
     },
     {
         "zh": "随心而动",
         "en": "Follow your heart",
-        "fr": "Suivez votre cœur"
+        "fr": "Suivez votre cœur",
+        "zh-TW": "隨心而動",
+        "de": "Folge deinem Herzen",
+        "es": "Sigue a tu corazón",
+        "pt": "Siga seu coração",
+        "it": "Segui il tuo cuore",
+        "ru": "Следи зову сердца",
+        "ja": "心のままに",
+        "ko": "마음 가는 대로 해"
     },
     {
         "zh": "坚持到底",
         "en": "Stick to it",
-        "fr": "Tenez bon"
+        "fr": "Tenez bon",
+        "zh-TW": "堅持到底",
+        "de": "Bleib dran",
+        "es": "Apégate a ello",
+        "pt": "Mantenha-se firme",
+        "it": "Tieni duro",
+        "ru": "Держись",
+        "ja": "粘って",
+        "ko": "계속해"
     },
     {
         "zh": "放下吧",
         "en": "Let it go",
-        "fr": "Laissez tomber"
+        "fr": "Laissez tomber",
+        "zh-TW": "放下吧",
+        "de": "Lass es los",
+        "es": "Déjalo ir",
+        "pt": "Deixe ir",
+        "it": "Lascia perdere",
+        "ru": "Отпусти это",
+        "ja": "忘れてしまえ",
+        "ko": "잊어버려"
     },
     {
         "zh": "也许",
         "en": "Maybe",
-        "fr": "Peut-être"
+        "fr": "Peut-être",
+        "zh-TW": "也許",
+        "de": "Vielleicht",
+        "es": "Quizás",
+        "pt": "Talvez",
+        "it": "Forse",
+        "ru": "Может быть",
+        "ja": "たぶん",
+        "ko": "어쩌면"
     },
     {
         "zh": "结果会让你惊喜",
         "en": "You will be surprised",
-        "fr": "Vous serez surpris"
+        "fr": "Vous serez surpris",
+        "zh-TW": "結果會讓你驚喜",
+        "de": "Du wirst überrascht sein",
+        "es": "Te sorprenderás",
+        "pt": "Você ficará surpreso",
+        "it": "Sarai sorpreso",
+        "ru": "Ты удивишься",
+        "ja": "驚くことになるよ",
+        "ko": "깜짝 놀랄 거야"
     },
     {
         "zh": "不要犹豫",
         "en": "Don't hesitate",
-        "fr": "N'hésitez pas"
+        "fr": "N'hésitez pas",
+        "zh-TW": "不要猶豫",
+        "de": "Zögere nicht",
+        "es": "No dudes",
+        "pt": "Não hesite",
+        "it": "Non esitare",
+        "ru": "Не сомневайся",
+        "ja": "躊躇しないで",
+        "ko": "망설이지 마"
     },
     {
         "zh": "相信你的直觉",
         "en": "Trust your intuition",
-        "fr": "Faites confiance à votre intuition"
+        "fr": "Faites confiance à votre intuition",
+        "zh-TW": "相信你的直覺",
+        "de": "Vertraue deiner Intuition",
+        "es": "Confía en tu intuición",
+        "pt": "Confie na sua intuição",
+        "it": "Segui il tuo intuito",
+        "ru": "Доверься интуиции",
+        "ja": "直感を信じて",
+        "ko": "직감을 믿어"
     },
     {
         "zh": "重新考虑",
         "en": "Reconsider",
-        "fr": "Reconsidérez"
+        "fr": "Reconsidérez",
+        "zh-TW": "重新考慮",
+        "de": "Überdenke es",
+        "es": "Reconsidera",
+        "pt": "Reconsidere",
+        "it": "Riconsidera",
+        "ru": "Пересмотри решение",
+        "ja": "再考して",
+        "ko": "다시 생각해봐"
     },
     {
         "zh": "专注于当下",
         "en": "Focus on the present",
-        "fr": "Concentrez-vous sur le présent"
+        "fr": "Concentrez-vous sur le présent",
+        "zh-TW": "專注於當下",
+        "de": "Konzentriere dich auf die Gegenwart",
+        "es": "Enfócate en el presente",
+        "pt": "Concentre-se no presente",
+        "it": "Concentrati sul presente",
+        "ru": "Сосредоточься на настоящем",
+        "ja": "今に集中して",
+        "ko": "현재에 집중해"
     },
     {
         "zh": "这是命运的安排",
         "en": "It is destiny",
-        "fr": "C'est le destin"
+        "fr": "C'est le destin",
+        "zh-TW": "這是命運的安排",
+        "de": "Es ist Schicksal",
+        "es": "Es el destino",
+        "pt": "É o destino",
+        "it": "È il destino",
+        "ru": "Это судьба",
+        "ja": "それは運命だ",
+        "ko": "운명이야"
     },
     {
         "zh": "保持耐心",
         "en": "Be patient",
-        "fr": "Soyez patient"
+        "fr": "Soyez patient",
+        "zh-TW": "保持耐心",
+        "de": "Sei geduldig",
+        "es": "Sé paciente",
+        "pt": "Seja paciente",
+        "it": "Sii paziente",
+        "ru": "Будь терпелив",
+        "ja": "忍耐強く",
+        "ko": "인내심을 가져"
     },
     {
         "zh": "向他人寻求建议",
         "en": "Ask for advice",
-        "fr": "Demandez conseil"
+        "fr": "Demandez conseil",
+        "zh-TW": "向他人尋求建議",
+        "de": "Bitte um Rat",
+        "es": "Pide consejo",
+        "pt": "Peça conselho",
+        "it": "Chiedi consiglio",
+        "ru": "Попроси совета",
+        "ja": "アドバイスを求めて",
+        "ko": "조언을 구해"
     },
     {
         "zh": "你需要休息",
         "en": "You need rest",
-        "fr": "Vous avez besoin de repos"
+        "fr": "Vous avez besoin de repos",
+        "zh-TW": "你需要休息",
+        "de": "Du brauchst Ruhe",
+        "es": "Necesitas descansar",
+        "pt": "Você precisa descansar",
+        "it": "Hai bisogno di riposo",
+        "ru": "Тебе нужен отдых",
+        "ja": "休息が必要だ",
+        "ko": "휴식이 필요해"
     },
     {
         "zh": "答案在你心中",
         "en": "The answer is inside you",
-        "fr": "La réponse est en vous"
+        "fr": "La réponse est en vous",
+        "zh-TW": "答案在你心中",
+        "de": "Die Antwort liegt in dir",
+        "es": "La respuesta está dentro de ti",
+        "pt": "A resposta está dentro de você",
+        "it": "La risposta è dentro di te",
+        "ru": "Ответ внутри тебя",
+        "ja": "答えは君の中にある",
+        "ko": "답은 네 안에 있어"
     },
     {
         "zh": "勇敢跨出第一步",
         "en": "Take the first step",
-        "fr": "Faites le premier pas"
+        "fr": "Faites le premier pas",
+        "zh-TW": "勇敢跨出第一步",
+        "de": "Mach den ersten Schritt",
+        "es": "Da el primer paso",
+        "pt": "Dê o primeiro passo",
+        "it": "Fai il primo passo",
+        "ru": "Сделай первый шаг",
+        "ja": "第一歩を踏み出して",
+        "ko": "첫발을 내디뎌"
     },
     {
         "zh": "通过沟通解决",
         "en": "Communicate",
-        "fr": "Communiquez"
+        "fr": "Communiquez",
+        "zh-TW": "通過溝通解決",
+        "de": "Kommuniziere",
+        "es": "Comunícate",
+        "pt": "Comunique-se",
+        "it": "Comunica",
+        "ru": "Общайся",
+        "ja": "コミュニケーションをとって",
+        "ko": "소통해"
     },
     {
         "zh": "不仅如此",
         "en": "There is more",
-        "fr": "Il y a plus"
+        "fr": "Il y a plus",
+        "zh-TW": "不僅如此",
+        "de": "Es gibt noch mehr",
+        "es": "Hay más",
+        "pt": "Há mais",
+        "it": "C'è di più",
+        "ru": "Это еще не все",
+        "ja": "それだけじゃない",
+        "ko": "더 있어"
     },
     {
         "zh": "绝对不要",
         "en": "Absolutely not",
-        "fr": "Absolument pas"
+        "fr": "Absolument pas",
+        "zh-TW": "絕對不要",
+        "de": "Auf keinen Fall",
+        "es": "Absolutamente no",
+        "pt": "Absolutamente não",
+        "it": "Assolutamente no",
+        "ru": "Ни в коем случае",
+        "ja": "絶対にダメ",
+        "ko": "절대 안 돼"
     },
     {
         "zh": "时机未到",
         "en": "Not the right time",
-        "fr": "Ce n'est pas le moment"
+        "fr": "Ce n'est pas le moment",
+        "zh-TW": "時機未到",
+        "de": "Nicht der richtige Zeitpunkt",
+        "es": "No es el momento adecuado",
+        "pt": "Não é o momento certo",
+        "it": "Non è il momento giusto",
+        "ru": "Неподходящее время",
+        "ja": "タイミングが悪い",
+        "ko": "때가 좋지 않아"
     },
     {
         "zh": "你会后悔的",
         "en": "You will regret it",
-        "fr": "Vous le regretterez"
+        "fr": "Vous le regretterez",
+        "zh-TW": "你會後悔的",
+        "de": "Du wirst es bereuen",
+        "es": "Te arrepentirás",
+        "pt": "Você vai se arrepender",
+        "it": "Te ne pentirai",
+        "ru": "Ты пожалеешь об этом",
+        "ja": "後悔することになる",
+        "ko": "후회할 거야"
     },
     {
         "zh": "值得一试",
         "en": "Worth a try",
-        "fr": "Ça vaut le coup d'essayer"
+        "fr": "Ça vaut le coup d'essayer",
+        "zh-TW": "值得一試",
+        "de": "Einen Versuch wert",
+        "es": "Vale la pena intentarlo",
+        "pt": "Vale a pena tentar",
+        "it": "Vale la pena provare",
+        "ru": "Стоит попробовать",
+        "ja": "試す価値はある",
+        "ko": "시도해볼 만해"
     },
     {
         "zh": "保持沉默",
         "en": "Stay silent",
-        "fr": "Gardez le silence"
+        "fr": "Gardez le silence",
+        "zh-TW": "保持沉默",
+        "de": "Bleib still",
+        "es": "Mantente en silencio",
+        "pt": "Fique em silêncio",
+        "it": "Resta in silenzio",
+        "ru": "Молчи",
+        "ja": "沈黙を守って",
+        "ko": "침묵해"
     },
     {
         "zh": "观察局势",
         "en": "Observe",
-        "fr": "Observez"
+        "fr": "Observez",
+        "zh-TW": "觀察局勢",
+        "de": "Beobachte",
+        "es": "Observa",
+        "pt": "Observe",
+        "it": "Osserva",
+        "ru": "Наблюдай",
+        "ja": "よく観察して",
+        "ko": "관찰해"
     },
     {
         "zh": "顺其自然",
         "en": "Go with the flow",
-        "fr": "Suivez le courant"
+        "fr": "Suivez le courant",
+        "zh-TW": "順其自然",
+        "de": "Lass dich treiben",
+        "es": "Déjate llevar",
+        "pt": "Deixe rolar",
+        "it": "Segui il flusso",
+        "ru": "Плыви по течению",
+        "ja": "流れに身を任せて",
+        "ko": "흐름에 맡겨"
     },
     {
         "zh": "不要在此刻放弃",
         "en": "Don't give up now",
-        "fr": "N'abandonnez pas maintenant"
+        "fr": "N'abandonnez pas maintenant",
+        "zh-TW": "不要在此刻放棄",
+        "de": "Gib jetzt nicht auf",
+        "es": "No te rindas ahora",
+        "pt": "Não desista agora",
+        "it": "Non arrenderti ora",
+        "ru": "Не сдавайся сейчас",
+        "ja": "今は諦めないで",
+        "ko": "지금 포기하지 마"
     },
     {
         "zh": "为了更大的目标",
         "en": "For a greater goal",
-        "fr": "Pour un objectif plus grand"
+        "fr": "Pour un objectif plus grand",
+        "zh-TW": "為了更大的目標",
+        "de": "Für ein größeres Ziel",
+        "es": "Por un objetivo mayor",
+        "pt": "Por um objetivo maior",
+        "it": "Per un obiettivo più grande",
+        "ru": "Ради великой цели",
+        "ja": "より大きな目標のために",
+        "ko": "더 큰 목표를 위해"
     },
     {
         "zh": "会有更好的选择",
         "en": "There is a better choice",
-        "fr": "Il y a un meilleur choix"
+        "fr": "Il y a un meilleur choix",
+        "zh-TW": "會有更好的選擇",
+        "de": "Es gibt eine bessere Wahl",
+        "es": "Hay una mejor opción",
+        "pt": "Há uma escolha melhor",
+        "it": "C'è una scelta migliore",
+        "ru": "Есть выбор получше",
+        "ja": "もっといい選択肢がある",
+        "ko": "더 좋은 선택이 있어"
     },
     {
         "zh": "你需要通过努力获得",
         "en": "Work for it",
-        "fr": "Travaillez pour cela"
+        "fr": "Travaillez pour cela",
+        "zh-TW": "你需要通過努力獲得",
+        "de": "Arbeite dafür",
+        "es": "Trabaja por ello",
+        "pt": "Trabalhe por isso",
+        "it": "Lavora per ottenerlo",
+        "ru": "Заработай это",
+        "ja": "努力して手に入れて",
+        "ko": "노력해서 얻어"
     },
     {
         "zh": "这就是结局",
         "en": "This is the end",
-        "fr": "C'est la fin"
+        "fr": "C'est la fin",
+        "zh-TW": "這就是結局",
+        "de": "Das ist das Ende",
+        "es": "Este es el final",
+        "pt": "Este é o fim",
+        "it": "Questa è la fine",
+        "ru": "Это конец",
+        "ja": "これで終わりだ",
+        "ko": "이게 끝이야"
     },
     {
         "zh": "从头开始",
         "en": "Start over",
-        "fr": "Recommencez"
+        "fr": "Recommencez",
+        "zh-TW": "從頭開始",
+        "de": "Fang von vorne an",
+        "es": "Empieza de nuevo",
+        "pt": "Comece de novo",
+        "it": "Ricomincia",
+        "ru": "Начни сначала",
+        "ja": "やり直して",
+        "ko": "처음부터 다시 해"
     },
     {
         "zh": "留意身边的信号",
         "en": "Watch for signs",
-        "fr": "Surveillez les signes"
+        "fr": "Surveillez les signes",
+        "zh-TW": "留意身邊的信號",
+        "de": "Achte auf Zeichen",
+        "es": "Busca señales",
+        "pt": "Observe os sinais",
+        "it": "Fai attenzione ai segni",
+        "ru": "Следи за знаками",
+        "ja": "予兆に気をつけて",
+        "ko": "신호를 잘 살펴"
     },
     {
         "zh": "不要被表象迷惑",
         "en": "Don't be misled",
-        "fr": "Ne vous laissez pas tromper"
+        "fr": "Ne vous laissez pas tromper",
+        "zh-TW": "不要被表象迷惑",
+        "de": "Lass dich nicht in die Irre führen",
+        "es": "No te dejes engañar",
+        "pt": "Não se deixe enganar",
+        "it": "Non farti ingannare",
+        "ru": "Не дай себя обмануть",
+        "ja": "惑わされないで",
+        "ko": "현혹되지 마"
     },
     {
         "zh": "相信自己",
         "en": "Believe in yourself",
-        "fr": "Croyez en vous"
+        "fr": "Croyez en vous",
+        "zh-TW": "相信自己",
+        "de": "Glaube an dich",
+        "es": "Cree en ti mismo",
+        "pt": "Acredite em si mesmo",
+        "it": "Credi in te stesso",
+        "ru": "Верь в себя",
+        "ja": "自分を信じて",
+        "ko": "자신을 믿어"
     },
     {
         "zh": "这很重要",
         "en": "It is important",
-        "fr": "C'est important"
+        "fr": "C'est important",
+        "zh-TW": "這很重要",
+        "de": "Es ist wichtig",
+        "es": "Es importante",
+        "pt": "É importante",
+        "it": "È importante",
+        "ru": "Это важно",
+        "ja": "それは重要だ",
+        "ko": "중요해"
     },
     {
         "zh": "没什么大不了的",
         "en": "Not a big deal",
-        "fr": "Ce n'est pas grave"
+        "fr": "Ce n'est pas grave",
+        "zh-TW": "沒什麼大不了的",
+        "de": "Keine große Sache",
+        "es": "No es gran cosa",
+        "pt": "Não é nada demais",
+        "it": "Non è un grosso problema",
+        "ru": "Ничего страшного",
+        "ja": "大したことないよ",
+        "ko": "별일 아니야"
     },
     {
         "zh": "一笑置之",
         "en": "Laugh it off",
-        "fr": "Riez-en"
+        "fr": "Riez-en",
+        "zh-TW": "一笑置之",
+        "de": "Lach drüber",
+        "es": "Ríete de ello",
+        "pt": "Ria disso",
+        "it": "Ridicci sopra",
+        "ru": "Обрати все в шутку",
+        "ja": "笑い飛ばして",
+        "ko": "웃어넘겨"
     },
     {
         "zh": "全力以赴",
         "en": "Go all in",
-        "fr": "Allez-y à fond"
+        "fr": "Allez-y à fond",
+        "zh-TW": "全力以赴",
+        "de": "Geh aufs Ganze",
+        "es": "Ve con todo",
+        "pt": "Vá com tudo",
+        "it": "Metticela tutta",
+        "ru": "Иди ва-банк",
+        "ja": "全力でぶつかって",
+        "ko": "올인해"
     },
     {
         "zh": "稍安勿躁",
         "en": "Calm down",
-        "fr": "Calmez-vous"
+        "fr": "Calmez-vous",
+        "zh-TW": "稍安勿躁",
+        "de": "Beruhige dich",
+        "es": "Cálmate",
+        "pt": "Acalme-se",
+        "it": "Calmati",
+        "ru": "Успокойся",
+        "ja": "落ち着いて",
+        "ko": "진정해"
     },
     {
         "zh": "你需要改变视角",
         "en": "Change your perspective",
-        "fr": "Changez de perspective"
+        "fr": "Changez de perspective",
+        "zh-TW": "你需要改變視角",
+        "de": "Ändere deine Perspektive",
+        "es": "Cambia tu perspectiva",
+        "pt": "Mude sua perspectiva",
+        "it": "Cambia prospettiva",
+        "ru": "Смени ракурс",
+        "ja": "視点を変えてみて",
+        "ko": "관점을 바꿔봐"
     },
     {
         "zh": "答案是否定的",
         "en": "The answer is no",
-        "fr": "La réponse est non"
+        "fr": "La réponse est non",
+        "zh-TW": "答案是否定的",
+        "de": "Die Antwort ist Nein",
+        "es": "La respuesta es no",
+        "pt": "A resposta é não",
+        "it": "La risposta è no",
+        "ru": "Ответ - нет",
+        "ja": "答えはノーだ",
+        "ko": "답은 아니오야"
     },
     {
         "zh": "这很复杂",
         "en": "It is complex",
-        "fr": "C'est complexe"
+        "fr": "C'est complexe",
+        "zh-TW": "這很複雜",
+        "de": "Es ist kompliziert",
+        "es": "Es complejo",
+        "pt": "É complexo",
+        "it": "È complesso",
+        "ru": "Это сложно",
+        "ja": "それは複雑だ",
+        "ko": "복잡해"
     },
     {
         "zh": "会有转机",
         "en": "Things will turn around",
-        "fr": "Les choses vont changer"
+        "fr": "Les choses vont changer",
+        "zh-TW": "會有轉機",
+        "de": "Die Dinge werden sich wenden",
+        "es": "Las cosas cambiarán",
+        "pt": "As coisas vão mudar",
+        "it": "Le cose cambieranno",
+        "ru": "Все наладится",
+        "ja": "事態は好転する",
+        "ko": "상황이 호전될 거야"
     },
     {
         "zh": "保持乐观",
         "en": "Stay optimistic",
-        "fr": "Restez optimiste"
+        "fr": "Restez optimiste",
+        "zh-TW": "保持樂觀",
+        "de": "Bleib optimistisch",
+        "es": "Mantente optimista",
+        "pt": "Mantenha-se otimista",
+        "it": "Resta ottimista",
+        "ru": "Сохраняй оптимизм",
+        "ja": "楽観的でいて",
+        "ko": "낙관적으로 생각해"
     },
     {
         "zh": "这就是你要找的",
         "en": "This is it",
-        "fr": "C'est ça"
+        "fr": "C'est ça",
+        "zh-TW": "這就是你要找的",
+        "de": "Das ist es",
+        "es": "Esto es",
+        "pt": "É isso",
+        "it": "È questo",
+        "ru": "Это оно",
+        "ja": "これだ",
+        "ko": "바로 이거야"
     },
     {
         "zh": "小心行事",
         "en": "Proceed with caution",
-        "fr": "Procédez avec prudence"
+        "fr": "Procédez avec prudence",
+        "zh-TW": "小心行事",
+        "de": "Geh vorsichtig vor",
+        "es": "Procede con precaución",
+        "pt": "Prossiga com cautela",
+        "it": "Procedi con cautela",
+        "ru": "Действуй осторожно",
+        "ja": "慎重に進めて",
+        "ko": "조심해서 진행해"
     },
     {
         "zh": "享受过程",
         "en": "Enjoy the process",
-        "fr": "Profitez du processus"
+        "fr": "Profitez du processus",
+        "zh-TW": "享受過程",
+        "de": "Genieße den Prozess",
+        "es": "Disfruta el proceso",
+        "pt": "Aproveite o processo",
+        "it": "Goditi il processo",
+        "ru": "Наслаждайся процессом",
+        "ja": "プロセスを楽しんで",
+        "ko": "과정을 즐겨"
     },
     {
         "zh": "别傻了",
         "en": "Don't be silly",
-        "fr": "Ne soyez pas bête"
+        "fr": "Ne soyez pas bête",
+        "zh-TW": "別傻了",
+        "de": "Sei nicht albern",
+        "es": "No seas tonto",
+        "pt": "Não seja bobo",
+        "it": "Non essere sciocco",
+        "ru": "Не глупи",
+        "ja": "バカなこと言わないで",
+        "ko": "바보같이 굴지 마"
     },
     {
         "zh": "你会失望的",
         "en": "You will be disappointed",
-        "fr": "Vous serez déçu"
+        "fr": "Vous serez déçu",
+        "zh-TW": "你會失望的",
+        "de": "Du wirst enttäuscht sein",
+        "es": "Te decepcionarás",
+        "pt": "Você ficará desapontado",
+        "it": "Rimmarrai deluso",
+        "ru": "Ты разочаруешься",
+        "ja": "がっかりするだろう",
+        "ko": "실망할 거야"
     },
     {
         "zh": "这不值得",
         "en": "Not worth it",
-        "fr": "Ça n'en vaut pas la peine"
+        "fr": "Ça n'en vaut pas la peine",
+        "zh-TW": "這不值得",
+        "de": "Es ist es nicht wert",
+        "es": "No vale la pena",
+        "pt": "Não vale a pena",
+        "it": "Non ne vale la pena",
+        "ru": "Оно того не стоит",
+        "ja": "その価値はない",
+        "ko": "그럴 가치가 없어"
     },
     {
         "zh": "离开这里",
         "en": "Leave here",
-        "fr": "Partez d'ici"
+        "fr": "Partez d'ici",
+        "zh-TW": "離開這裡",
+        "de": "Geh weg von hier",
+        "es": "Vete de aquí",
+        "pt": "Saia daqui",
+        "it": "Vattene da qui",
+        "ru": "Уходи отсюда",
+        "ja": "ここから離れて",
+        "ko": "여길 떠나"
     },
     {
         "zh": "去睡觉",
         "en": "Go to sleep",
-        "fr": "Allez dormir"
+        "fr": "Allez dormir",
+        "zh-TW": "去睡覺",
+        "de": "Geh schlafen",
+        "es": "Ve a dormir",
+        "pt": "Vá dormir",
+        "it": "Vai a dormire",
+        "ru": "Иди спать",
+        "ja": "もう寝て",
+        "ko": "가서 자"
     },
     {
         "zh": "喝杯水冷静一下",
         "en": "Drink some water",
-        "fr": "Buvez de l'eau"
+        "fr": "Buvez de l'eau",
+        "zh-TW": "喝杯水冷靜一下",
+        "de": "Trink etwas Wasser",
+        "es": "Bebe un poco de agua",
+        "pt": "Beba um pouco de água",
+        "it": "Bevi un po' d'acqua",
+        "ru": "Выпей воды",
+        "ja": "水を飲んで",
+        "ko": "물 좀 마셔"
     },
     {
         "zh": "你需要一次旅行",
         "en": "Take a trip",
-        "fr": "Faites un voyage"
+        "fr": "Faites un voyage",
+        "zh-TW": "你需要一次旅行",
+        "de": "Mach eine Reise",
+        "es": "Haz un viaje",
+        "pt": "Faça uma viagem",
+        "it": "Fai un viaggio",
+        "ru": "Отправься в путешествие",
+        "ja": "旅に出て",
+        "ko": "여행을 떠나"
     },
     {
         "zh": "整理你的房间",
         "en": "Tidy your room",
-        "fr": "Rangez votre chambre"
+        "fr": "Rangez votre chambre",
+        "zh-TW": "整理你的房間",
+        "de": "Räum dein Zimmer auf",
+        "es": "Ordena tu habitación",
+        "pt": "Arrume seu quarto",
+        "it": "Metti in ordine la tua stanza",
+        "ru": "Убери в комнате",
+        "ja": "部屋を片付けて",
+        "ko": "방 청소해"
     },
     {
         "zh": "给朋友打个电话",
         "en": "Call a friend",
-        "fr": "Appelez un ami"
+        "fr": "Appelez un ami",
+        "zh-TW": "給朋友打個電話",
+        "de": "Ruf einen Freund an",
+        "es": "Llama a un amigo",
+        "pt": "Ligue para um amigo",
+        "it": "Chiama un amico",
+        "ru": "Позвони другу",
+        "ja": "友達に電話して",
+        "ko": "친구에게 전화해"
     },
     {
         "zh": "不要回头",
         "en": "Don't look back",
-        "fr": "Ne regardez pas en arrière"
+        "fr": "Ne regardez pas en arrière",
+        "zh-TW": "不要回頭",
+        "de": "Schau nicht zurück",
+        "es": "No mires atrás",
+        "pt": "Não olhe para trás",
+        "it": "Non guardare indietro",
+        "ru": "Не оглядывайся",
+        "ja": "振り返らないで",
+        "ko": "뒤돌아보지 마"
     },
     {
         "zh": "就在前面",
         "en": "It's just ahead",
-        "fr": "C'est juste devant"
+        "fr": "C'est juste devant",
+        "zh-TW": "就在前面",
+        "de": "Es ist gleich da vorne",
+        "es": "Está justo adelante",
+        "pt": "Está logo à frente",
+        "it": "È proprio lì avanti",
+        "ru": "Это впереди",
+        "ja": "もうすぐそこだ",
+        "ko": "바로 앞이야"
     },
     {
         "zh": "转角遇到爱",
         "en": "Love is around the corner",
-        "fr": "L'amour est au coin de la rue"
+        "fr": "L'amour est au coin de la rue",
+        "zh-TW": "轉角遇到愛",
+        "de": "Die Liebe ist um die Ecke",
+        "es": "El amor está a la vuelta de la esquina",
+        "pt": "O amor está ao virar da esquina",
+        "it": "L'amore è dietro l'angolo",
+        "ru": "Любовь не за горами",
+        "ja": "恋の予感",
+        "ko": "사랑이 가까이에 있어"
     },
     {
         "zh": "你需要更多信息",
         "en": "You need more info",
-        "fr": "Vous avez besoin de plus d'infos"
+        "fr": "Vous avez besoin de plus d'infos",
+        "zh-TW": "你需要更多信息",
+        "de": "Du brauchst mehr Infos",
+        "es": "Necesitas más información",
+        "pt": "Você precisa de mais informações",
+        "it": "Hai bisogno di più informazioni",
+        "ru": "Нужно больше информации",
+        "ja": "もっと情報が必要だ",
+        "ko": "정보가 더 필요해"
     },
     {
         "zh": "不要冲动",
         "en": "Don't be impulsive",
-        "fr": "Ne soyez pas impulsif"
+        "fr": "Ne soyez pas impulsif",
+        "zh-TW": "不要衝動",
+        "de": "Sei nicht impulsiv",
+        "es": "No seas impulsivo",
+        "pt": "Não seja impulsivo",
+        "it": "Non essere impulsivo",
+        "ru": "Не будь импульсивным",
+        "ja": "衝動的にならないで",
+        "ko": "충동적으로 행동하지 마"
     },
     {
         "zh": "三思而后行",
         "en": "Think twice",
-        "fr": "Reflechissez à deux fois"
+        "fr": "Reflechissez à deux fois",
+        "zh-TW": "三思而後行",
+        "de": "Denk zweimal nach",
+        "es": "Piénsalo dos veces",
+        "pt": "Pense duas vezes",
+        "it": "Pensaci due volte",
+        "ru": "Подумай дважды",
+        "ja": "よく考えて",
+        "ko": "두 번 생각하고 행동해"
     },
     {
         "zh": "现在就做",
         "en": "Do it now",
-        "fr": "Faites-le maintenant"
+        "fr": "Faites-le maintenant",
+        "zh-TW": "現在就做",
+        "de": "Tu es jetzt",
+        "es": "Hazlo ahora",
+        "pt": "Faça agora",
+        "it": "Fallo ora",
+        "ru": "Сделай это сейчас",
+        "ja": "今すぐやって",
+        "ko": "지금 해"
     },
     {
         "zh": "明天再说",
         "en": "Tomorrow",
-        "fr": "Demain"
+        "fr": "Demain",
+        "zh-TW": "明天再說",
+        "de": "Morgen",
+        "es": "Mañana",
+        "pt": "Amanhã",
+        "it": "Domani",
+        "ru": "Завтра",
+        "ja": "また明日",
+        "ko": "내일"
     },
     {
         "zh": "一年之后这都不算事",
         "en": "Won't matter in a year",
-        "fr": "Ça ne comptera pas dans un an"
+        "fr": "Ça ne comptera pas dans un an",
+        "zh-TW": "一年之後這都不算事",
+        "de": "In einem Jahr spielt das keine Rolle mehr",
+        "es": "No importará en un año",
+        "pt": "Não importará em um ano",
+        "it": "Non conterà tra un anno",
+        "ru": "Через год это не будет важно",
+        "ja": "一年後にはどうでもいいことだ",
+        "ko": "1년 뒤엔 중요하지 않을 거야"
     },
     {
         "zh": "听听音乐",
         "en": "Listen to music",
-        "fr": "Écoutez de la musique"
+        "fr": "Écoutez de la musique",
+        "zh-TW": "聽聽音樂",
+        "de": "Hör Musik",
+        "es": "Escucha música",
+        "pt": "Ouça música",
+        "it": "Ascolta musica",
+        "ru": "Послушай музыку",
+        "ja": "音楽を聴いて",
+        "ko": "음악을 들어봐"
     },
     {
         "zh": "深呼吸",
         "en": "Breathe deeply",
-        "fr": "Respirez profondément"
+        "fr": "Respirez profondément",
+        "zh-TW": "深呼吸",
+        "de": "Atme tief durch",
+        "es": "Respira profundamente",
+        "pt": "Respire fundo",
+        "it": "Respira profondamente",
+        "ru": "Дыши глубоко",
+        "ja": "深呼吸して",
+        "ko": "심호흡해"
     },
     {
         "zh": "数到十",
         "en": "Count to ten",
-        "fr": "Comptez jusqu'à dix"
+        "fr": "Comptez jusqu'à dix",
+        "zh-TW": "數到十",
+        "de": "Zähl bis zehn",
+        "es": "Cuenta hasta diez",
+        "pt": "Conte até dez",
+        "it": "Conta fino a dieci",
+        "ru": "Сосчитай до десяти",
+        "ja": "10まで数えて",
+        "ko": "열까지 세어봐"
     },
     {
         "zh": "不要在意别人的眼光",
         "en": "Ignore others' opinions",
-        "fr": "Ignorez les opinions des autres"
+        "fr": "Ignorez les opinions des autres",
+        "zh-TW": "不要在意別人的眼光",
+        "de": "Ignoriere die Meinung anderer",
+        "es": "Ignora las opiniones de otros",
+        "pt": "Ignore a opinião dos outros",
+        "it": "Ignora le opinioni altrui",
+        "ru": "Игнорируй чужое мнение",
+        "ja": "他人の目は気にするな",
+        "ko": "남의 시선은 신경 쓰지 마"
     },
     {
         "zh": "做回你自己",
         "en": "Be yourself",
-        "fr": "Soyez vous-même"
+        "fr": "Soyez vous-même",
+        "zh-TW": "做回你自己",
+        "de": "Sei du selbst",
+        "es": "Sé tú mismo",
+        "pt": "Seja você mesmo",
+        "it": "Sii te stesso",
+        "ru": "Будь собой",
+        "ja": "自分らしく",
+        "ko": "너 자신이 되어라"
     },
     {
         "zh": "这是个好机会",
         "en": "Good opportunity",
-        "fr": "Bonne opportunité"
+        "fr": "Bonne opportunité",
+        "zh-TW": "這是個好機會",
+        "de": "Gute Gelegenheit",
+        "es": "Buena oportunidad",
+        "pt": "Boa oportunidade",
+        "it": "Buona opportunità",
+        "ru": "Хорошая возможность",
+        "ja": "いい機会だ",
+        "ko": "좋은 기회야"
     },
     {
         "zh": "危机并存",
         "en": "Crisis and opportunity",
-        "fr": "Crise et opportunité"
+        "fr": "Crise et opportunité",
+        "zh-TW": "危機並存",
+        "de": "Krise und Chance",
+        "es": "Crisis y oportunidad",
+        "pt": "Crise e oportunidade",
+        "it": "Crisi e opportunità",
+        "ru": "Кризис и возможность",
+        "ja": "ピンチはチャンス",
+        "ko": "위기는 기회야"
     },
     {
         "zh": "你需要一个拥抱",
         "en": "You need a hug",
-        "fr": "Vous avez besoin d'un câlin"
+        "fr": "Vous avez besoin d'un câlin",
+        "zh-TW": "你需要一個擁抱",
+        "de": "Du brauchst eine Umarmung",
+        "es": "Necesitas un abrazo",
+        "pt": "Você precisa de um abraço",
+        "it": "Hai bisogno di un abbraccio",
+        "ru": "Тебе нужны объятия",
+        "ja": "ハグが必要だね",
+        "ko": "안아줄 사람이 필요해"
     },
     {
         "zh": "接受现实",
         "en": "Accept reality",
-        "fr": "Acceptez la réalité"
+        "fr": "Acceptez la réalité",
+        "zh-TW": "接受現實",
+        "de": "Akzeptiere die Realität",
+        "es": "Acepta la realidad",
+        "pt": "Aceite a realidade",
+        "it": "Accetta la realtà",
+        "ru": "Прими реальность",
+        "ja": "現実を受け入れて",
+        "ko": "현실을 받아들여"
     },
     {
         "zh": "不要抗拒",
         "en": "Don't resist",
-        "fr": "Ne résistez pas"
+        "fr": "Ne résistez pas",
+        "zh-TW": "不要抗拒",
+        "de": "Wehre dich nicht",
+        "es": "No te resistas",
+        "pt": "Não resista",
+        "it": "Non resistere",
+        "ru": "Не сопротивляйся",
+        "ja": "抵抗しないで",
+        "ko": "저항하지 마"
     },
     {
         "zh": "顺流而下",
         "en": "Go with the stream",
-        "fr": "Suivez le courant"
+        "fr": "Suivez le courant",
+        "zh-TW": "順流而下",
+        "de": "Fließ mit dem Strom",
+        "es": "Sigue la corriente",
+        "pt": "Siga o fluxo",
+        "it": "Segui la corrente",
+        "ru": "Плыви по течению",
+        "ja": "流れに乗って",
+        "ko": "흐름을 따라가"
     },
     {
         "zh": "逆流而上",
         "en": "Go against the stream",
-        "fr": "Allez à contre-courant"
+        "fr": "Allez à contre-courant",
+        "zh-TW": "逆流而上",
+        "de": "Schwimm gegen den Strom",
+        "es": "Ve contra la corriente",
+        "pt": "Vá contra a corrente",
+        "it": "Vai controcorrente",
+        "ru": "Иди против течения",
+        "ja": "流れに逆らって",
+        "ko": "흐름을 거슬러 올라가"
     },
     {
         "zh": "保持饥渴",
         "en": "Stay hungry",
-        "fr": "Restez affamé"
+        "fr": "Restez affamé",
+        "zh-TW": "保持飢渴",
+        "de": "Bleib hungrig",
+        "es": "Sigue hambriento",
+        "pt": "Continue faminto",
+        "it": "Siate affamati",
+        "ru": "Оставайся голодным",
+        "ja": "ハングリーであれ",
+        "ko": "항상 갈망해라"
     },
     {
         "zh": "保持愚蠢",
         "en": "Stay foolish",
-        "fr": "Restez fou"
+        "fr": "Restez fou",
+        "zh-TW": "保持愚蠢",
+        "de": "Bleib hungrig, bleib tollkühn",
+        "es": "Sigue alocado",
+        "pt": "Continue tolo",
+        "it": "Siate folli",
+        "ru": "Оставайся безрассудным",
+        "ja": "愚かであれ",
+        "ko": "우직하게 나아가"
     },
     {
         "zh": "这就是爱",
         "en": "This is love",
-        "fr": "C'est l'amour"
+        "fr": "C'est l'amour",
+        "zh-TW": "這就是愛",
+        "de": "Das ist Liebe",
+        "es": "Esto es amor",
+        "pt": "Isto é amor",
+        "it": "Questo è amore",
+        "ru": "Это любовь",
+        "ja": "これが愛だ",
+        "ko": "사랑이야"
     },
     {
         "zh": "为了自由",
         "en": "For freedom",
-        "fr": "Pour la liberté"
+        "fr": "Pour la liberté",
+        "zh-TW": "為了自由",
+        "de": "Für die Freiheit",
+        "es": "Por la libertad",
+        "pt": "Pela liberdade",
+        "it": "Per la libertà",
+        "ru": "Ради свободы",
+        "ja": "自由のために",
+        "ko": "자유를 위해"
     },
     {
         "zh": "为了和平",
         "en": "For peace",
-        "fr": "Pour la paix"
+        "fr": "Pour la paix",
+        "zh-TW": "為了和平",
+        "de": "Für den Frieden",
+        "es": "Por la paz",
+        "pt": "Pela paz",
+        "it": "Per la pace",
+        "ru": "Ради мира",
+        "ja": "平和のために",
+        "ko": "평화를 위해"
     },
     {
         "zh": "这不是你的错",
         "en": "Not your fault",
-        "fr": "Ce n'est pas votre faute"
+        "fr": "Ce n'est pas votre faute",
+        "zh-TW": "這不是你的錯",
+        "de": "Es ist nicht deine Schuld",
+        "es": "No es tu culpa",
+        "pt": "Não é sua culpa",
+        "it": "Non è colpa tua",
+        "ru": "Это не твоя вина",
+        "ja": "君のせいじゃない",
+        "ko": "네 잘못이 아니야"
     },
     {
         "zh": "原谅他们",
         "en": "Forgive them",
-        "fr": "Pardonnez-leur"
+        "fr": "Pardonnez-leur",
+        "zh-TW": "原諒他們",
+        "de": "Vergib ihnen",
+        "es": "Perdónalos",
+        "pt": "Perdoe-os",
+        "it": "Perdonali",
+        "ru": "Прости их",
+        "ja": "許してあげて",
+        "ko": "그들을 용서해"
     },
     {
         "zh": "原谅自己",
         "en": "Forgive yourself",
-        "fr": "Pardonnez-vous"
+        "fr": "Pardonnez-vous",
+        "zh-TW": "原諒自己",
+        "de": "Vergib dir selbst",
+        "es": "Perdónate",
+        "pt": "Perdoe-se",
+        "it": "Perdonati",
+        "ru": "Прости себя",
+        "ja": "自分を許して",
+        "ko": "너 자신을 용서해"
     },
     {
         "zh": "学会放手",
         "en": "Learn to let go",
-        "fr": "Apprenez à lâcher prise"
+        "fr": "Apprenez à lâcher prise",
+        "zh-TW": "學會放手",
+        "de": "Lerne loszulassen",
+        "es": "Aprende a soltar",
+        "pt": "Aprenda a deixar ir",
+        "it": "Impara a lasciare andare",
+        "ru": "Научись отпускать",
+        "ja": "手放すことを学んで",
+        "ko": "놓아주는 법을 배워"
     },
     {
         "zh": "学会拒绝",
         "en": "Learn to say no",
-        "fr": "Apprenez à dire non"
+        "fr": "Apprenez à dire non",
+        "zh-TW": "學會拒絕",
+        "de": "Lerne Nein zu sagen",
+        "es": "Aprende a decir no",
+        "pt": "Aprenda a dizer não",
+        "it": "Impara a dire di no",
+        "ru": "Научись говорить нет",
+        "ja": "ノーと言うことを学んで",
+        "ko": "거절하는 법을 배워"
     },
     {
         "zh": "学会接受",
         "en": "Learn to accept",
-        "fr": "Apprenez à accepter"
+        "fr": "Apprenez à accepter",
+        "zh-TW": "學會接受",
+        "de": "Lerne zu akzeptieren",
+        "es": "Aprende a aceptar",
+        "pt": "Aprenda a aceitar",
+        "it": "Impara ad accettare",
+        "ru": "Научись принимать",
+        "ja": "受け入れることを学んで",
+        "ko": "받아들이는 법을 배워"
     },
     {
         "zh": "你需要断舍离",
         "en": "Declutter",
-        "fr": "Désencombrez"
+        "fr": "Désencombrez",
+        "zh-TW": "你需要斷捨離",
+        "de": "Entrümple",
+        "es": "Despeja",
+        "pt": "Organize",
+        "it": "Fai ordine",
+        "ru": "Наведи порядок",
+        "ja": "断捨離して",
+        "ko": "정리해"
     },
     {
         "zh": "极简主义",
         "en": "Minimalism",
-        "fr": "Minimalisme"
+        "fr": "Minimalisme",
+        "zh-TW": "極簡主義",
+        "de": "Minimalismus",
+        "es": "Minimalismo",
+        "pt": "Minimalismo",
+        "it": "Minimalismo",
+        "ru": "Минимализм",
+        "ja": "ミニマリズム",
+        "ko": "미니멀리즘"
     },
     {
         "zh": "这是多余的",
         "en": "It is unnecessary",
-        "fr": "C'est inutile"
+        "fr": "C'est inutile",
+        "zh-TW": "這是多餘的",
+        "de": "Es ist unnötig",
+        "es": "Es innecesario",
+        "pt": "É desnecessário",
+        "it": "È inutile",
+        "ru": "Это излишне",
+        "ja": "それは不必要だ",
+        "ko": "불필요해"
     },
     {
         "zh": "这是必要的",
         "en": "It is necessary",
-        "fr": "C'est nécessaire"
+        "fr": "C'est nécessaire",
+        "zh-TW": "這是必要的",
+        "de": "Es ist notwendig",
+        "es": "Es necesario",
+        "pt": "É necessário",
+        "it": "È necessario",
+        "ru": "Это необходимо",
+        "ja": "それは必要だ",
+        "ko": "필요해"
     },
     {
         "zh": "不要浪费时间",
         "en": "Don't waste time",
-        "fr": "Ne perdez pas de temps"
+        "fr": "Ne perdez pas de temps",
+        "zh-TW": "不要浪費時間",
+        "de": "Verschwende keine Zeit",
+        "es": "No pierdas tiempo",
+        "pt": "Não perca tempo",
+        "it": "Non perdere tempo",
+        "ru": "Не трать время",
+        "ja": "時間を無駄にしないで",
+        "ko": "시간 낭비하지 마"
     },
     {
         "zh": "时间会证明一切",
         "en": "Time will tell",
-        "fr": "Le temps nous le dira"
+        "fr": "Le temps nous le dira",
+        "zh-TW": "時間會證明一切",
+        "de": "Die Zeit wird es zeigen",
+        "es": "El tiempo lo dirá",
+        "pt": "O tempo dirá",
+        "it": "Il tempo lo dirà",
+        "ru": "Время покажет",
+        "ja": "時が解決してくれる",
+        "ko": "시간이 말해줄 거야"
     },
     {
         "zh": "路遥知马力",
         "en": "Distance tests a horse",
-        "fr": "La distance éprouve le cheval"
+        "fr": "La distance éprouve le cheval",
+        "zh-TW": "路遙知馬力",
+        "de": "Die Entfernung prüft das Pferd",
+        "es": "La distancia prueba al caballo",
+        "pt": "A distância testa o cavalo",
+        "it": "La distanza mette alla prova il cavallo",
+        "ru": "Расстояние проверяет лошадь",
+        "ja": "路遥かして馬力を知る",
+        "ko": "갈 길은 멀고 말은 지친다"
     },
     {
         "zh": "日久见人心",
         "en": "Time reveals hearts",
-        "fr": "Le temps révèle les cœurs"
+        "fr": "Le temps révèle les cœurs",
+        "zh-TW": "日久見人心",
+        "de": "Die Zeit enthüllt die Herzen",
+        "es": "El tiempo revela los corazones",
+        "pt": "O tempo revela os corações",
+        "it": "Il tempo rivela i cuori",
+        "ru": "Время показывает, кто есть кто",
+        "ja": "時が人の心を明らかにする",
+        "ko": "시간이 지나면 진심을 알게 돼"
     },
     {
         "zh": "既来之则安之",
         "en": "Take it as it comes",
-        "fr": "Prenez les choses comme elles viennent"
+        "fr": "Prenez les choses comme elles viennent",
+        "zh-TW": "既來之則安之",
+        "de": "Nimm es, wie es kommt",
+        "es": "Tómalo como viene",
+        "pt": "Aceite como vier",
+        "it": "Prendila come viene",
+        "ru": "Принимай все как есть",
+        "ja": "なるようになる",
+        "ko": "받아들여"
     },
     {
         "zh": "车到山前必有路",
         "en": "There will be a way",
-        "fr": "Il y aura un moyen"
+        "fr": "Il y aura un moyen",
+        "zh-TW": "車到山前必有路",
+        "de": "Es wird einen Weg geben",
+        "es": "Habrá una manera",
+        "pt": "Haverá um jeito",
+        "it": "Ci sarà un modo",
+        "ru": "Выход найдется",
+        "ja": "道は開ける",
+        "ko": "길이 있을 거야"
     },
     {
         "zh": "船到桥头自然直",
         "en": "Everything will be fine",
-        "fr": "Tout ira bien"
+        "fr": "Tout ira bien",
+        "zh-TW": "船到橋頭自然直",
+        "de": "Alles wird gut",
+        "es": "Todo saldrá bien",
+        "pt": "Vai ficar tudo bem",
+        "it": "Andrà tutto bene",
+        "ru": "Все будет хорошо",
+        "ja": "きっとうまくいくよ",
+        "ko": "다 잘 될 거야"
     },
     {
         "zh": "不要杞人忧天",
         "en": "Don't worry unnecessarily",
-        "fr": "Ne vous inquiétez pas inutilement"
+        "fr": "Ne vous inquiétez pas inutilement",
+        "zh-TW": "不要杞人憂天",
+        "de": "Sorge dich nicht unnötig",
+        "es": "No te preocupes innecesariamente",
+        "pt": "Não se preocupe desnecessariamente",
+        "it": "Non preoccuparti inutilmente",
+        "ru": "Не волнуйся понапрасну",
+        "ja": "取り越し苦労だよ",
+        "ko": "쓸데없는 걱정 하지 마"
     },
     {
         "zh": "活在当下",
         "en": "Live in the moment",
-        "fr": "Vivez l'instant présent"
+        "fr": "Vivez l'instant présent",
+        "zh-TW": "活在當下",
+        "de": "Lebe im Moment",
+        "es": "Vive el momento",
+        "pt": "Viva o momento",
+        "it": "Vivi il momento",
+        "ru": "Живи моментом",
+        "ja": "今を生きて",
+        "ko": "현재를 살아"
     },
     {
         "zh": "每一天都是新的",
         "en": "Every day is new",
-        "fr": "Chaque jour est nouveau"
+        "fr": "Chaque jour est nouveau",
+        "zh-TW": "每一天都是新的",
+        "de": "Jeder Tag ist neu",
+        "es": "Cada día es nuevo",
+        "pt": "Cada dia é novo",
+        "it": "Ogni giorno è nuovo",
+        "ru": "Каждый день новый",
+        "ja": "毎日は新しい",
+        "ko": "매일이 새로워"
     },
     {
         "zh": "太阳照常升起",
         "en": "The sun rises",
-        "fr": "Le soleil se lève"
+        "fr": "Le soleil se lève",
+        "zh-TW": "太陽照常升起",
+        "de": "Die Sonne geht auf",
+        "es": "El sol sale",
+        "pt": "O sol nasce",
+        "it": "Il sole sorge",
+        "ru": "Солнце встает",
+        "ja": "日はまた昇る",
+        "ko": "해는 뜬다"
     },
     {
         "zh": "黑夜终将过去",
         "en": "Darkness will pass",
-        "fr": "L'obscurité passera"
+        "fr": "L'obscurité passera",
+        "zh-TW": "黑夜終將過去",
+        "de": "Die Dunkelheit wird vergehen",
+        "es": "La oscuridad pasará",
+        "pt": "A escuridão passará",
+        "it": "L'oscurità passerà",
+        "ru": "Тьма пройдет",
+        "ja": "暗闇は過ぎ去る",
+        "ko": "어둠은 지나갈 거야"
     },
     {
         "zh": "黎明前的黑暗",
         "en": "Darkest before dawn",
-        "fr": "Le plus sombre avant l'aube"
+        "fr": "Le plus sombre avant l'aube",
+        "zh-TW": "黎明前的黑暗",
+        "de": "Am dunkelsten vor der Dämmerung",
+        "es": "Más oscuro antes del amanecer",
+        "pt": "Mais escuro antes do amanhecer",
+        "it": "Il buio prima dell'alba",
+        "ru": "Темнее всего перед рассветом",
+        "ja": "夜明け前が一番暗い",
+        "ko": "동트기 전이 가장 어두워"
     },
     {
         "zh": "坚持就是胜利",
         "en": "Persistence is victory",
-        "fr": "La persévérance est la victoire"
+        "fr": "La persévérance est la victoire",
+        "zh-TW": "堅持就是勝利",
+        "de": "Ausdauer ist der Sieg",
+        "es": "La perseverancia es la victoria",
+        "pt": "Persistência é a vitória",
+        "it": "La perseveranza è vittoria",
+        "ru": "Настойчивость - залог победы",
+        "ja": "継続は力なり",
+        "ko": "버티는 게 이기는 거야"
     },
     {
         "zh": "失败是成功之母",
         "en": "Failure teaches success",
-        "fr": "L'échec enseigne le succès"
+        "fr": "L'échec enseigne le succès",
+        "zh-TW": "失敗是成功之母",
+        "de": "Misserfolg lehrt Erfolg",
+        "es": "El fracaso enseña el éxito",
+        "pt": "O fracasso ensina o sucesso",
+        "it": "Il fallimento insegna il successo",
+        "ru": "Неудача учит успеху",
+        "ja": "失敗は成功のもと",
+        "ko": "실패는 성공의 어머니"
     },
     {
         "zh": "再试一次",
         "en": "Try again",
-        "fr": "Essayez encore"
+        "fr": "Essayez encore",
+        "zh-TW": "再試一次",
+        "de": "Versuch es nochmal",
+        "es": "Inténtalo de nuevo",
+        "pt": "Tente novamente",
+        "it": "Riprova",
+        "ru": "Попробуй снова",
+        "ja": "もう一度やってみて",
+        "ko": "다시 시도해봐"
     },
     {
         "zh": "最后一次",
         "en": "Last time",
-        "fr": "Dernière fois"
+        "fr": "Dernière fois",
+        "zh-TW": "最後一次",
+        "de": "Letztes Mal",
+        "es": "Última vez",
+        "pt": "Última vez",
+        "it": "Ultima volta",
+        "ru": "Последний раз",
+        "ja": "これが最後だ",
+        "ko": "마지막이야"
     },
     {
         "zh": "新的开始",
         "en": "New beginning",
-        "fr": "Nouveau départ"
+        "fr": "Nouveau départ",
+        "zh-TW": "新的開始",
+        "de": "Neuanfang",
+        "es": "Nuevo comienzo",
+        "pt": "Novo começo",
+        "it": "Nuovo inizio",
+        "ru": "Новое начало",
+        "ja": "新たな始まり",
+        "ko": "새로운 시작"
     },
     {
         "zh": "旧的结束",
         "en": "Old ending",
-        "fr": "Ancienne fin"
+        "fr": "Ancienne fin",
+        "zh-TW": "舊的結束",
+        "de": "Altes Ende",
+        "es": "Viejo final",
+        "pt": "Fim antigo",
+        "it": "Vecchia fine",
+        "ru": "Старый конец",
+        "ja": "古い終わり",
+        "ko": "낡은 끝"
     },
     {
         "zh": "这是一个循环",
         "en": "It's a cycle",
-        "fr": "C'est un cycle"
+        "fr": "C'est un cycle",
+        "zh-TW": "這是一個循環",
+        "de": "Es ist ein Kreislauf",
+        "es": "Es un ciclo",
+        "pt": "É um ciclo",
+        "it": "È un ciclo",
+        "ru": "Это цикл",
+        "ja": "それはサイクルだ",
+        "ko": "순환이야"
     },
     {
         "zh": "打破常规",
         "en": "Break the rules",
-        "fr": "Enfreignez les règles"
+        "fr": "Enfreignez les règles",
+        "zh-TW": "打破常規",
+        "de": "Brich die Regeln",
+        "es": "Rompe las reglas",
+        "pt": "Quebre as regras",
+        "it": "Infrangi le regole",
+        "ru": "Нарушь правила",
+        "ja": "ルールを破って",
+        "ko": "규칙을 깨라"
     },
     {
         "zh": "跳出舒适区",
         "en": "Leave comfort zone",
-        "fr": "Sortez de votre zone de confort"
+        "fr": "Sortez de votre zone de confort",
+        "zh-TW": "跳出舒適區",
+        "de": "Verlasse deine Komfortzone",
+        "es": "Sal de tu zona de confort",
+        "pt": "Saia da zona de conforto",
+        "it": "Esci dalla zona di comfort",
+        "ru": "Выйди из зоны комфорта",
+        "ja": "コンフォートゾーンを出て",
+        "ko": "안전지대에서 벗어나"
     },
     {
         "zh": "去冒险吧",
         "en": "Go on an adventure",
-        "fr": "Partez à l'aventure"
+        "fr": "Partez à l'aventure",
+        "zh-TW": "去冒險吧",
+        "de": "Geh auf ein Abenteuer",
+        "es": "Ve a una aventura",
+        "pt": "Vá em uma aventura",
+        "it": "Parti per un'avventura",
+        "ru": "Отправляйся в приключение",
+        "ja": "冒険に出かけよう",
+        "ko": "모험을 떠나"
     },
     {
         "zh": "安全第一",
         "en": "Safety first",
-        "fr": "La sécurité d'abord"
+        "fr": "La sécurité d'abord",
+        "zh-TW": "安全第一",
+        "de": "Sicherheit geht vor",
+        "es": "La seguridad es lo primero",
+        "pt": "Segurança em primeiro lugar",
+        "it": "La sicurezza prima di tutto",
+        "ru": "Безопасность прежде всего",
+        "ja": "安全第一",
+        "ko": "안전이 제일이야"
     },
     {
         "zh": "健康最重要",
         "en": "Health is priority",
-        "fr": "La santé est prioritaire"
+        "fr": "La santé est prioritaire",
+        "zh-TW": "健康最重要",
+        "de": "Gesundheit hat Vorrang",
+        "es": "La salud es prioridad",
+        "pt": "Saúde é prioridade",
+        "it": "La salute è prioritaria",
+        "ru": "Здоровье - приоритет",
+        "ja": "健康が第一",
+        "ko": "건강이 최우선이야"
     },
     {
         "zh": "不要忽视健康",
         "en": "Don't ignore health",
-        "fr": "N'ignorez pas la santé"
+        "fr": "N'ignorez pas la santé",
+        "zh-TW": "不要忽視健康",
+        "de": "Ignoriere nicht deine Gesundheit",
+        "es": "No ignores tu salud",
+        "pt": "Não ignore sua saúde",
+        "it": "Non ignorare la salute",
+        "ru": "Не игнорируй здоровье",
+        "ja": "健康を無視しないで",
+        "ko": "건강을 소홀히 하지 마"
     },
     {
         "zh": "多喝热水",
         "en": "Drink hot water",
-        "fr": "Buvez de l'eau chaude"
+        "fr": "Buvez de l'eau chaude",
+        "zh-TW": "多喝熱水",
+        "de": "Trink heißes Wasser",
+        "es": "Bebe agua caliente",
+        "pt": "Beba água quente",
+        "it": "Bevi acqua calda",
+        "ru": "Пей горячую воду",
+        "ja": "お湯を飲んで",
+        "ko": "따뜻한 물을 마셔"
     },
     {
         "zh": "早点睡",
         "en": "Sleep early",
-        "fr": "Dormez tôt"
+        "fr": "Dormez tôt",
+        "zh-TW": "早點睡",
+        "de": "Schlaf früh",
+        "es": "Duerme temprano",
+        "pt": "Durma cedo",
+        "it": "Dormi presto",
+        "ru": "Ложись спать пораньше",
+        "ja": "早く寝て",
+        "ko": "일찍 자"
     },
     {
         "zh": "少吃糖",
         "en": "Less sugar",
-        "fr": "Moins de sucre"
+        "fr": "Moins de sucre",
+        "zh-TW": "少吃糖",
+        "de": "Weniger Zucker",
+        "es": "Menos azúcar",
+        "pt": "Menos açúcar",
+        "it": "Meno zucchero",
+        "ru": "Меньше сахара",
+        "ja": "糖分を控えて",
+        "ko": "설탕을 줄여"
     },
     {
         "zh": "多运动",
         "en": "Exercise more",
-        "fr": "Faites plus d'exercice"
+        "fr": "Faites plus d'exercice",
+        "zh-TW": "多運動",
+        "de": "Beweg dich mehr",
+        "es": "Haz más ejercicio",
+        "pt": "Exercite-se mais",
+        "it": "Fai più esercizio",
+        "ru": "Больше тренируйся",
+        "ja": "もっと運動して",
+        "ko": "운동 좀 더 해"
     },
     {
         "zh": "去读书",
         "en": "Read a book",
-        "fr": "Lisez un livre"
+        "fr": "Lisez un livre",
+        "zh-TW": "去讀書",
+        "de": "Lies ein Buch",
+        "es": "Lee un libro",
+        "pt": "Leia um livro",
+        "it": "Leggi un libro",
+        "ru": "Почитай книгу",
+        "ja": "本を読んで",
+        "ko": "책을 읽어"
     },
     {
         "zh": "去学习",
         "en": "Go learn",
-        "fr": "Allez apprendre"
+        "fr": "Allez apprendre",
+        "zh-TW": "去學習",
+        "de": "Geh lernen",
+        "es": "Ve a aprender",
+        "pt": "Vá aprender",
+        "it": "Vai a imparare",
+        "ru": "Иди учись",
+        "ja": "学びに行って",
+        "ko": "가서 배워"
     },
     {
         "zh": "提升自己",
         "en": "Improve yourself",
-        "fr": "Améliorez-vous"
+        "fr": "Améliorez-vous",
+        "zh-TW": "提升自己",
+        "de": "Verbessere dich",
+        "es": "Mejórate",
+        "pt": "Melhore a si mesmo",
+        "it": "Migliorati",
+        "ru": "Совершенствуйся",
+        "ja": "自分を磨いて",
+        "ko": "자신을 발전시켜"
     },
     {
         "zh": "投资自己",
         "en": "Invest in yourself",
-        "fr": "Investissez en vous"
+        "fr": "Investissez en vous",
+        "zh-TW": "投資自己",
+        "de": "Investiere in dich selbst",
+        "es": "Invierte en ti mismo",
+        "pt": "Invista em você",
+        "it": "Investi su te stesso",
+        "ru": "Инвестируй в себя",
+        "ja": "自己投資して",
+        "ko": "자신에게 투자해"
     },
     {
         "zh": "这是最好的投资",
         "en": "Best investment",
-        "fr": "Meilleur investissement"
+        "fr": "Meilleur investissement",
+        "zh-TW": "這是最好的投資",
+        "de": "Beste Investition",
+        "es": "La mejor inversión",
+        "pt": "Melhor investimento",
+        "it": "Il miglior investimento",
+        "ru": "Лучшая инвестиция",
+        "ja": "最高の投資",
+        "ko": "최고의 투자"
     },
     {
         "zh": "不要吝啬",
         "en": "Don't be stingy",
-        "fr": "Ne soyez pas radin"
+        "fr": "Ne soyez pas radin",
+        "zh-TW": "不要吝嗇",
+        "de": "Sei nicht geizig",
+        "es": "No seas tacaño",
+        "pt": "Não seja mesquinho",
+        "it": "Non essere avaro",
+        "ru": "Не скупись",
+        "ja": "ケチケチしないで",
+        "ko": "인색하게 굴지 마"
     },
     {
         "zh": "慷慨一点",
         "en": "Be generous",
-        "fr": "Soyez généreux"
+        "fr": "Soyez généreux",
+        "zh-TW": "慷慨一點",
+        "de": "Sei großzügig",
+        "es": "Sé generoso",
+        "pt": "Seja generoso",
+        "it": "Sii generoso",
+        "ru": "Будь щедрым",
+        "ja": "寛大になって",
+        "ko": "관대해져라"
     },
     {
         "zh": "分享你的快乐",
         "en": "Share your joy",
-        "fr": "Partagez votre joie"
+        "fr": "Partagez votre joie",
+        "zh-TW": "分享你的快樂",
+        "de": "Teile deine Freude",
+        "es": "Comparte tu alegría",
+        "pt": "Compartilhe sua alegria",
+        "it": "Condividi la tua gioia",
+        "ru": "Поделись радостью",
+        "ja": "喜びを分かち合って",
+        "ko": "기쁨을 나눠"
     },
     {
         "zh": "分担你的痛苦",
         "en": "Share your pain",
-        "fr": "Partagez votre douleur"
+        "fr": "Partagez votre douleur",
+        "zh-TW": "分擔你的痛苦",
+        "de": "Teile deinen Schmerz",
+        "es": "Comparte tu dolor",
+        "pt": "Compartilhe sua dor",
+        "it": "Condividi il tuo dolore",
+        "ru": "Поделись болью",
+        "ja": "痛みを分かち合って",
+        "ko": "아픔을 나눠"
     },
     {
         "zh": "寻找同伴",
         "en": "Find a companion",
-        "fr": "Trouvez un compagnon"
+        "fr": "Trouvez un compagnon",
+        "zh-TW": "尋找同伴",
+        "de": "Finde einen Begleiter",
+        "es": "Encuentra un compañero",
+        "pt": "Encontre um companheiro",
+        "it": "Trova un compagno",
+        "ru": "Найди спутника",
+        "ja": "仲間を見つけて",
+        "ko": "동료를 찾아"
     },
     {
         "zh": "你需要团队",
         "en": "You need a team",
-        "fr": "Vous avez besoin d'une équipe"
+        "fr": "Vous avez besoin d'une équipe",
+        "zh-TW": "你需要團隊",
+        "de": "Du brauchst ein Team",
+        "es": "Necesitas un equipo",
+        "pt": "Você precisa de uma equipe",
+        "it": "Hai bisogno di una squadra",
+        "ru": "Тебе нужна команда",
+        "ja": "チームが必要だ",
+        "ko": "팀이 필요해"
     },
     {
         "zh": "你需要独处",
         "en": "You need solitude",
-        "fr": "Vous avez besoin de solitude"
+        "fr": "Vous avez besoin de solitude",
+        "zh-TW": "你需要獨處",
+        "de": "Du brauchst Einsamkeit",
+        "es": "Necesitas soledad",
+        "pt": "Você precisa de solidão",
+        "it": "Hai bisogno di solitudine",
+        "ru": "Тебе нужно побыть одному",
+        "ja": "一人の時間が必要だ",
+        "ko": "혼자만의 시간이 필요해"
     },
     {
         "zh": "倾听内心的声音",
         "en": "Listen to your heart",
-        "fr": "Écoutez votre cœur"
+        "fr": "Écoutez votre cœur",
+        "zh-TW": "傾聽內心的聲音",
+        "de": "Hör auf dein Herz",
+        "es": "Escucha a tu corazón",
+        "pt": "Ouça seu coração",
+        "it": "Ascolta il tuo cuore",
+        "ru": "Слушай свое сердце",
+        "ja": "心の声を聞いて",
+        "ko": "마음의 소리를 들어"
     },
     {
         "zh": "这是噪音",
         "en": "This is noise",
-        "fr": "C'est du bruit"
+        "fr": "C'est du bruit",
+        "zh-TW": "這是噪音",
+        "de": "Das ist Lärm",
+        "es": "Esto es ruido",
+        "pt": "Isto é ruído",
+        "it": "Questo è rumore",
+        "ru": "Это шум",
+        "ja": "雑音だ",
+        "ko": "소음일 뿐이야"
     },
     {
         "zh": "这是信号",
         "en": "This is a signal",
-        "fr": "C'est un signal"
+        "fr": "C'est un signal",
+        "zh-TW": "這是信號",
+        "de": "Das ist ein Zeichen",
+        "es": "Esta es una señal",
+        "pt": "Isto é um sinal",
+        "it": "Questo è un segnale",
+        "ru": "Это знак",
+        "ja": "これはシグナルだ",
+        "ko": "이건 신호야"
     },
     {
         "zh": "关注细节",
         "en": "Focus on details",
-        "fr": "Concentrez-vous sur les détails"
+        "fr": "Concentrez-vous sur les détails",
+        "zh-TW": "關注細節",
+        "de": "Achte auf Details",
+        "es": "Concéntrate en los detalles",
+        "pt": "Concentre-se nos detalhes",
+        "it": "Concentrati sui dettagli",
+        "ru": "Сосредоточься на деталях",
+        "ja": "細部に注目して",
+        "ko": "디테일에 집중해"
     },
     {
         "zh": "大局为重",
         "en": "Big picture",
-        "fr": "Vue d'ensemble"
+        "fr": "Vue d'ensemble",
+        "zh-TW": "大局為重",
+        "de": "Das große Ganze",
+        "es": "El panorama general",
+        "pt": "O panorama geral",
+        "it": "Il quadro generale",
+        "ru": "Общая картина",
+        "ja": "全体像を見て",
+        "ko": "큰 그림을 봐"
     },
     {
         "zh": "不要因小失大",
         "en": "Don't lose big for small",
-        "fr": "Ne perdez pas le grand pour le petit"
+        "fr": "Ne perdez pas le grand pour le petit",
+        "zh-TW": "不要因小失大",
+        "de": "Verliere nicht das Große für das Kleine",
+        "es": "No pierdas lo grande por lo pequeño",
+        "pt": "Não perca o grande pelo pequeno",
+        "it": "Non perdere il grande per il piccolo",
+        "ru": "Не разменивайся по мелочам",
+        "ja": "小を捨てて大を取れ",
+        "ko": "소탐대실하지 마"
     },
     {
         "zh": "贪小便宜吃大亏",
         "en": "Greed costs more",
-        "fr": "La cupidité coûte cher"
+        "fr": "La cupidité coûte cher",
+        "zh-TW": "貪小便宜吃大虧",
+        "de": "Gier kostet mehr",
+        "es": "La avaricia sale cara",
+        "pt": "A ganância custa caro",
+        "it": "L'avidità costa cara",
+        "ru": "Скупой платит дважды",
+        "ja": "欲張ると損をする",
+        "ko": "욕심이 화를 부른다"
     },
     {
         "zh": "知足常乐",
         "en": "Contentment is joy",
-        "fr": "Le contentement est la joie"
+        "fr": "Le contentement est la joie",
+        "zh-TW": "知足常樂",
+        "de": "Zufriedenheit ist Freude",
+        "es": "La satisfacción es alegría",
+        "pt": "O contentamento é alegria",
+        "it": "La contentezza è gioia",
+        "ru": "Удовлетворение - это радость",
+        "ja": "足るを知る者は富む",
+        "ko": "만족이 곧 기쁨이야"
     },
     {
         "zh": "热爱你的工作",
         "en": "Love what you do",
         "fr": "Aimez ce que vous faites",
-        "author_en": "Steve Jobs"
+        "author_en": "Steve Jobs",
+        "zh-TW": "熱愛你的工作",
+        "de": "Liebe, was du tust",
+        "es": "Ama lo que haces",
+        "pt": "Ame o que você faz",
+        "it": "Ama ciò che fai",
+        "ru": "Люби то, что делаешь",
+        "ja": "自分の仕事を愛して",
+        "ko": "네 일을 사랑해"
     },
     {
         "zh": "坚持非常重要",
         "en": "Persistence is very important",
         "fr": "La persévérance est très importante",
-        "author_en": "Elon Musk"
+        "author_en": "Elon Musk",
+        "zh-TW": "堅持非常重要",
+        "de": "Ausdauer ist sehr wichtig",
+        "es": "La persistencia es muy importante",
+        "pt": "A persistência é muito importante",
+        "it": "La perseveranza è molto importante",
+        "ru": "Настойчивость очень важна",
+        "ja": "粘り強さが大切だ",
+        "ko": "끈기가 매우 중요해"
     },
     {
         "zh": "不要把自己和任何人比较",
         "en": "Don't compare yourself with anyone",
         "fr": "Ne vous comparez à personne",
-        "author_en": "Bill Gates"
+        "author_en": "Bill Gates",
+        "zh-TW": "不要把自己和任何人比較",
+        "de": "Vergleiche dich mit niemandem",
+        "es": "No te compares con nadie",
+        "pt": "Não se compare com ninguém",
+        "it": "Non paragonarti a nessuno",
+        "ru": "Не сравнивай себя ни с кем",
+        "ja": "他人と自分を比べないで",
+        "ko": "남과 비교하지 마"
     },
     {
         "zh": "永远保持第一天的心态",
         "en": "It's always Day 1",
         "fr": "C'est toujours le premier jour",
-        "author_en": "Jeff Bezos"
+        "author_en": "Jeff Bezos",
+        "zh-TW": "永遠保持第一天的心態",
+        "de": "Es ist immer Tag 1",
+        "es": "Siempre es el primer día",
+        "pt": "É sempre o Dia 1",
+        "it": "È sempre il primo giorno",
+        "ru": "Это всегда День 1",
+        "ja": "常に初心で",
+        "ko": "언제나 첫날처럼"
     },
     {
         "zh": "做人们想要的东西",
         "en": "Make something people want",
         "fr": "Faites quelque chose que les gens veulent",
-        "author_en": "Paul Graham"
+        "author_en": "Paul Graham",
+        "zh-TW": "做人們想要的東西",
+        "de": "Mach etwas, das die Leute wollen",
+        "es": "Haz algo que la gente quiera",
+        "pt": "Faça algo que as pessoas queiram",
+        "it": "Crea qualcosa che la gente vuole",
+        "ru": "Делай то, что нужно людям",
+        "ja": "人々が求めるものを作って",
+        "ko": "사람들이 원하는 것을 만들어"
     },
     {
         "zh": "趁现在去冒险",
         "en": "Take risks now",
         "fr": "Prenez des risques maintenant",
-        "author_en": "Elon Musk"
+        "author_en": "Elon Musk",
+        "zh-TW": "趁現在去冒險",
+        "de": "Geh jetzt Risiken ein",
+        "es": "Toma riesgos ahora",
+        "pt": "Arrisque agora",
+        "it": "Corri rischi ora",
+        "ru": "Рискуй сейчас",
+        "ja": "今こそリスクを取れ",
+        "ko": "지금 모험을 걸어"
     },
     {
         "zh": "做正确的事，而不是容易的事",
         "en": "Do what is right, not what is easy",
         "fr": "Faites ce qui est juste, pas ce qui est facile",
-        "author_en": "Tim Cook"
+        "author_en": "Tim Cook",
+        "zh-TW": "做正確的事，而不是容易的事",
+        "de": "Tu das Richtige, nicht das Einfache",
+        "es": "Haz lo correcto, no lo fácil",
+        "pt": "Faça o que é certo, não o que é fácil",
+        "it": "Fai ciò che è giusto, non ciò che è facile",
+        "ru": "Делай то, что правильно, а не то, что легко",
+        "ja": "簡単なことではなく、正しいことをして",
+        "ko": "쉬운 일이 아니라 옳은 일을 해"
     },
     {
         "zh": "最大的风险就是不冒任何风险",
         "en": "The biggest risk is not taking any risk",
         "fr": "Le plus grand risque est de ne prendre aucun risque",
-        "author_en": "Mark Zuckerberg"
+        "author_en": "Mark Zuckerberg",
+        "zh-TW": "最大的風險就是不冒任何風險",
+        "de": "Das größte Risiko ist, kein Risiko einzugehen",
+        "es": "El mayor riesgo es no correr ningún riesgo",
+        "pt": "O maior risco é não correr riscos",
+        "it": "Il rischio più grande è non correre rischi",
+        "ru": "Самый большой риск - не рисковать",
+        "ja": "最大のリスクはリスクを取らないことだ",
+        "ko": "가장 큰 위험은 아무런 위험도 감수하지 않는 것이다"
     },
     {
         "zh": "这是一个秘密",
         "en": "It's a secret",
-        "fr": "C'est un secret"
+        "fr": "C'est un secret",
+        "zh-TW": "這是一個秘密",
+        "de": "Es ist ein Geheimnis",
+        "es": "Es un secreto",
+        "pt": "É um segredo",
+        "it": "È un segreto",
+        "ru": "Это секрет",
+        "ja": "それは秘密だ",
+        "ko": "비밀이야"
     },
     {
         "zh": "问问你的父亲",
         "en": "Ask your father",
-        "fr": "Demandez à votre père"
+        "fr": "Demandez à votre père",
+        "zh-TW": "問問你的父親",
+        "de": "Frag deinen Vater",
+        "es": "Pregúntale a tu padre",
+        "pt": "Pergunte ao seu pai",
+        "it": "Chiedi a tuo padre",
+        "ru": "Спроси у отца",
+        "ja": "お父さんに聞いて",
+        "ko": "아버지께 여쭤봐"
     },
     {
         "zh": "问问你的母亲",
         "en": "Ask your mother",
-        "fr": "Demandez à votre mère"
+        "fr": "Demandez à votre mère",
+        "zh-TW": "問問你的母親",
+        "de": "Frag deine Mutter",
+        "es": "Pregúntale a tu madre",
+        "pt": "Pergunte à sua mãe",
+        "it": "Chiedi a tua madre",
+        "ru": "Спроси у мамы",
+        "ja": "お母さんに聞いて",
+        "ko": "어머니께 여쭤봐"
     },
     {
         "zh": "看看天空",
         "en": "Look at the sky",
-        "fr": "Regardez le ciel"
+        "fr": "Regardez le ciel",
+        "zh-TW": "看看天空",
+        "de": "Schau in den Himmel",
+        "es": "Mira el cielo",
+        "pt": "Olhe para o céu",
+        "it": "Guarda il cielo",
+        "ru": "Посмотри на небо",
+        "ja": "空を見上げて",
+        "ko": "하늘을 봐"
     },
     {
         "zh": "保持简单",
         "en": "Keep it simple",
-        "fr": "Gardez ça simple"
+        "fr": "Gardez ça simple",
+        "zh-TW": "保持簡單",
+        "de": "Halte es einfach",
+        "es": "Mantenlo simple",
+        "pt": "Mantenha simples",
+        "it": "Falla semplice",
+        "ru": "Будь проще",
+        "ja": "シンプルに考えて",
+        "ko": "단순하게 생각해"
     },
     {
         "zh": "太复杂了",
         "en": "Too complicated",
-        "fr": "Trop compliqué"
+        "fr": "Trop compliqué",
+        "zh-TW": "太複雜了",
+        "de": "Zu kompliziert",
+        "es": "Demasiado complicado",
+        "pt": "Muito complicado",
+        "it": "Troppo complicato",
+        "ru": "Слишком сложно",
+        "ja": "複雑すぎる",
+        "ko": "너무 복잡해"
     },
     {
         "zh": "太早了",
         "en": "Too early",
-        "fr": "Trop tôt"
+        "fr": "Trop tôt",
+        "zh-TW": "太早了",
+        "de": "Zu früh",
+        "es": "Demasiado pronto",
+        "pt": "Muito cedo",
+        "it": "Troppo presto",
+        "ru": "Слишком рано",
+        "ja": "まだ早い",
+        "ko": "너무 일러"
     },
     {
         "zh": "太晚了",
         "en": "Too late",
-        "fr": "Trop tard"
+        "fr": "Trop tard",
+        "zh-TW": "太晚了",
+        "de": "Zu spät",
+        "es": "Demasiado tarde",
+        "pt": "Muito tarde",
+        "it": "Troppo tardi",
+        "ru": "Слишком поздно",
+        "ja": "遅すぎる",
+        "ko": "너무 늦었어"
     },
     {
         "zh": "你知道答案",
         "en": "You know the answer",
-        "fr": "Vous connaissez la réponse"
+        "fr": "Vous connaissez la réponse",
+        "zh-TW": "你知道答案",
+        "de": "Du kennst die Antwort",
+        "es": "Sabes la respuesta",
+        "pt": "Você sabe a resposta",
+        "it": "Conosci la risposta",
+        "ru": "Ты знаешь ответ",
+        "ja": "答えは分かっているはずだ",
+        "ko": "답을 알고 있잖아"
     },
     {
         "zh": "不太可能",
         "en": "Unlikely",
-        "fr": "Peu probable"
+        "fr": "Peu probable",
+        "zh-TW": "不太可能",
+        "de": "Unwahrscheinlich",
+        "es": "Improbable",
+        "pt": "Improvável",
+        "it": "Improbabile",
+        "ru": "Маловероятно",
+        "ja": "ありそうもない",
+        "ko": "가능성이 낮아"
     },
     {
         "zh": "肯定",
         "en": "Definitely",
-        "fr": "Définitivement"
+        "fr": "Définitivement",
+        "zh-TW": "肯定",
+        "de": "Definitiv",
+        "es": "Definitivamente",
+        "pt": "Definitivamente",
+        "it": "Sicuramente",
+        "ru": "Определенно",
+        "ja": "間違いなく",
+        "ko": "분명해"
     },
     {
         "zh": "只有你能决定",
         "en": "Only you can decide",
-        "fr": "Vous seul pouvez décider"
+        "fr": "Vous seul pouvez décider",
+        "zh-TW": "只有你能決定",
+        "de": "Nur du kannst entscheiden",
+        "es": "Solo tú puedes decidir",
+        "pt": "Só você pode decidir",
+        "it": "Solo tu puoi decidere",
+        "ru": "Только ты можешь решить",
+        "ja": "決めるのは君だ",
+        "ko": "너만이 결정할 수 있어"
     },
     {
         "zh": "省点钱",
         "en": "Save your money",
-        "fr": "Économisez votre argent"
+        "fr": "Économisez votre argent",
+        "zh-TW": "省點錢",
+        "de": "Spar dein Geld",
+        "es": "Ahorra tu dinero",
+        "pt": "Economize seu dinheiro",
+        "it": "Risparmia i tuoi soldi",
+        "ru": "Побереги деньги",
+        "ja": "お金を節約して",
+        "ko": "돈을 아껴"
     },
     {
         "zh": "花掉它",
         "en": "Spend it",
-        "fr": "Dépensez-le"
+        "fr": "Dépensez-le",
+        "zh-TW": "花掉它",
+        "de": "Gib es aus",
+        "es": "Gástalo",
+        "pt": "Gaste",
+        "it": "Spendilo",
+        "ru": "Потрать это",
+        "ja": "使ってしまえ",
+        "ko": "써버려"
     },
     {
         "zh": "度个长假",
         "en": "Take a long vacation",
-        "fr": "Prenez de longues vacances"
+        "fr": "Prenez de longues vacances",
+        "zh-TW": "度個長假",
+        "de": "Mach einen langen Urlaub",
+        "es": "Tómate unas largas vacaciones",
+        "pt": "Tire longas férias",
+        "it": "Prenditi una lunga vacanza",
+        "ru": "Возьми длинный отпуск",
+        "ja": "長い休暇を取って",
+        "ko": "긴 휴가를 떠나"
     },
     {
         "zh": "写下来",
         "en": "Write it down",
-        "fr": "Écrivez-le"
+        "fr": "Écrivez-le",
+        "zh-TW": "寫下來",
+        "de": "Schreib es auf",
+        "es": "Escríbelo",
+        "pt": "Escreva",
+        "it": "Scrivilo",
+        "ru": "Запиши это",
+        "ja": "書き留めて",
+        "ko": "적어둬"
     },
     {
         "zh": "大声说出来",
         "en": "Say it out loud",
-        "fr": "Dites-le à voix haute"
+        "fr": "Dites-le à voix haute",
+        "zh-TW": "大聲說出來",
+        "de": "Sag es laut",
+        "es": "Dilo en voz alta",
+        "pt": "Diga em voz alta",
+        "it": "Dillo ad alta voce",
+        "ru": "Скажи это вслух",
+        "ja": "声に出して言って",
+        "ko": "크게 말해봐"
     },
     {
         "zh": "一个字也别说",
         "en": "Don't say a word",
-        "fr": "Ne dites pas un mot"
+        "fr": "Ne dites pas un mot",
+        "zh-TW": "一個字也別說",
+        "de": "Sag kein Wort",
+        "es": "No digas ni una palabra",
+        "pt": "Não diga uma palavra",
+        "it": "Non dire una parola",
+        "ru": "Ни слова",
+        "ja": "何も言わないで",
+        "ko": "아무 말도 하지 마"
     },
     {
         "zh": "有风险",
         "en": "It's risky",
-        "fr": "C'est risqué"
+        "fr": "C'est risqué",
+        "zh-TW": "有風險",
+        "de": "Es ist riskant",
+        "es": "Es arriesgado",
+        "pt": "É arriscado",
+        "it": "È rischioso",
+        "ru": "Это рискованно",
+        "ja": "リスクがある",
+        "ko": "위험해"
     },
     {
         "zh": "稳操胜券",
         "en": "Safe bet",
-        "fr": "Pari sûr"
+        "fr": "Pari sûr",
+        "zh-TW": "穩操勝券",
+        "de": "Sichere Wette",
+        "es": "Apuesta segura",
+        "pt": "Aposta segura",
+        "it": "Scommessa sicura",
+        "ru": "Беспроигрышный вариант",
+        "ja": "安全策だ",
+        "ko": "확실한 내기야"
     },
     {
         "zh": "深入调查",
         "en": "Investigate further",
-        "fr": "Enquêtez davantage"
+        "fr": "Enquêtez davantage",
+        "zh-TW": "深入調查",
+        "de": "Untersuche weiter",
+        "es": "Investiga más a fondo",
+        "pt": "Investigue mais",
+        "it": "Indaga più a fondo",
+        "ru": "Изучи подробнее",
+        "ja": "もっと調べてみて",
+        "ko": "더 깊이 알아봐"
     },
     {
         "zh": "忽略细节",
         "en": "Ignore the details",
-        "fr": "Ignorez les détails"
+        "fr": "Ignorez les détails",
+        "zh-TW": "忽略細節",
+        "de": "Ignoriere die Details",
+        "es": "Ignora los detalles",
+        "pt": "Ignore os detalhes",
+        "it": "Ignora i dettagli",
+        "ru": "Игнорируй детали",
+        "ja": "細かいことは気にするな",
+        "ko": "디테일은 무시해"
     },
     {
         "zh": "相信新人",
         "en": "Trust someone new",
-        "fr": "Faites confiance à quelqu'un de nouveau"
+        "fr": "Faites confiance à quelqu'un de nouveau",
+        "zh-TW": "相信新人",
+        "de": "Vertraue jemandem Neuen",
+        "es": "Confía en alguien nuevo",
+        "pt": "Confie em alguém novo",
+        "it": "Fidati di qualcuno di nuovo",
+        "ru": "Доверься новому человеку",
+        "ja": "新しい人を信じて",
+        "ko": "새로운 사람을 믿어봐"
     },
     {
         "zh": "依靠老朋友",
         "en": "Rely on old friends",
-        "fr": "Comptez sur de vieux amis"
+        "fr": "Comptez sur de vieux amis",
+        "zh-TW": "依靠老朋友",
+        "de": "Verlass dich auf alte Freunde",
+        "es": "Confía en viejos amigos",
+        "pt": "Confie em velhos amigos",
+        "it": "Affidati a vecchi amici",
+        "ru": "Положись на старых друзей",
+        "ja": "旧友を頼って",
+        "ko": "오랜 친구에게 의지해"
     },
     {
         "zh": "新体验",
         "en": "New experiences",
-        "fr": "Nouvelles expériences"
+        "fr": "Nouvelles expériences",
+        "zh-TW": "新體驗",
+        "de": "Neue Erfahrungen",
+        "es": "Nuevas experiencias",
+        "pt": "Novas experiências",
+        "it": "Nuove esperienze",
+        "ru": "Новые впечатления",
+        "ja": "新しい経験",
+        "ko": "새로운 경험"
     },
     {
         "zh": "改掉这个习惯",
         "en": "Break the habit",
-        "fr": "Rompez l'habitude"
+        "fr": "Rompez l'habitude",
+        "zh-TW": "改掉這個習慣",
+        "de": "Brich die Gewohnheit",
+        "es": "Rompe el hábito",
+        "pt": "Quebre o hábito",
+        "it": "Rompi l'abitudine",
+        "ru": "Избавься от привычки",
+        "ja": "その習慣を断ち切って",
+        "ko": "습관을 버려"
     },
     {
         "zh": "建立规律",
         "en": "Create a routine",
-        "fr": "Créez une routine"
+        "fr": "Créez une routine",
+        "zh-TW": "建立規律",
+        "de": "Erstelle eine Routine",
+        "es": "Crea una rutina",
+        "pt": "Crie uma rotina",
+        "it": "Crea una routine",
+        "ru": "Создай рутину",
+        "ja": "ルーチンを作って",
+        "ko": "루틴을 만들어"
     },
     {
         "zh": "随性一点",
         "en": "Be spontaneous",
-        "fr": "Soyez spontané"
+        "fr": "Soyez spontané",
+        "zh-TW": "隨性一點",
+        "de": "Sei spontan",
+        "es": "Sé espontáneo",
+        "pt": "Seja espontâneo",
+        "it": "Sii spontaneo",
+        "ru": "Будь спонтанным",
+        "ja": "自然体で",
+        "ko": "즉흥적으로 해"
     },
     {
         "zh": "提前计划",
         "en": "Plan ahead",
-        "fr": "Planifiez à l'avance"
+        "fr": "Planifiez à l'avance",
+        "zh-TW": "提前計劃",
+        "de": "Plane voraus",
+        "es": "Planifica con antelación",
+        "pt": "Planeje com antecedência",
+        "it": "Pianifica in anticipo",
+        "ru": "Планируй заранее",
+        "ja": "計画を立てて",
+        "ko": "미리 계획해"
     },
     {
         "zh": "给自己一个惊喜",
         "en": "Surprise yourself",
-        "fr": "Surprenez-vous"
+        "fr": "Surprenez-vous",
+        "zh-TW": "給自己一個驚喜",
+        "de": "Überrasche dich selbst",
+        "es": "Sorpréndete",
+        "pt": "Surpreenda-se",
+        "it": "Sorprenditi",
+        "ru": "Удиви себя",
+        "ja": "自分を驚かせて",
+        "ko": "스스로를 놀라게 해"
     },
     {
         "zh": "别期望太高",
         "en": "Don't expect much",
-        "fr": "N'attendez pas grand-chose"
+        "fr": "N'attendez pas grand-chose",
+        "zh-TW": "別期望太高",
+        "de": "Erwarte nicht viel",
+        "es": "No esperes mucho",
+        "pt": "Não espere muito",
+        "it": "Non aspettarti molto",
+        "ru": "Не жди многого",
+        "ja": "あまり期待しないで",
+        "ko": "너무 기대하지 마"
     },
     {
         "zh": "期望高一点",
         "en": "High expectations",
-        "fr": "Attentes élevées"
+        "fr": "Attentes élevées",
+        "zh-TW": "期望高一點",
+        "de": "Hohe Erwartungen",
+        "es": "Altas expectativas",
+        "pt": "Altas expectativas",
+        "it": "Aspettative alte",
+        "ru": "Высокие ожидания",
+        "ja": "高い期待を持って",
+        "ko": "기대를 높여봐"
     },
     {
         "zh": "这也会过去",
         "en": "It will pass",
-        "fr": "Ça passera"
+        "fr": "Ça passera",
+        "zh-TW": "這也會過去",
+        "de": "Es wird vergehen",
+        "es": "Pasará",
+        "pt": "Vai passar",
+        "it": "Passerà",
+        "ru": "Это пройдет",
+        "ja": "これも過ぎ去る",
+        "ko": "이 또한 지나가리라"
     },
     {
         "zh": "一切都会改变",
         "en": "Everything changes",
-        "fr": "Tout change"
+        "fr": "Tout change",
+        "zh-TW": "一切都會改變",
+        "de": "Alles ändert sich",
+        "es": "Todo cambia",
+        "pt": "Tudo muda",
+        "it": "Tutto cambia",
+        "ru": "Все меняется",
+        "ja": "すべては変わる",
+        "ko": "모든 것은 변해"
     },
     {
         "zh": "改变是好事",
         "en": "Change is good",
-        "fr": "Le changement est bon"
+        "fr": "Le changement est bon",
+        "zh-TW": "改變是好事",
+        "de": "Veränderung ist gut",
+        "es": "El cambio es bueno",
+        "pt": "Mudança é bom",
+        "it": "Il cambiamento è positivo",
+        "ru": "Перемены - это хорошо",
+        "ja": "変化は良いことだ",
+        "ko": "변화는 좋은 거야"
     },
     {
         "zh": "稳定是关键",
         "en": "Stability is key",
-        "fr": "La stabilité est la clé"
+        "fr": "La stabilité est la clé",
+        "zh-TW": "穩定是關鍵",
+        "de": "Stabilität ist der Schlüssel",
+        "es": "La estabilidad es clave",
+        "pt": "Estabilidade é a chave",
+        "it": "La stabilità è fondamentale",
+        "ru": "Стабильность - это ключ",
+        "ja": "安定が鍵だ",
+        "ko": "안정이 핵심이야"
     },
     {
         "zh": "向前看",
         "en": "Move on",
-        "fr": "Passez à autre chose"
+        "fr": "Passez à autre chose",
+        "zh-TW": "向前看",
+        "de": "Geh weiter",
+        "es": "Sigue adelante",
+        "pt": "Siga em frente",
+        "it": "Vai avanti",
+        "ru": "Двигайся дальше",
+        "ja": "前に進んで",
+        "ko": "넘어가"
     },
     {
         "zh": "原地不动",
         "en": "Stay put",
-        "fr": "Restez sur place"
+        "fr": "Restez sur place",
+        "zh-TW": "原地不動",
+        "de": "Bleib wo du bist",
+        "es": "Quédate donde estás",
+        "pt": "Fique onde está",
+        "it": "Resta dove sei",
+        "ru": "Оставайся на месте",
+        "ja": "動かないで",
+        "ko": "그대로 있어"
     },
     {
         "zh": "面对它",
         "en": "Face it",
-        "fr": "Faites face"
+        "fr": "Faites face",
+        "zh-TW": "面對它",
+        "de": "Stell dich dem",
+        "es": "Enfréntalo",
+        "pt": "Encare isso",
+        "it": "Affrontalo",
+        "ru": "Взгляни правде в глаза",
+        "ja": "直面して",
+        "ko": "직면해"
     },
     {
         "zh": "别躲藏",
         "en": "Don't hide",
-        "fr": "Ne vous cachez pas"
+        "fr": "Ne vous cachez pas",
+        "zh-TW": "別躲藏",
+        "de": "Versteck dich nicht",
+        "es": "No te escondas",
+        "pt": "Não se esconda",
+        "it": "Non nasconderti",
+        "ru": "Не прячься",
+        "ja": "隠れないで",
+        "ko": "숨지 마"
     },
     {
         "zh": "展现你自己",
         "en": "Show yourself",
-        "fr": "Montrez-vous"
+        "fr": "Montrez-vous",
+        "zh-TW": "展現你自己",
+        "de": "Zeig dich",
+        "es": "Muéstrate",
+        "pt": "Mostre-se",
+        "it": "Mostrati",
+        "ru": "Покажи себя",
+        "ja": "姿を見せて",
+        "ko": "너를 보여줘"
     },
     {
         "zh": "保持谦逊",
         "en": "Be humble",
-        "fr": "Soyez humble"
+        "fr": "Soyez humble",
+        "zh-TW": "保持謙遜",
+        "de": "Sei bescheiden",
+        "es": "Sé humilde",
+        "pt": "Seja humilde",
+        "it": "Sii umile",
+        "ru": "Будь скромным",
+        "ja": "謙虚でいて",
+        "ko": "겸손해져라"
     },
     {
         "zh": "为此自豪",
         "en": "Be proud",
-        "fr": "Soyez fier"
+        "fr": "Soyez fier",
+        "zh-TW": "為此自豪",
+        "de": "Sei stolz",
+        "es": "Siéntete orgulloso",
+        "pt": "Tenha orgulho",
+        "it": "Sii orgoglioso",
+        "ru": "Гордись этим",
+        "ja": "誇りを持って",
+        "ko": "자부심을 가져"
     },
     {
         "zh": "这是个陷阱",
         "en": "It's a trap",
-        "fr": "C'est un piège"
+        "fr": "C'est un piège",
+        "zh-TW": "這是個陷阱",
+        "de": "Es ist eine Falle",
+        "es": "Es una trampa",
+        "pt": "É uma armadilha",
+        "it": "È una trappola",
+        "ru": "Это ловушка",
+        "ja": "それは罠だ",
+        "ko": "함정이야"
     },
     {
         "zh": "这是个礼物",
         "en": "It's a gift",
-        "fr": "C'est un cadeau"
+        "fr": "C'est un cadeau",
+        "zh-TW": "這是個禮物",
+        "de": "Es ist ein Geschenk",
+        "es": "Es un regalo",
+        "pt": "É um presente",
+        "it": "È un regalo",
+        "ru": "Это подарок",
+        "ja": "それは贈り物だ",
+        "ko": "선물이야"
     },
     {
         "zh": "因祸得福",
         "en": "Blessing in disguise",
-        "fr": "Un mal pour un bien"
+        "fr": "Un mal pour un bien",
+        "zh-TW": "因禍得福",
+        "de": "Glück im Unglück",
+        "es": "No hay mal que por bien no venga",
+        "pt": "Há males que vêm para bem",
+        "it": "Non tutto il male vien per nuocere",
+        "ru": "Нет худа без добра",
+        "ja": "災い転じて福となす",
+        "ko": "전화위복"
     },
     {
         "zh": "祝你好运",
         "en": "Good luck",
-        "fr": "Bonne chance"
+        "fr": "Bonne chance",
+        "zh-TW": "祝你好運",
+        "de": "Viel Glück",
+        "es": "Buena suerte",
+        "pt": "Boa sorte",
+        "it": "Buona fortuna",
+        "ru": "Удачи",
+        "ja": "幸運を祈る",
+        "ko": "행운을 빌어"
     },
     {
         "zh": "尝试新事物",
         "en": "Try something new",
-        "fr": "Essayez quelque chose de nouveau"
+        "fr": "Essayez quelque chose de nouveau",
+        "zh-TW": "嘗試新事物",
+        "de": "Probier etwas Neues",
+        "es": "Prueba algo nuevo",
+        "pt": "Tente algo novo",
+        "it": "Prova qualcosa di nuovo",
+        "ru": "Попробуй что-то новое",
+        "ja": "新しいことを試して",
+        "ko": "새로운 것을 시도해봐"
     },
     {
         "zh": "坚持你所知道的",
         "en": "Stick to what you know",
-        "fr": "Tenez-vous-en à ce que vous savez"
+        "fr": "Tenez-vous-en à ce que vous savez",
+        "zh-TW": "堅持你所知道的",
+        "de": "Bleib bei dem, was du weißt",
+        "es": "Apégate a lo que sabes",
+        "pt": "Atenha-se ao que sabe",
+        "it": "Attieniti a ciò che sai",
+        "ru": "Придерживайся того, что знаешь",
+        "ja": "知っていることに専念して",
+        "ko": "아는 것에 충실해"
     },
     {
         "zh": "学项新技能",
         "en": "Learn a new skill",
-        "fr": "Apprenez une nouvelle compétence"
+        "fr": "Apprenez une nouvelle compétence",
+        "zh-TW": "學項新技能",
+        "de": "Lerne eine neue Fähigkeit",
+        "es": "Aprende una nueva habilidad",
+        "pt": "Aprenda uma nova habilidade",
+        "it": "Impara una nuova abilità",
+        "ru": "Выучи новый навык",
+        "ja": "新しいスキルを学んで",
+        "ko": "새로운 기술을 배워"
     },
     {
         "zh": "教教别人",
         "en": "Teach someone",
-        "fr": "Enseignez à quelqu'un"
+        "fr": "Enseignez à quelqu'un",
+        "zh-TW": "教教別人",
+        "de": "Bring jemandem etwas bei",
+        "es": "Enséñale a alguien",
+        "pt": "Ensine alguém",
+        "it": "Insegna a qualcuno",
+        "ru": "Научи кого-нибудь",
+        "ja": "誰かに教えて",
+        "ko": "누군가를 가르쳐봐"
     },
     {
         "zh": "仔细倾听",
         "en": "Listen carefully",
-        "fr": "Écoutez attentivement"
+        "fr": "Écoutez attentivement",
+        "zh-TW": "仔細傾聽",
+        "de": "Hör genau zu",
+        "es": "Escucha atentamente",
+        "pt": "Ouça com atenção",
+        "it": "Ascolta attentamente",
+        "ru": "Слушай внимательно",
+        "ja": "よく聞いて",
+        "ko": "주의 깊게 들어"
     },
     {
         "zh": "密切注视",
         "en": "Watch closely",
-        "fr": "Regardez attentivement"
+        "fr": "Regardez attentivement",
+        "zh-TW": "密切注視",
+        "de": "Schau genau hin",
+        "es": "Mira de cerca",
+        "pt": "Observe atentamente",
+        "it": "Osserva attentamente",
+        "ru": "Смотри внимательно",
+        "ja": "よく見て",
+        "ko": "자세히 봐"
     },
     {
         "zh": "闭上眼睛",
         "en": "Close your eyes",
-        "fr": "Fermez les yeux"
+        "fr": "Fermez les yeux",
+        "zh-TW": "閉上眼睛",
+        "de": "Schließ die Augen",
+        "es": "Cierra los ojos",
+        "pt": "Feche os olhos",
+        "it": "Chiudi gli occhi",
+        "ru": "Закрой глаза",
+        "ja": "目を閉じて",
+        "ko": "눈을 감아"
     },
     {
         "zh": "敞开心扉",
         "en": "Open your mind",
-        "fr": "Ouvrez votre esprit"
+        "fr": "Ouvrez votre esprit",
+        "zh-TW": "敞開心扉",
+        "de": "Öffne deinen Geist",
+        "es": "Abre tu mente",
+        "pt": "Abra sua mente",
+        "it": "Apri la tua mente",
+        "ru": "Открой свой разум",
+        "ja": "心を開いて",
+        "ko": "마음을 열어"
     },
     {
         "zh": "它在你身后",
         "en": "It's behind you",
-        "fr": "C'est derrière vous"
+        "fr": "C'est derrière vous",
+        "zh-TW": "它在你身後",
+        "de": "Es liegt hinter dir",
+        "es": "Está detrás de ti",
+        "pt": "Está atrás de você",
+        "it": "È dietro di te",
+        "ru": "Это позади тебя",
+        "ja": "それは後ろにある",
+        "ko": "이미 지나간 일이야"
     },
     {
         "zh": "它就在你面前",
         "en": "It's in front of you",
-        "fr": "C'est devant vous"
+        "fr": "C'est devant vous",
+        "zh-TW": "它就在你面前",
+        "de": "Es liegt vor dir",
+        "es": "Está frente a ti",
+        "pt": "Está na sua frente",
+        "it": "È davanti a te",
+        "ru": "Это прямо перед тобой",
+        "ja": "目の前にある",
+        "ko": "바로 네 앞에 있어"
     },
     {
         "zh": "向内看",
         "en": "Look inside",
-        "fr": "Regardez à l'intérieur"
+        "fr": "Regardez à l'intérieur",
+        "zh-TW": "向內看",
+        "de": "Schau nach innen",
+        "es": "Mira en tu interior",
+        "pt": "Olhe para dentro",
+        "it": "Guarda dentro",
+        "ru": "Загляни внутрь",
+        "ja": "内面を見つめて",
+        "ko": "내면을 들여다봐"
     },
     {
         "zh": "向外看",
         "en": "Look outside",
-        "fr": "Regardez à l'extérieur"
+        "fr": "Regardez à l'extérieur",
+        "zh-TW": "向外看",
+        "de": "Schau nach draußen",
+        "es": "Mira hacia afuera",
+        "pt": "Olhe para fora",
+        "it": "Guarda fuori",
+        "ru": "Посмотри наружу",
+        "ja": "外を見て",
+        "ko": "밖을 봐"
     },
     {
         "zh": "问问孩子",
         "en": "Ask a child",
-        "fr": "Demandez à un enfant"
+        "fr": "Demandez à un enfant",
+        "zh-TW": "問問孩子",
+        "de": "Frag ein Kind",
+        "es": "Pregúntale a un niño",
+        "pt": "Pergunte a uma criança",
+        "it": "Chiedi a un bambino",
+        "ru": "Спроси у ребенка",
+        "ja": "子供に聞いてみて",
+        "ko": "아이에게 물어봐"
     },
     {
         "zh": "问问长者",
         "en": "Ask an elder",
-        "fr": "Demandez à un ancien"
+        "fr": "Demandez à un ancien",
+        "zh-TW": "問問長者",
+        "de": "Frag einen Älteren",
+        "es": "Pregúntale a un anciano",
+        "pt": "Pergunte a um ancião",
+        "it": "Chiedi a un anziano",
+        "ru": "Спроси у старшего",
+        "ja": "年長者に聞いてみて",
+        "ko": "어른에게 물어봐"
     },
     {
         "zh": "抛硬币决定",
         "en": "Flip a coin",
-        "fr": "Jouez à pile ou face"
+        "fr": "Jouez à pile ou face",
+        "zh-TW": "拋硬幣決定",
+        "de": "Wirf eine Münze",
+        "es": "Lanza una moneda",
+        "pt": "Jogue uma moeda",
+        "it": "Lancia una moneta",
+        "ru": "Подбрось монету",
+        "ja": "コインを投げて決めて",
+        "ko": "동전을 던져봐"
     },
     {
         "zh": "确定的",
         "en": "It's certain",
-        "fr": "C'est certain"
+        "fr": "C'est certain",
+        "zh-TW": "確定的",
+        "de": "Es ist sicher",
+        "es": "Es seguro",
+        "pt": "É certo",
+        "it": "È certo",
+        "ru": "Безусловно",
+        "ja": "確かだ",
+        "ko": "확실해"
     },
     {
         "zh": "稍后再问",
         "en": "Ask again later",
-        "fr": "Redemandez plus tard"
+        "fr": "Redemandez plus tard",
+        "zh-TW": "稍後再問",
+        "de": "Frag später nochmal",
+        "es": "Pregunta de nuevo más tarde",
+        "pt": "Pergunte novamente mais tarde",
+        "it": "Chiedi di nuovo più tardi",
+        "ru": "Спроси позже",
+        "ja": "後でもう一度聞いて",
+        "ko": "나중에 다시 물어봐"
     },
     {
         "zh": "现在无法预测",
         "en": "Cannot predict now",
-        "fr": "Impossible de prédire maintenant"
+        "fr": "Impossible de prédire maintenant",
+        "zh-TW": "現在無法預測",
+        "de": "Kann jetzt nicht vorhergesagt werden",
+        "es": "Imposible predecir ahora",
+        "pt": "Impossível prever agora",
+        "it": "Impossibile prevedere ora",
+        "ru": "Сейчас невозможно предсказать",
+        "ja": "今は予測できない",
+        "ko": "지금은 예측할 수 없어"
     },
     {
         "zh": "集中精力再问一次",
         "en": "Concentrate and ask again",
-        "fr": "Concentrez-vous et redemandez"
+        "fr": "Concentrez-vous et redemandez",
+        "zh-TW": "集中精力再問一次",
+        "de": "Konzentriere dich und frag nochmal",
+        "es": "Concéntrate y pregunta de nuevo",
+        "pt": "Concentre-se e pergunte novamente",
+        "it": "Concentrati e chiedi di nuovo",
+        "ru": "Сосредоточься и спроси снова",
+        "ja": "集中してもう一度聞いて",
+        "ko": "집중해서 다시 물어봐"
     },
     {
         "zh": "我的来源说不",
         "en": "My sources say no",
-        "fr": "Mes sources disent non"
+        "fr": "Mes sources disent non",
+        "zh-TW": "我的來源說不",
+        "de": "Meine Quellen sagen Nein",
+        "es": "Mis fuentes dicen que no",
+        "pt": "Minhas fontes dizem não",
+        "it": "Le mie fonti dicono di no",
+        "ru": "Мои источники говорят нет",
+        "ja": "望み薄だ",
+        "ko": "글쎄, 아닌 것 같아"
     },
     {
         "zh": "前景不错",
         "en": "Outlook good",
-        "fr": "Les perspectives sont bonnes"
+        "fr": "Les perspectives sont bonnes",
+        "zh-TW": "前景不錯",
+        "de": "Aussichten gut",
+        "es": "Buenas perspectivas",
+        "pt": "Perspectivas boas",
+        "it": "Prospettive buone",
+        "ru": "Перспективы хорошие",
+        "ja": "見通しは明るい",
+        "ko": "전망이 좋아"
     },
     {
         "zh": "迹象表明是肯定的",
         "en": "Signs point to yes",
-        "fr": "Les signes indiquent que oui"
+        "fr": "Les signes indiquent que oui",
+        "zh-TW": "跡象表明是肯定的",
+        "de": "Die Zeichen stehen auf Ja",
+        "es": "Los signos apuntan a que sí",
+        "pt": "Os sinais apontam para sim",
+        "it": "I segni indicano di sì",
+        "ru": "Знаки говорят да",
+        "ja": "予兆はイエスだ",
+        "ko": "징조가 좋음"
     },
     {
         "zh": "现在最好别告诉你",
         "en": "Better not tell you now",
-        "fr": "Mieux vaut ne pas vous le dire maintenant"
+        "fr": "Mieux vaut ne pas vous le dire maintenant",
+        "zh-TW": "現在最好別告訴你",
+        "de": "Besser, ich sage es dir jetzt nicht",
+        "es": "Mejor no decírtelo ahora",
+        "pt": "Melhor não te contar agora",
+        "it": "Meglio non dirtelo ora",
+        "ru": "Лучше не говорить сейчас",
+        "ja": "今は言わない方がいい",
+        "ko": "지금은 말하지 않는 게 좋아"
     },
     {
         "zh": "你准备好了",
         "en": "You are ready",
-        "fr": "Vous êtes prêt"
+        "fr": "Vous êtes prêt",
+        "zh-TW": "你準備好了",
+        "de": "Du bist bereit",
+        "es": "Estás listo",
+        "pt": "Você está pronto",
+        "it": "Sei pronto",
+        "ru": "Ты готов",
+        "ja": "準備はできている",
+        "ko": "넌 준비됐어"
     },
     {
         "zh": "你还没准备好",
         "en": "You are not ready",
-        "fr": "Vous n'êtes pas prêt"
+        "fr": "Vous n'êtes pas prêt",
+        "zh-TW": "你還沒準備好",
+        "de": "Du bist noch nicht bereit",
+        "es": "No estás listo",
+        "pt": "Você não está pronto",
+        "it": "Non sei pronto",
+        "ru": "Ты не готов",
+        "ja": "まだ早い",
+        "ko": "넌 아직 준비되지 않았어"
     },
     {
         "zh": "相信过程",
         "en": "Trust the process",
-        "fr": "Faites confiance au processus"
+        "fr": "Faites confiance au processus",
+        "zh-TW": "相信過程",
+        "de": "Vertraue dem Prozess",
+        "es": "Confía en el proceso",
+        "pt": "Confie no processo",
+        "it": "Fidati del processo",
+        "ru": "Доверься процессу",
+        "ja": "プロセスを信じて",
+        "ko": "과정을 믿어"
     },
     {
         "zh": "别急",
         "en": "Don't rush",
-        "fr": "Ne vous précipitez pas"
+        "fr": "Ne vous précipitez pas",
+        "zh-TW": "別急",
+        "de": "Hetz nicht",
+        "es": "No tengas prisa",
+        "pt": "Não tenha pressa",
+        "it": "Non avere fretta",
+        "ru": "Не торопись",
+        "ja": "急がないで",
+        "ko": "서두르지 마"
     },
     {
         "zh": "加速",
         "en": "Speed up",
-        "fr": "Accélérez"
+        "fr": "Accélérez",
+        "zh-TW": "加速",
+        "de": "Beeil dich",
+        "es": "Acelera",
+        "pt": "Acelere",
+        "it": "Accelera",
+        "ru": "Ускорься",
+        "ja": "スピードアップして",
+        "ko": "속도를 높여"
     },
     {
         "zh": "停止思考",
         "en": "Stop thinking",
-        "fr": "Arrêtez de penser"
+        "fr": "Arrêtez de penser",
+        "zh-TW": "停止思考",
+        "de": "Hör auf zu denken",
+        "es": "Deja de pensar",
+        "pt": "Pare de pensar",
+        "it": "Smetti di pensare",
+        "ru": "Перестань думать",
+        "ja": "考えるのをやめて",
+        "ko": "그만 생각해"
     },
     {
         "zh": "开始行动",
         "en": "Start doing",
-        "fr": "Commencez à faire"
+        "fr": "Commencez à faire",
+        "zh-TW": "開始行動",
+        "de": "Fang an zu handeln",
+        "es": "Empieza a hacer",
+        "pt": "Comece a fazer",
+        "it": "Inizia a fare",
+        "ru": "Начни делать",
+        "ja": "行動を始めて",
+        "ko": "행동으로 옮겨"
     },
     {
         "zh": "这是个错误",
         "en": "It's a mistake",
-        "fr": "C'est une erreur"
+        "fr": "C'est une erreur",
+        "zh-TW": "這是個錯誤",
+        "de": "Es ist ein Fehler",
+        "es": "Es un error",
+        "pt": "É um erro",
+        "it": "È un errore",
+        "ru": "Это ошибка",
+        "ja": "それは間違いだ",
+        "ko": "실수야"
     },
     {
         "zh": "这是正确的选择",
         "en": "It's the right choice",
-        "fr": "C'est le bon choix"
+        "fr": "C'est le bon choix",
+        "zh-TW": "這是正確的選擇",
+        "de": "Es ist die richtige Wahl",
+        "es": "Es la elección correcta",
+        "pt": "É a escolha certa",
+        "it": "È la scelta giusta",
+        "ru": "Это правильный выбор",
+        "ja": "正しい選択だ",
+        "ko": "올바른 선택이야"
     },
     {
         "zh": "遵守规则",
         "en": "Follow the rules",
-        "fr": "Suivez les règles"
+        "fr": "Suivez les règles",
+        "zh-TW": "遵守規則",
+        "de": "Befolge die Regeln",
+        "es": "Sigue las reglas",
+        "pt": "Siga as regras",
+        "it": "Segui le regole",
+        "ru": "Следуй правилам",
+        "ja": "ルールに従って",
+        "ko": "규칙을 따를 것"
     },
     {
         "zh": "质疑权威",
         "en": "Question authority",
-        "fr": "Remettez en question l'autorité"
+        "fr": "Remettez en question l'autorité",
+        "zh-TW": "質疑權威",
+        "de": "Hinterfrage Autorität",
+        "es": "Cuestiona la autoridad",
+        "pt": "Questione a autoridade",
+        "it": "Metti in discussione l'autorità",
+        "ru": "Подвергай сомнению авторитеты",
+        "ja": "権威を疑え",
+        "ko": "권위에 의문을 가져"
     },
     {
         "zh": "保持独立",
         "en": "Be independent",
-        "fr": "Soyez indépendant"
+        "fr": "Soyez indépendant",
+        "zh-TW": "保持獨立",
+        "de": "Sei unabhängig",
+        "es": "Sé independiente",
+        "pt": "Seja independente",
+        "it": "Sii indipendente",
+        "ru": "Будь независимым",
+        "ja": "自立して",
+        "ko": "독립적이 되어라"
     },
     {
         "zh": "合作",
         "en": "Cooperate",
-        "fr": "Coopérez"
+        "fr": "Coopérez",
+        "zh-TW": "合作",
+        "de": "Kooperiere",
+        "es": "Coopera",
+        "pt": "Coopere",
+        "it": "Collabora",
+        "ru": "Сотрудничай",
+        "ja": "協力して",
+        "ko": "협력해"
     },
     {
         "zh": "妥协",
         "en": "Compromise",
-        "fr": "Faites un compromis"
+        "fr": "Faites un compromis",
+        "zh-TW": "妥協",
+        "de": "Kompromiss",
+        "es": "Comprométete",
+        "pt": "Faça um acordo",
+        "it": "Scendi a compromessi",
+        "ru": "Иди на компромисс",
+        "ja": "妥協して",
+        "ko": "타협해"
     },
     {
         "zh": "别妥协",
         "en": "Don't compromise",
-        "fr": "Ne faites pas de compromis"
+        "fr": "Ne faites pas de compromis",
+        "zh-TW": "別妥協",
+        "de": "Geh keine Kompromisse ein",
+        "es": "No te conformes",
+        "pt": "Não aceite menos",
+        "it": "Non scendere a compromessi",
+        "ru": "Не иди на компромисс",
+        "ja": "妥協しないで",
+        "ko": "타협하지 마"
     },
     {
         "zh": "寻求平衡",
         "en": "Seek balance",
-        "fr": "Cherchez l'équilibre"
+        "fr": "Cherchez l'équilibre",
+        "zh-TW": "尋求平衡",
+        "de": "Such das Gleichgewicht",
+        "es": "Busca el equilibrio",
+        "pt": "Busque equilíbrio",
+        "it": "Cerca l'equilibrio",
+        "ru": "Ищи баланс",
+        "ja": "バランスを求めて",
+        "ko": "균형을 찾아"
     },
     {
         "zh": "许个愿",
         "en": "Make a wish",
-        "fr": "Faites un vœu"
+        "fr": "Faites un vœu",
+        "zh-TW": "許個願",
+        "de": "Wünsch dir was",
+        "es": "Pide un deseo",
+        "pt": "Faça um desejo",
+        "it": "Esprimi un desiderio",
+        "ru": "Загадай желание",
+        "ja": "願い事をしてみて",
+        "ko": "소원을 빌어봐"
     },
     {
         "zh": "敢于梦想",
         "en": "Dream big",
-        "fr": "Rêvez grand"
+        "fr": "Rêvez grand",
+        "zh-TW": "敢於夢想",
+        "de": "Träume groß",
+        "es": "Sueña en grande",
+        "pt": "Sonhe grande",
+        "it": "Sogna in grande",
+        "ru": "Мечтай по-крупному",
+        "ja": "大きな夢を持って",
+        "ko": "꿈을 크게 가져"
     },
     {
         "zh": "醒醒吧",
         "en": "Wake up",
-        "fr": "Réveillez-vous"
+        "fr": "Réveillez-vous",
+        "zh-TW": "醒醒吧",
+        "de": "Wach auf",
+        "es": "Despierta",
+        "pt": "Acorde",
+        "it": "Svegliati",
+        "ru": "Проснись",
+        "ja": "目を覚まして",
+        "ko": "일어나"
     },
     {
         "zh": "这是一场梦",
         "en": "It's a dream",
-        "fr": "C'est un rêve"
+        "fr": "C'est un rêve",
+        "zh-TW": "這是一場夢",
+        "de": "Es ist ein Traum",
+        "es": "Es un sueño",
+        "pt": "É um sonho",
+        "it": "È un sogno",
+        "ru": "Это сон",
+        "ja": "それは夢だ",
+        "ko": "꿈이야"
     },
     {
         "zh": "拔掉插头",
         "en": "Unplug",
-        "fr": "Débranchez"
+        "fr": "Débranchez",
+        "zh-TW": "拔掉插頭",
+        "de": "Zieh den Stecker",
+        "es": "Desconecta",
+        "pt": "Desconecte-se",
+        "it": "Stacca la spina",
+        "ru": "Отключись",
+        "ja": "電源を抜いて",
+        "ko": "잠시 멈춰"
     },
     {
         "zh": "连接",
         "en": "Connect",
-        "fr": "Connectez-vous"
+        "fr": "Connectez-vous",
+        "zh-TW": "連接",
+        "de": "Verbinde dich",
+        "es": "Conecta",
+        "pt": "Conecte-se",
+        "it": "Connettiti",
+        "ru": "Соединяйся",
+        "ja": "繋がって",
+        "ko": "연결해"
     },
     {
         "zh": "需要更新",
         "en": "Update needed",
-        "fr": "Mise à jour nécessaire"
+        "fr": "Mise à jour nécessaire",
+        "zh-TW": "需要更新",
+        "de": "Update erforderlich",
+        "es": "Actualización necesaria",
+        "pt": "Atualização necessária",
+        "it": "Aggiornamento necessario",
+        "ru": "Требуется обновление",
+        "ja": "アップデートが必要だ",
+        "ko": "업데이트가 필요해"
     },
     {
         "zh": "重启",
         "en": "Reboot",
-        "fr": "Redémarrez"
+        "fr": "Redémarrez",
+        "zh-TW": "重啟",
+        "de": "Neustart",
+        "es": "Reinicia",
+        "pt": "Reinicie",
+        "it": "Riavvia",
+        "ru": "Перезагрузись",
+        "ja": "再起動して",
+        "ko": "재부팅해"
     },
     {
         "zh": "保持善良",
         "en": "Be kind",
-        "fr": "Soyez gentil"
+        "fr": "Soyez gentil",
+        "zh-TW": "保持善良",
+        "de": "Sei freundlich",
+        "es": "Sé amable",
+        "pt": "Seja gentil",
+        "it": "Sii gentile",
+        "ru": "Будь добрым",
+        "ja": "親切にして",
+        "ko": "친절해져라"
     },
     {
         "zh": "强硬一点",
         "en": "Be tough",
-        "fr": "Soyez dur"
+        "fr": "Soyez dur",
+        "zh-TW": "強硬一點",
+        "de": "Sei taff",
+        "es": "Sé fuerte",
+        "pt": "Seja firme",
+        "it": "Sii duro",
+        "ru": "Будь твердым",
+        "ja": "タフになって",
+        "ko": "강인해져라"
     },
     {
         "zh": "今天",
         "en": "Today",
-        "fr": "Aujourd'hui"
+        "fr": "Aujourd'hui",
+        "zh-TW": "今天",
+        "de": "Heute",
+        "es": "Hoy",
+        "pt": "Hoje",
+        "it": "Oggi",
+        "ru": "Сегодня",
+        "ja": "今日",
+        "ko": "오늘"
     },
     {
         "zh": "不是今天",
         "en": "Not today",
-        "fr": "Pas aujourd'hui"
+        "fr": "Pas aujourd'hui",
+        "zh-TW": "不是今天",
+        "de": "Nicht heute",
+        "es": "Hoy no",
+        "pt": "Hoje não",
+        "it": "Non oggi",
+        "ru": "Не сегодня",
+        "ja": "今日じゃない",
+        "ko": "오늘은 아니야"
     },
     {
         "zh": "未来属于你",
         "en": "The future is yours",
-        "fr": "L'avenir est à vous"
+        "fr": "L'avenir est à vous",
+        "zh-TW": "未來屬於你",
+        "de": "Die Zukunft gehört dir",
+        "es": "El futuro es tuyo",
+        "pt": "O futuro é seu",
+        "it": "Il futuro è tuo",
+        "ru": "Будущее за тобой",
+        "ja": "未来は君のものだ",
+        "ko": "미래는 너의 것이야"
     },
     {
         "zh": "别担心",
         "en": "Don't worry",
-        "fr": "Ne vous inquiétez pas"
+        "fr": "Ne vous inquiétez pas",
+        "zh-TW": "別擔心",
+        "de": "Keine Sorge",
+        "es": "No te preocupes",
+        "pt": "Não se preocupe",
+        "it": "Non preoccuparti",
+        "ru": "Не волнуйся",
+        "ja": "心配しないで",
+        "ko": "걱정하지 마"
     },
     {
         "zh": "顺其自然",
         "en": "Let it be",
-        "fr": "Ainsi soit-il"
+        "fr": "Ainsi soit-il",
+        "zh-TW": "順其自然",
+        "de": "Lass es geschehen",
+        "es": "Déjalo estar",
+        "pt": "Deixe estar",
+        "it": "Lascia che sia",
+        "ru": "Пусть будет так",
+        "ja": "あるがままに",
+        "ko": "순리에 맡겨"
     },
     {
         "zh": "现在",
         "en": "Right now",
-        "fr": "Maintenant"
+        "fr": "Maintenant",
+        "zh-TW": "現在",
+        "de": "Genau jetzt",
+        "es": "Ahora mismo",
+        "pt": "Agora mesmo",
+        "it": "Proprio ora",
+        "ru": "Прямо сейчас",
+        "ja": "今まさに",
+        "ko": "바로 지금"
     },
     {
         "zh": "永不",
         "en": "Never",
-        "fr": "Jamais"
+        "fr": "Jamais",
+        "zh-TW": "永不",
+        "de": "Niemals",
+        "es": "Nunca",
+        "pt": "Nunca",
+        "it": "Mai",
+        "ru": "Никогда",
+        "ja": "絶対にない",
+        "ko": "절대 아니야"
     },
     {
         "zh": "永远",
         "en": "Forever",
-        "fr": "Pour toujours"
+        "fr": "Pour toujours",
+        "zh-TW": "永遠",
+        "de": "Für immer",
+        "es": "Para siempre",
+        "pt": "Para sempre",
+        "it": "Per sempre",
+        "ru": "Навсегда",
+        "ja": "永遠に",
+        "ko": "영원히"
     },
     {
         "zh": "再等一会儿",
         "en": "Wait a little longer",
-        "fr": "Attendez encore un peu"
+        "fr": "Attendez encore un peu",
+        "zh-TW": "再等一會兒",
+        "de": "Warte noch ein wenig",
+        "es": "Espera un poco más",
+        "pt": "Espere mais um pouco",
+        "it": "Aspetta ancora un po'",
+        "ru": "Подожди еще немного",
+        "ja": "もうちょっと待って",
+        "ko": "조금만 더 기다려"
     },
     {
         "zh": "别再等了",
         "en": "Don't wait any longer",
-        "fr": "N'attendez plus"
+        "fr": "N'attendez plus",
+        "zh-TW": "別再等了",
+        "de": "Warte nicht länger",
+        "es": "No esperes más",
+        "pt": "Não espere mais",
+        "it": "Non aspettare oltre",
+        "ru": "Больше не жди",
+        "ja": "もう待たないで",
+        "ko": "더 이상 기다리지 마"
     },
     {
         "zh": "现在是时候了",
         "en": "It is time",
-        "fr": "Il est temps"
+        "fr": "Il est temps",
+        "zh-TW": "現在是時候了",
+        "de": "Es ist Zeit",
+        "es": "Es el momento",
+        "pt": "É a hora",
+        "it": "È il momento",
+        "ru": "Пришло время",
+        "ja": "今がその時だ",
+        "ko": "이제 때가 됐어"
     },
     {
         "zh": "还不是时候",
         "en": "It is not time",
-        "fr": "Ce n'est pas le moment"
+        "fr": "Ce n'est pas le moment",
+        "zh-TW": "還不是時候",
+        "de": "Es ist noch nicht an der Zeit",
+        "es": "No es el momento",
+        "pt": "Não é a hora",
+        "it": "Non è il momento",
+        "ru": "Еще не время",
+        "ja": "まだその時ではない",
+        "ko": "아직 때가 아니야"
     },
     {
         "zh": "当然",
         "en": "Of course",
-        "fr": "Bien sûr"
+        "fr": "Bien sûr",
+        "zh-TW": "當然",
+        "de": "Natürlich",
+        "es": "Por supuesto",
+        "pt": "Claro",
+        "it": "Certamente",
+        "ru": "Конечно",
+        "ja": "もちろん",
+        "ko": "물론이지"
     },
     {
         "zh": "当然不",
         "en": "Of course not",
-        "fr": "Bien sûr que non"
+        "fr": "Bien sûr que non",
+        "zh-TW": "當然不",
+        "de": "Natürlich nicht",
+        "es": "Por supuesto que no",
+        "pt": "Claro que não",
+        "it": "Certamente no",
+        "ru": "Конечно нет",
+        "ja": "もちろん違う",
+        "ko": "물론 아니지"
     }
 ]
