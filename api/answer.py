@@ -64,7 +64,11 @@ class handler(BaseHTTPRequestHandler):
                 available_answers = [ans for ans in answers_data if 'author_en' in ans]
             
             if not available_answers:
-                current_answer = {"zh": "...", "en": "...", "fr": "..."}
+                current_answer = {
+                    "zh": "...", "zh-TW": "...", "en": "...", "fr": "...", "de": "...", 
+                    "es": "...", "pt": "...", "it": "...", "nl": "...", "sv": "...", 
+                    "ru": "...", "ja": "...", "ko": "..."
+                }
             else:
                 current_answer = random.choice(available_answers)
             

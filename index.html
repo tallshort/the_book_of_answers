@@ -774,7 +774,21 @@
                 console.error("Failed to fetch answer:", e);
                 // Fallback for connection error
                 return {
-                    answerObj: { zh: "无法连接服务器", en: "Connection Error", fr: "Erreur de connexion" },
+                    answerObj: {
+                        zh: "无法连接服务器",
+                        "zh-TW": "無法連接伺服器",
+                        en: "Connection Error",
+                        fr: "Erreur de connexion",
+                        de: "Verbindungsfehler",
+                        es: "Error de conexión",
+                        pt: "Erro de conexão",
+                        it: "Errore di connessione",
+                        nl: "Verbindingsfout",
+                        sv: "Anslutningsfel",
+                        ru: "Ошибка подключения",
+                        ja: "接続エラー",
+                        ko: "연결 오류"
+                    },
                     timestamp: Date.now(),
                     isCached: false
                 };
@@ -831,7 +845,7 @@
             const text = result.answerObj[currentLang] || result.answerObj['en'] || result.answerObj['zh'];
             
             // Apply language-specific class for spacing
-            if (currentLang === 'zh') {
+            if (currentLang === 'zh' || currentLang === 'zh-TW') {
                 answerEl.classList.add('lang-zh');
             } else {
                 answerEl.classList.remove('lang-zh');
