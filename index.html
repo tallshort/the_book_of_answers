@@ -968,7 +968,44 @@
             }
         }
 
-        function init() {
+        function showAnswerImmediate() {
+            isBookOpen = true;
+            
+            const cover = document.getElementById('book-cover');
+            const symbol = document.getElementById('symbolContainer');
+            const answerEl = document.getElementById('answer');
+            const authorEl = document.getElementById('author');
+            const statusEl = document.getElementById('status');
+
+            // Instant open cover (disable transition)
+            cover.style.transition = 'none';
+            cover.classList.add('book-open');
+
+            // Instant show content (disable animations)
+            symbol.style.animation = 'none';
+            symbol.style.opacity = 1;
+            
+            answerEl.style.animation = 'none';
+            answerEl.style.opacity = 1;
+            answerEl.style.transform = 'translateY(0)';
+            answerEl.style.filter = 'blur(0)';
+
+            statusEl.style.animation = 'none';
+            statusEl.style.opacity = 1;
+
+            if (authorEl.dataset.hasAuthor) {
+                authorEl.style.opacity = 1;
+                authorEl.style.transform = 'translateY(0)';
+            }
+
+            // Show PWA button immediately
+            if (isPWA()) {
+                const btn = document.getElementById('refreshBtn');
+                if (btn) btn.classList.add('show');
+            }
+        }
+
+        async function init() {
             // Apply language preference
             document.getElementById('languageSelect').value = currentLang;
             
@@ -987,11 +1024,15 @@
                 if (btn) btn.classList.add('visible');
             }
 
-            // Start the auto-open countdown
-            startAutoOpenTimer();
+            // Fetch and render UI first to determine status
+            const result = await updateUI();
 
-            // Preload content but wait for click (or timer) to reveal
-            updateUI();
+            // Logic Branch: Cached vs New
+            if (result && result.isCached) {
+                showAnswerImmediate();
+            } else {
+                startAutoOpenTimer();
+            }
         }
 
         // Run on load
