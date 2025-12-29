@@ -417,6 +417,28 @@
             transition: stroke 0.3s;
         }
 
+        /* --- Immediate Mode (No Flash) --- */
+        body.immediate-mode #book-cover {
+            display: none !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+            transition: none !important;
+        }
+
+        body.immediate-mode .symbol-container,
+        body.immediate-mode #answer,
+        body.immediate-mode #status {
+            opacity: 1 !important;
+            transform: none !important;
+            animation: none !important;
+            filter: none !important;
+        }
+
+        body.immediate-mode #author[data-has-author="true"] {
+            opacity: 1 !important;
+            transform: none !important;
+        }
+
         /* Mobile Optimization for Cookie Banner */
         @media (max-width: 600px) {
             #cookie-banner {
@@ -447,6 +469,21 @@
     </style>
 </head>
 <body>
+    <script>
+        // Critical: Blocking script to prevent FOUC (Flash of Unstyled Content/Cover)
+        try {
+            (function() {
+                var raw = localStorage.getItem('boa_lock_data');
+                if (raw) {
+                    var data = JSON.parse(raw);
+                    // 30 mins = 30 * 60 * 1000
+                    if (Date.now() - data.timestamp < 1800000) {
+                        document.body.classList.add('immediate-mode');
+                    }
+                }
+            })();
+        } catch(e){}
+    </script>
 
     <!-- Book Cover Overlay -->
     <div id="book-cover" onclick="openBook()">
@@ -971,32 +1008,15 @@
         function showAnswerImmediate() {
             isBookOpen = true;
             
-            const cover = document.getElementById('book-cover');
-            const symbol = document.getElementById('symbolContainer');
-            const answerEl = document.getElementById('answer');
-            const authorEl = document.getElementById('author');
-            const statusEl = document.getElementById('status');
-
-            // Instant open cover (disable transition)
-            cover.style.transition = 'none';
-            cover.classList.add('book-open');
-
-            // Instant show content (disable animations)
-            symbol.style.animation = 'none';
-            symbol.style.opacity = 1;
+            // Clear timers
+            if (autoOpenTimer) clearTimeout(autoOpenTimer);
+            if (countdownInterval) clearInterval(countdownInterval);
             
-            answerEl.style.animation = 'none';
-            answerEl.style.opacity = 1;
-            answerEl.style.transform = 'translateY(0)';
-            answerEl.style.filter = 'blur(0)';
-
-            statusEl.style.animation = 'none';
-            statusEl.style.opacity = 1;
-
-            if (authorEl.dataset.hasAuthor) {
-                authorEl.style.opacity = 1;
-                authorEl.style.transform = 'translateY(0)';
-            }
+            const cover = document.getElementById('book-cover');
+            
+            // Ensure classes are set for JS logic consistency, 
+            // though CSS handled the initial paint.
+            cover.classList.add('book-open');
 
             // Show PWA button immediately
             if (isPWA()) {
@@ -1011,27 +1031,46 @@
             
             // Check Consent Banner
             if (!consentStatus) {
-                // Delay banner slightly for visual effect
                 setTimeout(() => {
                     const banner = document.getElementById('cookie-banner');
                     if(banner) banner.classList.add('show');
                 }, 1000);
             }
 
-            // Init PWA Button (set to visible in layout, but still opacity 0 until book opens)
+            // Init PWA Button
             if (isPWA()) {
                 const btn = document.getElementById('refreshBtn');
                 if (btn) btn.classList.add('visible');
             }
 
-            // Fetch and render UI first to determine status
-            const result = await updateUI();
+            const isImmediate = document.body.classList.contains('immediate-mode');
 
-            // Logic Branch: Cached vs New
-            if (result && result.isCached) {
+            if (isImmediate) {
+                // Mode: Immediate (Cached)
+                // 1. Set internal state
                 showAnswerImmediate();
+                
+                // 2. Fetch/Load data (this will be very fast from local lock)
+                // We don't await here to let the script finish, 
+                // but since data is local, renderUI happens almost instantly.
+                await updateUI();
+                
             } else {
+                // Mode: Normal (New Visit or Expired)
+                // 1. Start Auto Open Timer
                 startAutoOpenTimer();
+                
+                // 2. Preload content
+                const result = await updateUI();
+
+                // Edge case handling:
+                // If local storage was empty (no immediate-mode), but server says "Cached" (cookie valid),
+                // we should switch to immediate mode now.
+                if (result && result.isCached && !isBookOpen) {
+                    // Manually trigger immediate mode styles
+                    document.body.classList.add('immediate-mode'); 
+                    showAnswerImmediate();
+                }
             }
         }
 
