@@ -1318,32 +1318,48 @@
                 ctx.fill();
             }
 
-            // 2. Border (Simplified - Thinner, Subtle)
-            ctx.strokeStyle = 'rgba(168, 159, 145, 0.4)';
-            ctx.lineWidth = 2; // Thinner
-            ctx.strokeRect(60, 60, W-120, H-120);
+            // 2. Vertical Lines (The Mystic Lines)
+            ctx.lineWidth = 2;
+            
+            // Top Line
+            const gradTop = ctx.createLinearGradient(W/2, 0, W/2, H * 0.35);
+            gradTop.addColorStop(0, 'rgba(168, 159, 145, 0)');
+            gradTop.addColorStop(0.5, 'rgba(168, 159, 145, 0.5)');
+            gradTop.addColorStop(1, 'rgba(168, 159, 145, 0)');
+            ctx.strokeStyle = gradTop;
+            ctx.beginPath();
+            ctx.moveTo(W/2, 0);
+            ctx.lineTo(W/2, H * 0.35);
+            ctx.stroke();
 
-            // 3. Title
-            ctx.fillStyle = '#a89f91';
-            ctx.textAlign = 'center';
-            ctx.font = 'bold 60px Lora, serif';
-            ctx.letterSpacing = '10px'; 
-            ctx.fillText("THE BOOK OF ANSWERS", W/2, 180);
+            // Bottom Line
+            const gradBot = ctx.createLinearGradient(W/2, H, W/2, H * 0.65);
+            gradBot.addColorStop(0, 'rgba(168, 159, 145, 0)');
+            gradBot.addColorStop(0.5, 'rgba(168, 159, 145, 0.5)');
+            gradBot.addColorStop(1, 'rgba(168, 159, 145, 0)');
+            ctx.strokeStyle = gradBot;
+            ctx.beginPath();
+            ctx.moveTo(W/2, H);
+            ctx.lineTo(W/2, H * 0.65);
+            ctx.stroke();
 
-            // 4. Symbol (Geometric)
+            // 3. Symbol (Geometric) - Adjusted Opacity & Position
             ctx.save();
-            ctx.translate(W/2, 400);
-            ctx.scale(2.5, 2.5); // Scale up the 100x100 coord system
-            ctx.strokeStyle = '#a89f91';
+            ctx.translate(W/2, 350); // Moved up slightly
+            ctx.scale(2.5, 2.5); 
             ctx.lineWidth = 1.5;
             
             // Circles
-            ctx.beginPath(); ctx.arc(0, 0, 45, 0, Math.PI*2); ctx.stroke(); // Outer
-            ctx.beginPath(); ctx.arc(0, 0, 35, 0, Math.PI*2); ctx.stroke(); // Inner
+            // Outer: 0.3 opacity
+            ctx.strokeStyle = 'rgba(168, 159, 145, 0.3)';
+            ctx.beginPath(); ctx.arc(0, 0, 45, 0, Math.PI*2); ctx.stroke(); 
             
-            // Star/Diamond Path
-            // M50 5 -> (0, -45) in centered coords
-            // Coord mapping: x-50, y-50
+            // Inner: 0.5 opacity
+            ctx.strokeStyle = 'rgba(168, 159, 145, 0.5)';
+            ctx.beginPath(); ctx.arc(0, 0, 35, 0, Math.PI*2); ctx.stroke(); 
+            
+            // Star/Diamond Path: 0.8 opacity
+            ctx.strokeStyle = 'rgba(168, 159, 145, 0.8)';
             ctx.beginPath();
             const points = [
                 [0, -45], [15, -15], [45, 0], [15, 15], 
@@ -1362,7 +1378,7 @@
             
             ctx.restore();
 
-            // 5. Answer
+            // 4. Answer
             const answerEl = document.getElementById('answer');
             const text = answerEl.innerText;
             
@@ -1377,19 +1393,19 @@
             ctx.font = `bold ${fontSize}px Lora, "Songti SC", serif`;
             
             // Vertical center area
-            wrapText(ctx, text, W/2, H/2 + 100, W - 200, fontSize * 1.5);
+            wrapText(ctx, text, W/2, H/2 + 50, W - 200, fontSize * 1.5);
 
-            // 6. Author?
+            // 5. Author?
             if (cachedResult && cachedResult.answerObj && cachedResult.answerObj.author_en) {
                 ctx.fillStyle = '#a89f91';
                 ctx.font = '40px "Open Sans", sans-serif';
-                ctx.fillText(`- ${cachedResult.answerObj.author_en}`, W/2, H - 300);
+                ctx.fillText(`- ${cachedResult.answerObj.author_en}`, W/2, H - 350);
             }
 
-            // 7. Footer / URL
+            // 6. Footer / URL
             ctx.fillStyle = 'rgba(168, 159, 145, 0.5)';
             ctx.font = '30px "Open Sans", sans-serif';
-            ctx.fillText("the-book-of-answers.online", W/2, H - 100);
+            ctx.fillText("the-book-of-answers.online", W/2, H - 150);
 
             // Export
             const dataUrl = canvas.toDataURL('image/png');
