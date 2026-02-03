@@ -1319,34 +1319,37 @@
             }
 
             // 2. Vertical Lines (The Mystic Lines)
+            // 30vh logic: 1920 * 0.3 = 576px
             ctx.lineWidth = 2;
             
             // Top Line
-            const gradTop = ctx.createLinearGradient(W/2, 0, W/2, H * 0.35);
+            const gradTop = ctx.createLinearGradient(W/2, 0, W/2, 576);
             gradTop.addColorStop(0, 'rgba(168, 159, 145, 0)');
             gradTop.addColorStop(0.5, 'rgba(168, 159, 145, 0.5)');
             gradTop.addColorStop(1, 'rgba(168, 159, 145, 0)');
             ctx.strokeStyle = gradTop;
             ctx.beginPath();
             ctx.moveTo(W/2, 0);
-            ctx.lineTo(W/2, H * 0.35);
+            ctx.lineTo(W/2, 576);
             ctx.stroke();
 
             // Bottom Line
-            const gradBot = ctx.createLinearGradient(W/2, H, W/2, H * 0.65);
+            const gradBot = ctx.createLinearGradient(W/2, H, W/2, 1344);
             gradBot.addColorStop(0, 'rgba(168, 159, 145, 0)');
             gradBot.addColorStop(0.5, 'rgba(168, 159, 145, 0.5)');
             gradBot.addColorStop(1, 'rgba(168, 159, 145, 0)');
             ctx.strokeStyle = gradBot;
             ctx.beginPath();
             ctx.moveTo(W/2, H);
-            ctx.lineTo(W/2, H * 0.65);
+            ctx.lineTo(W/2, 1344);
             ctx.stroke();
 
-            // 3. Symbol (Geometric) - Adjusted Opacity & Position
+            // 3. Symbol (Geometric)
+            // Scale 3.3 to match ~30vw (1080 * 0.3 = 324px)
+            // Center y=650 (will slightly overlap top line, matching web z-index)
             ctx.save();
-            ctx.translate(W/2, 350); // Moved up slightly
-            ctx.scale(2.5, 2.5); 
+            ctx.translate(W/2, 650); 
+            ctx.scale(3.3, 3.3); 
             ctx.lineWidth = 1.5;
             
             // Circles
@@ -1379,6 +1382,7 @@
             ctx.restore();
 
             // 4. Answer
+            // Center roughly at 960 (true center)
             const answerEl = document.getElementById('answer');
             const text = answerEl.innerText;
             
@@ -1393,19 +1397,19 @@
             ctx.font = `bold ${fontSize}px Lora, "Songti SC", serif`;
             
             // Vertical center area
-            wrapText(ctx, text, W/2, H/2 + 50, W - 200, fontSize * 1.5);
+            wrapText(ctx, text, W/2, 960, W - 200, fontSize * 1.5);
 
             // 5. Author?
             if (cachedResult && cachedResult.answerObj && cachedResult.answerObj.author_en) {
                 ctx.fillStyle = '#a89f91';
                 ctx.font = '40px "Open Sans", sans-serif';
-                ctx.fillText(`- ${cachedResult.answerObj.author_en}`, W/2, H - 350);
+                ctx.fillText(`- ${cachedResult.answerObj.author_en}`, W/2, 1250); 
             }
 
             // 6. Footer / URL
             ctx.fillStyle = 'rgba(168, 159, 145, 0.5)';
             ctx.font = '30px "Open Sans", sans-serif';
-            ctx.fillText("the-book-of-answers.online", W/2, H - 150);
+            ctx.fillText("the-book-of-answers.online", W/2, 1850);
 
             // Export
             const dataUrl = canvas.toDataURL('image/png');
