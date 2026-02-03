@@ -369,7 +369,7 @@
         .refresh-btn {
             position: fixed;
             bottom: 30px;
-            right: 30px;
+            right: 30px; 
             width: 44px;
             height: 44px;
             background: rgba(0, 0, 0, 0.6);
@@ -379,18 +379,18 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            z-index: 90; /* Below language selector but above content */
+            z-index: 95; /* Ensure above share if they overlap during transition */
             opacity: 0;
             transform: scale(0.8);
             transition: all 0.5s ease;
             pointer-events: none;
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
-            display: none; /* Hidden by default, enabled via JS for PWA */
+            display: none; 
         }
 
         .refresh-btn.visible {
-            display: flex; /* Set display to flex when activated by JS */
+            display: flex; 
         }
 
         .refresh-btn.show {
@@ -415,6 +415,147 @@
             stroke-width: 2;
             fill: none;
             transition: stroke 0.3s;
+        }
+
+        /* --- Share Feature --- */
+        .share-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 90;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 0.5s ease;
+            pointer-events: none;
+        }
+        
+        /* When in PWA, move share button above refresh button */
+        body.is-pwa .share-container {
+            bottom: 90px; /* 30 (bottom) + 44 (refresh-btn height) + 16 (gap) */
+        }
+        
+        .share-container.show {
+            opacity: 0.8;
+            transform: scale(1);
+            pointer-events: auto;
+        }
+
+        .btn-share {
+            width: 44px;
+            height: 44px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid var(--accent-color);
+            border-radius: 50%;
+            color: var(--accent-color);
+            padding: 0;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+        
+        .btn-share span {
+            display: none; /* Hide text, icon only */
+        }
+
+        .btn-share:hover {
+            background: var(--accent-color);
+            color: #000;
+            opacity: 1;
+            transform: none;
+        }
+
+        /* Modal Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-overlay.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-content {
+            background: #111;
+            border: 1px solid var(--accent-color);
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 90%;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.8);
+            position: relative;
+        }
+
+        .modal-header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            color: var(--accent-color);
+            font-family: 'Lora', serif;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: #666;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0 5px;
+        }
+        
+        .close-btn:hover { color: #fff; }
+
+        #share-img {
+            max-width: 100%;
+            max-height: 60vh;
+            border: 1px solid #333;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+
+        .share-tip {
+            font-size: 0.75rem;
+            color: #888;
+            margin: 10px 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .btn-download {
+            background: var(--accent-color);
+            color: #050505;
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 4px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.85rem;
+            font-weight: bold;
+            display: inline-block;
+            transition: background 0.3s;
+            cursor: pointer;
+        }
+
+        .btn-download:hover {
+            background: #c0b7aa;
         }
 
         /* --- Immediate Mode (No Flash) --- */
@@ -526,9 +667,33 @@
         <div id="answer">...</div>
         <div id="author"></div> 
         <div id="status"></div>
+        
+        <div class="share-container">
+            <button class="btn-share" onclick="createShareCard()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                    <polyline points="16 6 12 2 8 6"></polyline>
+                    <line x1="12" y1="2" x2="12" y2="15"></line>
+                </svg>
+                <span id="shareBtnText">Share</span>
+            </button>
+        </div>
     </div>
 
     <div class="line line-bottom"></div>
+
+    <!-- Share Modal -->
+    <div id="share-modal" class="modal-overlay" onclick="closeShareModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <span id="shareTitle">Save Your Destiny</span>
+                <button class="close-btn" onclick="closeShareModal()">×</button>
+            </div>
+            <img id="share-img" alt="Destiny Card">
+            <p class="share-tip" id="shareTip">Long press to save or click download</p>
+            <a id="download-link" class="btn-download" download="destiny-answer.png">Download</a>
+        </div>
+    </div>
 
     <!-- Cookie Consent Banner -->
     <div id="cookie-banner">
@@ -694,9 +859,51 @@
                 tapHint: "클릭하여 열기 ({s}s)",
                 cookieText: "이 운명을 보존하기 위해 <b>쿠키</b> 또는 <b>로컬 스토리지</b>를 사용합니다.<br>별들이 증언하게 하거나(쿠키), 마음속에만 간직할 수 있습니다(로컬 스토리지).",
                 accept: "증인 (Cookie)",
-                decline: "비밀로 유지"
+                decline: "비밀로 유지",
+                shareBtn: "공유",
+                shareTitle: "이 순간을 간직하세요",
+                shareTip: "이미지를 길게 눌러 저장하거나 다운로드하세요",
+                download: "다운로드"
             }
         };
+
+        // Add Share texts for other languages
+        UI_TEXT.zh.shareBtn = "分享";
+        UI_TEXT.zh.shareTitle = "珍藏此刻指引";
+        UI_TEXT.zh.shareTip = "长按图片保存或点击下载";
+        UI_TEXT.zh.download = "下载卡片";
+        
+        UI_TEXT["zh-TW"].shareBtn = "分享";
+        UI_TEXT["zh-TW"].shareTitle = "珍藏此刻指引";
+        UI_TEXT["zh-TW"].shareTip = "長按圖片保存或點擊下載";
+        UI_TEXT["zh-TW"].download = "下載卡片";
+
+        UI_TEXT.en.shareBtn = "SHARE";
+        UI_TEXT.en.shareTitle = "Capture This Moment";
+        UI_TEXT.en.shareTip = "Long press to save or click download";
+        UI_TEXT.en.download = "Download";
+
+        // Default fallbacks for others
+        const shareTrans = {
+            fr: "Garder ce moment",
+            de: "Diesen Moment bewahren",
+            es: "Captura este momento",
+            pt: "Capture este momento",
+            it: "Cattura questo momento",
+            nl: "Leg dit moment vast",
+            sv: "Fånga detta ögonblick",
+            ru: "Сохранить этот момент",
+            ja: "この瞬間を保存"
+        };
+
+        ['fr', 'de', 'es', 'pt', 'it', 'nl', 'sv', 'ru', 'ja'].forEach(lang => {
+            if(!UI_TEXT[lang].shareBtn) {
+                UI_TEXT[lang].shareBtn = "Share";
+                UI_TEXT[lang].shareTitle = shareTrans[lang] || "Capture This Moment";
+                UI_TEXT[lang].shareTip = "Long press image to save";
+                UI_TEXT[lang].download = "Download";
+            }
+        });
 
         const getPreferredLang = () => {
             const saved = localStorage.getItem(PREF_KEY);
@@ -878,6 +1085,17 @@
                 document.getElementById('btnDecline').innerText = UI_TEXT[currentLang].decline;
             }
 
+            // --- Update Share Modal Text ---
+            const shareBtnText = document.getElementById('shareBtnText');
+            const shareTitle = document.getElementById('shareTitle');
+            const shareTip = document.getElementById('shareTip');
+            const downloadLink = document.getElementById('download-link');
+            
+            if (shareBtnText) shareBtnText.innerText = UI_TEXT[currentLang].shareBtn;
+            if (shareTitle) shareTitle.innerText = UI_TEXT[currentLang].shareTitle;
+            if (shareTip) shareTip.innerText = UI_TEXT[currentLang].shareTip;
+            if (downloadLink) downloadLink.innerText = UI_TEXT[currentLang].download;
+
             // Update Text and Style Atomically
             const text = result.answerObj[currentLang] || result.answerObj['en'] || result.answerObj['zh'];
             
@@ -966,6 +1184,7 @@
             const answerEl = document.getElementById('answer');
             const authorEl = document.getElementById('author');
             const statusEl = document.getElementById('status');
+            const shareContainer = document.querySelector('.share-container');
             
             // Flip cover
             cover.classList.add('book-open');
@@ -981,13 +1200,15 @@
                     authorEl.style.transform = 'translateY(0)';
                 }
 
-                // Show refresh button if in PWA mode with an additional delay
-                if (isPWA()) {
-                    setTimeout(() => {
+                // Show buttons (Share & Refresh) with an additional delay to avoid distraction
+                setTimeout(() => {
+                    if(shareContainer) shareContainer.classList.add('show');
+                    
+                    if (isPWA()) {
                         const btn = document.getElementById('refreshBtn');
                         if (btn) btn.classList.add('show');
-                    }, 2500); // 2.5s delay after answer reveal
-                }
+                    }
+                }, 2500); // 2.5s delay after answer reveal
             }, 600);
         }
 
@@ -1013,10 +1234,12 @@
             if (countdownInterval) clearInterval(countdownInterval);
             
             const cover = document.getElementById('book-cover');
+            const shareContainer = document.querySelector('.share-container');
             
             // Ensure classes are set for JS logic consistency, 
             // though CSS handled the initial paint.
             cover.classList.add('book-open');
+            if(shareContainer) shareContainer.classList.add('show');
 
             // Show PWA button immediately
             if (isPWA()) {
@@ -1024,6 +1247,169 @@
                 if (btn) btn.classList.add('show');
             }
         }
+
+        // --- Share Logic ---
+        
+        function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+            const words = text.split(''); // Char by char for CJK
+            // But for English we should split by space, simplistic approach for mixed:
+            // Since we use 'Lora' which is variable width, we need a smarter split or just char by char
+            // For mixed content, word-level split is better but CJK doesn't use spaces.
+            
+            // Hybrid approach: Split by words if space exists, otherwise chars?
+            // Let's stick to simple char loop for now, it handles both well enough for short answers.
+            
+            // Improved: use actual words for EN, chars for CJK?
+            // Simple approach:
+            let line = '';
+            let lines = [];
+            
+            // Check if text has spaces (Western)
+            const isWestern = text.includes(' ');
+            const atoms = isWestern ? text.split(' ') : text.split('');
+            const separator = isWestern ? ' ' : '';
+            
+            for(let n = 0; n < atoms.length; n++) {
+                const testLine = line + atoms[n] + separator;
+                const metrics = ctx.measureText(testLine);
+                const testWidth = metrics.width;
+                if (testWidth > maxWidth && n > 0) {
+                    lines.push(line);
+                    line = atoms[n] + separator;
+                } else {
+                    line = testLine;
+                }
+            }
+            lines.push(line);
+            
+            // Draw lines centered
+            let startY = y - ((lines.length - 1) * lineHeight) / 2;
+            for(let k = 0; k < lines.length; k++){
+                ctx.fillText(lines[k].trim(), x, startY + (k * lineHeight));
+            }
+        }
+
+        function createShareCard() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Set High Res
+            const W = 1080;
+            const H = 1920;
+            canvas.width = W;
+            canvas.height = H;
+
+            // 1. Background
+            // Radial Gradient matching website: #1a1a1a at center, #050505 at edges
+            const grad = ctx.createRadialGradient(W/2, H/2, 0, W/2, H/2, H);
+            grad.addColorStop(0, '#1a1a1a');
+            grad.addColorStop(1, '#050505');
+            ctx.fillStyle = grad;
+            ctx.fillRect(0, 0, W, H);
+            
+            // Add noise/stars (simple)
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+            for(let i=0; i<100; i++) {
+                const x = Math.random() * W;
+                const y = Math.random() * H;
+                const r = Math.random() * 2;
+                ctx.beginPath();
+                ctx.arc(x, y, r, 0, Math.PI*2);
+                ctx.fill();
+            }
+
+            // 2. Border (Simplified - Thinner, Subtle)
+            ctx.strokeStyle = 'rgba(168, 159, 145, 0.4)';
+            ctx.lineWidth = 2; // Thinner
+            ctx.strokeRect(60, 60, W-120, H-120);
+
+            // 3. Title
+            ctx.fillStyle = '#a89f91';
+            ctx.textAlign = 'center';
+            ctx.font = 'bold 60px Lora, serif';
+            ctx.letterSpacing = '10px'; 
+            ctx.fillText("THE BOOK OF ANSWERS", W/2, 180);
+
+            // 4. Symbol (Geometric)
+            ctx.save();
+            ctx.translate(W/2, 400);
+            ctx.scale(2.5, 2.5); // Scale up the 100x100 coord system
+            ctx.strokeStyle = '#a89f91';
+            ctx.lineWidth = 1.5;
+            
+            // Circles
+            ctx.beginPath(); ctx.arc(0, 0, 45, 0, Math.PI*2); ctx.stroke(); // Outer
+            ctx.beginPath(); ctx.arc(0, 0, 35, 0, Math.PI*2); ctx.stroke(); // Inner
+            
+            // Star/Diamond Path
+            // M50 5 -> (0, -45) in centered coords
+            // Coord mapping: x-50, y-50
+            ctx.beginPath();
+            const points = [
+                [0, -45], [15, -15], [45, 0], [15, 15], 
+                [0, 45], [-15, 15], [-45, 0], [-15, -15]
+            ];
+            ctx.moveTo(points[0][0], points[0][1]);
+            for(let i=1; i<points.length; i++) {
+                ctx.lineTo(points[i][0], points[i][1]);
+            }
+            ctx.closePath();
+            ctx.stroke();
+            
+            // Center dot
+            ctx.fillStyle = '#a89f91';
+            ctx.beginPath(); ctx.arc(0, 0, 5, 0, Math.PI*2); ctx.fill();
+            
+            ctx.restore();
+
+            // 5. Answer
+            const answerEl = document.getElementById('answer');
+            const text = answerEl.innerText;
+            
+            ctx.fillStyle = '#e0e0e0';
+            ctx.textAlign = 'center';
+            
+            // Adjust font size based on text length
+            let fontSize = 90;
+            if (text.length > 50) fontSize = 70;
+            if (text.length > 100) fontSize = 50;
+            
+            ctx.font = `bold ${fontSize}px Lora, "Songti SC", serif`;
+            
+            // Vertical center area
+            wrapText(ctx, text, W/2, H/2 + 100, W - 200, fontSize * 1.5);
+
+            // 6. Author?
+            if (cachedResult && cachedResult.answerObj && cachedResult.answerObj.author_en) {
+                ctx.fillStyle = '#a89f91';
+                ctx.font = '40px "Open Sans", sans-serif';
+                ctx.fillText(`- ${cachedResult.answerObj.author_en}`, W/2, H - 300);
+            }
+
+            // 7. Footer / URL
+            ctx.fillStyle = 'rgba(168, 159, 145, 0.5)';
+            ctx.font = '30px "Open Sans", sans-serif';
+            ctx.fillText("the-book-of-answers.online", W/2, H - 100);
+
+            // Export
+            const dataUrl = canvas.toDataURL('image/png');
+            const imgEl = document.getElementById('share-img');
+            const modal = document.getElementById('share-modal');
+            const dlLink = document.getElementById('download-link');
+            
+            imgEl.src = dataUrl;
+            dlLink.href = dataUrl;
+            
+            // Show Modal
+            modal.classList.add('open');
+        }
+
+        function closeShareModal(e) {
+            const modal = document.getElementById('share-modal');
+            modal.classList.remove('open');
+        }
+
+        // --- End Share Logic ---
 
         async function init() {
             // Apply language preference
@@ -1041,6 +1427,7 @@
             if (isPWA()) {
                 const btn = document.getElementById('refreshBtn');
                 if (btn) btn.classList.add('visible');
+                document.body.classList.add('is-pwa');
             }
 
             const isImmediate = document.body.classList.contains('immediate-mode');
