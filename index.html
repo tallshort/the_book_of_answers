@@ -1333,15 +1333,15 @@
             ctx.lineTo(W/2, 450);
             ctx.stroke();
 
-            // Bottom Line: H to 1470
-            const gradBot = ctx.createLinearGradient(W/2, H, W/2, 1470);
+            // Bottom Line: 1800 to 1350 (Moved up to be closer to text and clear of URL)
+            const gradBot = ctx.createLinearGradient(W/2, 1800, W/2, 1350);
             gradBot.addColorStop(0, 'rgba(168, 159, 145, 0)');
             gradBot.addColorStop(0.5, 'rgba(168, 159, 145, 0.5)');
             gradBot.addColorStop(1, 'rgba(168, 159, 145, 0)');
             ctx.strokeStyle = gradBot;
             ctx.beginPath();
-            ctx.moveTo(W/2, H);
-            ctx.lineTo(W/2, 1470);
+            ctx.moveTo(W/2, 1800);
+            ctx.lineTo(W/2, 1350);
             ctx.stroke();
 
             // 3. Symbol (Geometric)
@@ -1409,7 +1409,7 @@
             // 6. Footer / URL
             ctx.fillStyle = 'rgba(168, 159, 145, 0.5)';
             ctx.font = '30px "Open Sans", sans-serif';
-            ctx.fillText("the-book-of-answers.online", W/2, 1850);
+            ctx.fillText("the-book-of-answers.online", W/2, 1870);
 
             // Export
             const dataUrl = canvas.toDataURL('image/png');
