@@ -1319,37 +1319,37 @@
             }
 
             // 2. Vertical Lines (The Mystic Lines)
-            // 30vh logic: 1920 * 0.3 = 576px
+            // Adjusted to avoid content overlap
             ctx.lineWidth = 2;
             
-            // Top Line
-            const gradTop = ctx.createLinearGradient(W/2, 0, W/2, 576);
+            // Top Line: 0 to 450
+            const gradTop = ctx.createLinearGradient(W/2, 0, W/2, 450);
             gradTop.addColorStop(0, 'rgba(168, 159, 145, 0)');
             gradTop.addColorStop(0.5, 'rgba(168, 159, 145, 0.5)');
             gradTop.addColorStop(1, 'rgba(168, 159, 145, 0)');
             ctx.strokeStyle = gradTop;
             ctx.beginPath();
             ctx.moveTo(W/2, 0);
-            ctx.lineTo(W/2, 576);
+            ctx.lineTo(W/2, 450);
             ctx.stroke();
 
-            // Bottom Line
-            const gradBot = ctx.createLinearGradient(W/2, H, W/2, 1344);
+            // Bottom Line: H to 1470
+            const gradBot = ctx.createLinearGradient(W/2, H, W/2, 1470);
             gradBot.addColorStop(0, 'rgba(168, 159, 145, 0)');
             gradBot.addColorStop(0.5, 'rgba(168, 159, 145, 0.5)');
             gradBot.addColorStop(1, 'rgba(168, 159, 145, 0)');
             ctx.strokeStyle = gradBot;
             ctx.beginPath();
             ctx.moveTo(W/2, H);
-            ctx.lineTo(W/2, 1344);
+            ctx.lineTo(W/2, 1470);
             ctx.stroke();
 
             // 3. Symbol (Geometric)
-            // Scale 3.3 to match ~30vw (1080 * 0.3 = 324px)
-            // Center y=650 (will slightly overlap top line, matching web z-index)
+            // Scale 2.2 (Smaller, matched to page)
+            // Center y=620 (Clear separation from top line)
             ctx.save();
-            ctx.translate(W/2, 650); 
-            ctx.scale(3.3, 3.3); 
+            ctx.translate(W/2, 620); 
+            ctx.scale(2.2, 2.2); 
             ctx.lineWidth = 1.5;
             
             // Circles
@@ -1382,7 +1382,7 @@
             ctx.restore();
 
             // 4. Answer
-            // Center roughly at 960 (true center)
+            // Center roughly at 1000
             const answerEl = document.getElementById('answer');
             const text = answerEl.innerText;
             
@@ -1397,13 +1397,13 @@
             ctx.font = `bold ${fontSize}px Lora, "Songti SC", serif`;
             
             // Vertical center area
-            wrapText(ctx, text, W/2, 960, W - 200, fontSize * 1.5);
+            wrapText(ctx, text, W/2, 1000, W - 200, fontSize * 1.5);
 
             // 5. Author?
             if (cachedResult && cachedResult.answerObj && cachedResult.answerObj.author_en) {
                 ctx.fillStyle = '#a89f91';
                 ctx.font = '40px "Open Sans", sans-serif';
-                ctx.fillText(`- ${cachedResult.answerObj.author_en}`, W/2, 1250); 
+                ctx.fillText(`- ${cachedResult.answerObj.author_en}`, W/2, 1300); 
             }
 
             // 6. Footer / URL
